@@ -46,5 +46,11 @@
     "timestamp": "2026-03-01T18:44:26.434483+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical domain\nNature domain\nFinancial domain\nMathematic domain\nLinquistic understanding\n\n**Example Question:** How many ducks live in a pond?\n- Paraphrase 1: How many ducks usually call this pond home?\n- Paraphrase 2: What is the average duck population density for a freshwater pond of this size?\n- Paraphrase 3: What is the carrying capacity for ducks in this specific pond ecosystem?\n\n**Models:** Claude, gemini, chat-gpt 4o\n\n**Consistency Metric:**\nTo check similarities, I could use a semantic score to check whether the core meaning of the messages are the same. We could grade each submission on a scale from 0-1, to check the similarities between each resposne."
+  },
+  {
+    "name": "Ark Dutt",
+    "timestamp": "2026-03-01T18:44:28.872016+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAnalytical / Logical Reasoning\nFactual Knowledge\nCreative Generation\nFactual Knowledge (RAG)\nEthics\n\n**Example Question:** What is the capital of Argentina?\n- Paraphrase 1: Which city is Argentina\u2019s capital?\n- Paraphrase 2: Argentina\u2019s national capital is which city?\n- Paraphrase 3: Argentina\u2019s government is based in which city?\n\n**Models:** Claude-4.5 Opus, GPT 5.3 Codex, Gemini 3 Flash\n\n**Consistency Metric:**\nThe answer should match Buenos Aires"
   }
 ]
