@@ -160,5 +160,11 @@
     "timestamp": "2026-03-01T18:48:15.546165+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMaths and History\n\n**Example Question:** Find HCF of 13 and 47\n- Paraphrase 1: Find GCD of 13 and 47\n- Paraphrase 2: Find HCF of two numbers whose product is 611 and one number is 13\n- Paraphrase 3: Find GCD of two numbers whose product is 611 and one number is 47 and LCM is 1\n\n**Models:** Claude Sonnet , Gemini Flash\n\n**Consistency Metric:**\nPrecision of Answer for the set of paraphrased questions"
+  },
+  {
+    "name": "Aditya Nalabotu",
+    "timestamp": "2026-03-01T18:48:21.841118+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n(this is more hardware but I think it should work for this part)\nHardware Architecture (component selection, circuit design)\nAutonomous Navigation (pathfinding algorithms)\nControl Systems\nComputer Vision (object detection, spatial awareness)\nEmbedded Logic\n\n**Example Question:** How should a PID controller be tuned to minimize overshoot in a motor?\n- Paraphrase 1: What are the best methods for reducing motor overshoot using PID tuning?\n- Paraphrase 2: Explain the process of adjusting PID constants for a high-torque system to ensure stability.\n- Paraphrase 3: To prevent high-torque motors from overshooting, which PID parameter should I prioritize?\n\n**Models:** Gemini 3 Flash,  Claude 3.5 Sonnet,  GPT-4o\n\n**Consistency Metric:**\nsimilarity of important technical terms"
   }
 ]
