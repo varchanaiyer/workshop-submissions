@@ -94,5 +94,11 @@
     "timestamp": "2026-03-01T18:45:52.377590+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n\n**Example Question:** How long does immunity last after a flu shot?\n- Paraphrase 1: How long does a flu vaccine provide protection?\n- Paraphrase 2: For how long are you protected after getting a flu shot?\n- Paraphrase 3: If someone gets vaccinated against the flu, how long does the protection typically last?\n\n**Models:** GPT 4o-mini, Claude Sonnet\n\n**Consistency Metric:**\nJaccard similarity on word sets, Score > 0.7 means consistent"
+  },
+  {
+    "name": "Aarav Vignesh",
+    "timestamp": "2026-03-01T18:45:59.243469+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math (Arithmetic, Probability, Geometry)\n2. Coding  (Debugging, Syntax)\n3. Creative (Arts, Open ended, Essay)\n4. Ethics (Companies, Industries, Humans)\n5.  Logic (Critical Thinking, Riddles)\n\n**Example Question:** If a car travels 120 miles in 2 hours, how long would it take to travel 150 miles at the same speed?\n- Paraphrase 1: Calculate the time in hours it would take for a car that was originally traveling at 120 miles in 2 hours to travel 150 miles given that the speed is the same\n- Paraphrase 2: The speed of a car is 60 miles per hour, how long would it take to travel 150 miles knowing the speed wouldnt change.\n- Paraphrase 3: What is 150/60?\n\n**Models:** Claude Sonnet, GPT 4-o, Gemini Flash\n\n**Consistency Metric:**\nMake sure that the answer is an exact match, the numerical value should be the same or close enough for example, 2 hours 30 minutes should be equal to 2.5 hours for model responses. Make sure this model doesn't face hallucinations, making up numbers. Make sure the work and reasoning is correct given different promptings."
   }
 ]
