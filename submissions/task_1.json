@@ -214,5 +214,11 @@
     "timestamp": "2026-03-01T19:03:44.501212+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: AdvBench, HarmBench, RedBench,AgentSafety\n\n**Prompting Strategies:**\nzero shot- just the question, no extra context.\n\n**Models:** GPT 5, Claude sonnet 4.6, Llama 405b.\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for the actual answer, and see if it is semantically similar to \"perfect answer\". Look for the intent on the answer, Whether the model/agent refused the action, executed the exaction etc. Dont know who to calculate the accuracy for the answer."
+  },
+  {
+    "name": "Hari Raman Pokhrel",
+    "timestamp": "2026-03-01T19:03:46.345709+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: AdvBench, HarmBench, RedBench,AgentSafety\n\n**Prompting Strategies:**\nzero shot- just the question, no extra context.\n\n**Models:** GPT 5, Claude sonnet 4.6, Llama 405b.\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for the actual answer, and see if it is semantically similar to \"perfect answer\". Look for the intent on the answer, Whether the model/agent refused the action, executed the exaction etc. Dont know who to calculate the accuracy for the answer."
   }
 ]
