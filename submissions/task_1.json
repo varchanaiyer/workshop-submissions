@@ -154,5 +154,11 @@
     "timestamp": "2026-03-01T18:47:05.891869+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Physics\n2. Math\n3. History\n4. Law\n5. Medical\n\n**Example Question:** What is the formula for the period of a simple pendulum for physics in LaTeX?\n- Paraphrase 1: What does the simple harmonic motion period formula look like for pendulums? Express answer in LaTeX.\n- Paraphrase 2: For SHM, what is the formula for the period of a simple pendulum (in LaTeX)?\n- Paraphrase 3: Describe the formula for the period of a simple pendulum in LaTeX.\n\n**Models:** GPT-5.2, Claude Sonnet, Gemini 3 Flash\n\n**Consistency Metric:**\nExact match after normalizing (lower capitals, remove spaces, strip punctuation), find string matching \"2pi\\sqrt{\\frac{l}{g}}\" (answer, formula for the period of a simple pendulum in LaTeX)"
+  },
+  {
+    "name": "Ashwin",
+    "timestamp": "2026-03-01T18:48:15.546165+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMaths and History\n\n**Example Question:** Find HCF of 13 and 47\n- Paraphrase 1: Find GCD of 13 and 47\n- Paraphrase 2: Find HCF of two numbers whose product is 611 and one number is 13\n- Paraphrase 3: Find GCD of two numbers whose product is 611 and one number is 47 and LCM is 1\n\n**Models:** Claude Sonnet , Gemini Flash\n\n**Consistency Metric:**\nPrecision of Answer for the set of paraphrased questions"
   }
 ]
