@@ -178,5 +178,11 @@
     "timestamp": "2026-03-01T18:49:15.437927+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n\n**Example Question:** What are the solutions for this quadratic x^2 + 2x + 1?\n- Paraphrase 1: What are the x intercepts of this quadratic equation: x^2 + 2x + 1?\n- Paraphrase 2: At which x-values does the quadratic x^2 + 2x + 1 equal to 0?\n- Paraphrase 3: The quadratic equation x^2 + 2x +1 touches the x-axis at which points?\n\n**Models:** GPT-5o, Gemini 2.5 pro, Claude 3.7 Sonnet1.\n\n**Consistency Metric:**\nThe answers should be formatted like this x = -1, and we can take that number and save it as a solution."
+  },
+  {
+    "name": "Atharva Bhargude",
+    "timestamp": "2026-03-01T18:49:32.577169+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Legal\n3. Medical\n4. Geography\n5. Physics\n\n**Example Question:** Question: A 0.50 kg ball is tied to a string and swung in a horizontal circle of radius 1.2 m. The ball moves at a constant speed of 3.0 m/s. What is the Centripetal Acceleration acting on the Ball? Round to 2 decimal places.\n- Paraphrase 1: P1: If a ball of 0.5 kg is moving at a constant speed of 3.0 m/s around a horizontal circle of radius 1.2m, what is the Centripetal Acceleration acting on the Ball? Round to 2 decimal places.\n- Paraphrase 2: P2: There is a circle of radius 1.2m. A ball of 0.5kg mass is swinging around it at a constant speed of 3.0 m/s. What is the Radial Acceleration of the Ball? Round to 2 decimal places.\n- Paraphrase 3: P3: Radial Acceleration Problem: What is the radial acceleration of a 0.5kg ball swinging around a 1.2m circle at 3.0m/s constant speed? Round to 2 decimal places.\n\n**Models:** GPT-4o, Gemini 3\n\n**Consistency Metric:**\nExact match rounded to 2 decimal places."
   }
 ]
