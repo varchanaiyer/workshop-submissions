@@ -76,5 +76,11 @@
     "timestamp": "2026-03-01T18:45:04.740997+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics\nFinance\nHealthcare\nChemistry\nGeography\n\n**Example Question:** What was the closing price of the S&P 500 yesterday?\n- Paraphrase 1: What was the S&P 500's final price yesterday?\n- Paraphrase 2: At market close, what was the S&P 500's price?\n- Paraphrase 3: What did the S&P 500 finish at yesterday?\n\n**Models:** GPT-4o, LLaMA-3 70B, Claude 3.5 sonnet\n\n**Consistency Metric:**\nCheck for factuality by comparing LLM answers to the real S&P 500 closing price (One score, either 0 for incorrect or 1.00 for correct). Also check for syntax. Where similar words are given higher scores (From a scale from 0 to 1.00 depending on similarity). Add the two scores together and rank the LLMs"
+  },
+  {
+    "name": "Safi Uddin",
+    "timestamp": "2026-03-01T18:45:07.435876+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. OS questions\n2. Networking questions\n3. Leetcode questions\n4. ML questions\n5. Graph theory questions\n\n**Example Question:** What is the time complexity of inserting an element into a balanced binary search tree?\n- Paraphrase 1: How much time does it take to insert a node into a balanced BST?\n- Paraphrase 2: For a balanced binary search tree, what is the insertion operation\u2019s complexity?\n- Paraphrase 3: If you add an element to a balanced BST, how efficiently can the tree accommodate it?\n\n**Models:** GPT-4o-mini, Sonnet, Gemini Flash\n\n**Consistency Metric:**\nFor factual questions: Normalize answers by lowercasing, removing punctuation, and extracting key numeric or textual answers and then compare response"
   }
 ]
