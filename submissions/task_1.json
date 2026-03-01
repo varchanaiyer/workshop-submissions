@@ -112,5 +112,11 @@
     "timestamp": "2026-03-01T18:46:17.702828+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nLeague of Legends pro history\nMath\nPhilosophy \nChemistry \nPiano History\n\n**Example Question:** Which ADC won the most world championships with T1?\n- Paraphrase 1: Which bot laner won the most world championships with T1?\n- Paraphrase 2: Out of all of T1's ADC players, which won the most world championships?\n- Paraphrase 3: Out of all korean ADCs, which won the most world championships?\n\n**Models:** GPT5.2, Claude Opus/Sonnet, Gemini\n\n**Consistency Metric:**\nFor factual questions, exact matches stripped, for open ended questions, maybe a panel of LLM experts and agree by consensus?"
+  },
+  {
+    "name": "Gabriel Contreras",
+    "timestamp": "2026-03-01T18:46:19.742522+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Finance\n3. Legal\n4. Software Engineering\n5. Math\n\n**Example Question:** What are the recommended advice doctors give for when people are dealing with a cold?\n- Paraphrase 1: What is the best way to treat a common cold?\n- Paraphrase 2: How can a cold be treated?\n- Paraphrase 3: I have a cold, how do I deal with it?\n\n**Models:** Claude Opus 4.5, Gemini 2.5 Pro\n\n**Consistency Metric:**\nSimply check if it is correct with what doctors would recommend in the real world."
   }
 ]
