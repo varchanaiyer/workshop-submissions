@@ -58,5 +58,11 @@
     "timestamp": "2026-03-01T18:44:36.378703+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAstronomy\nEconomics\nEnvironmental Science\nLinguistics\nEthics & Philosophy\n\n**Example Question:** Why is the sky blue?\n- Paraphrase 1: Describe the role of Rayleigh scattering in the interaction between solar radiation and the Earth\u2019s atmosphere.\n- Paraphrase 2: Why does the air look blue when we look up during a clear day?\n- Paraphrase 3: Explain the physical reason for the sky's blue color in exactly two sentences.\n\n**Models:** GPT-4o and Gemini 3\n\n**Consistency Metric:**\nMeasure consistency by calculating the cosine similarity between response embeddings to verify that the mathematical meaning remains stable across all paraphrases. Additionally, perform entity extraction to ensure that \"hard facts\" like dates, names, or technical jargon do not drift between versions. Conclude by applying a 1-to-5 qualitative rubric to detect if the model\u2019s logical stance or tone shifts when the prompt's framing changes."
+  },
+  {
+    "name": "Neelan Gandhi",
+    "timestamp": "2026-03-01T18:44:50.858264+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath (problems)\n\n**Example Question:** What is 25% of 80?\n- Paraphrase 1: Calculate 25 percent of 80?\n- Paraphrase 2: What is 80 x 0.25?\n- Paraphrase 3: How much is one-quarter of 80\n\n**Models:** GPT-4o-mini\n\n**Consistency Metric:**\nThe 4 answers should be right and match"
   }
 ]
