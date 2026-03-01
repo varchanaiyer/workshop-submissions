@@ -148,5 +148,11 @@
     "timestamp": "2026-03-01T18:46:44.733407+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Creative Writing\n4. Legal\n6. Political Science\n\n**Example Question:** \u201cWrite a function that returns the factorial of a nonnegative integer n.\u201d\n- Paraphrase 1: Implement factorial(n) so it outputs n! for n \u2265 0.\n- Paraphrase 2: Create a method that computes the product 1 * 2 * ... * n (with 0! = 1).\n- Paraphrase 3: Given an integer n, code a solution that calculates its factorial.\n\n**Models:** GPT5 and Sonnet 4.6\n\n**Consistency Metric:**\nI\u2019ll measure consistency by comparing the original and paraphrased answers after normalizing them (extract key answer, lowercase, remove punctuation), using exact match for factual/numeric outputs and Jaccard similarity on unique words (\u22650.7) for open-ended responses."
+  },
+  {
+    "name": "Jason Tae",
+    "timestamp": "2026-03-01T18:47:05.891869+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Physics\n2. Math\n3. History\n4. Law\n5. Medical\n\n**Example Question:** What is the formula for the period of a simple pendulum for physics in LaTeX?\n- Paraphrase 1: What does the simple harmonic motion period formula look like for pendulums? Express answer in LaTeX.\n- Paraphrase 2: For SHM, what is the formula for the period of a simple pendulum (in LaTeX)?\n- Paraphrase 3: Describe the formula for the period of a simple pendulum in LaTeX.\n\n**Models:** GPT-5.2, Claude Sonnet, Gemini 3 Flash\n\n**Consistency Metric:**\nExact match after normalizing (lower capitals, remove spaces, strip punctuation), find string matching \"2pi\\sqrt{\\frac{l}{g}}\" (answer, formula for the period of a simple pendulum in LaTeX)"
   }
 ]
