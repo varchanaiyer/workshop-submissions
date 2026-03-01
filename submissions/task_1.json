@@ -208,5 +208,11 @@
     "timestamp": "2026-03-01T19:00:40.375485+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nGSM8K (grade-school math)\n\n**Prompting Strategies:**\n1. Zero-shot: {question}\n2. Few-shot: Here are {x} examples:\\n{examples}\\n\\nNow solve: {question}\n3. Pleading: PLEASE PLEASE PLEASE I NEED TO SOLVE {question}\n\n**Models:** GPT-4o-mini\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for \"answer is X\", \"X is the answer\", or the last number returned"
+  },
+  {
+    "name": "Hari Raman Pokhrel",
+    "timestamp": "2026-03-01T19:03:44.501212+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: AdvBench, HarmBench, RedBench,AgentSafety\n\n**Prompting Strategies:**\nzero shot- just the question, no extra context.\n\n**Models:** GPT 5, Claude sonnet 4.6, Llama 405b.\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for the actual answer, and see if it is semantically similar to \"perfect answer\". Look for the intent on the answer, Whether the model/agent refused the action, executed the exaction etc. Dont know who to calculate the accuracy for the answer."
   }
 ]
