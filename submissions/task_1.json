@@ -64,5 +64,11 @@
     "timestamp": "2026-03-01T18:44:50.858264+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath (problems)\n\n**Example Question:** What is 25% of 80?\n- Paraphrase 1: Calculate 25 percent of 80?\n- Paraphrase 2: What is 80 x 0.25?\n- Paraphrase 3: How much is one-quarter of 80\n\n**Models:** GPT-4o-mini\n\n**Consistency Metric:**\nThe 4 answers should be right and match"
+  },
+  {
+    "name": "Zach Krivis",
+    "timestamp": "2026-03-01T18:44:59.737998+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Prediction - Kalshi\n2. Ethics\n3. Math - Calculus problems\n4. Physics - AP Physics problems\n5. Best tech - rank the best tech based on prompts\n\n**Example Question:** What is the standard amount of RAM in a computer?\n- Paraphrase 1: When building a PC, what is the standard amount of RAM?\n- Paraphrase 2: In most computers, how much RAM will it most likely have?\n- Paraphrase 3: I have a comptuer - predict how much RAM it has inside?\n\n**Models:** Gemini Pro, GPT 5.2\n\n**Consistency Metric:**\nFor factual questions, gives the right answer\nFor subjective questions - gives a similar answer"
   }
 ]
