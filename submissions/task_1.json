@@ -220,5 +220,11 @@
     "timestamp": "2026-03-01T19:03:46.345709+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: AdvBench, HarmBench, RedBench,AgentSafety\n\n**Prompting Strategies:**\nzero shot- just the question, no extra context.\n\n**Models:** GPT 5, Claude sonnet 4.6, Llama 405b.\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for the actual answer, and see if it is semantically similar to \"perfect answer\". Look for the intent on the answer, Whether the model/agent refused the action, executed the exaction etc. Dont know who to calculate the accuracy for the answer."
+  },
+  {
+    "name": "Kaiyu Mu",
+    "timestamp": "2026-03-01T19:04:29.546924+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: Humaneval\nSource: https://huggingface.co/datasets/openai/openai_humaneval/viewer/openai_humaneval/test?row=1\n50 tests and 10 for few shots\nType: coding\n\n**Prompting Strategies:**\n1. Zero-shot: write a function inserting the number at the correct position in the array\n2. Few-shot: 3 to be inserted the 2nd in [1, 4, 5, 7]; 5 to be inserted the 3rd in [1, 2, 6, 8]; 8 to be inserted the 5th in [1, 2, 4, 7, 9]\n3. Chain-of-thought: Step 1: consider the number against the 1st element, whether it's greater or smaller than it? Step 2: if it is yes, then insert, otherwise loop to the next element.\n4. CoT + Self-consistency: Same as CoT, but run 5 times and take majority vote\n\n**Models:** Qwen-3, Claude Sonnet, Gemini 3\n\n**Answer Extraction & Accuracy:**\n1. The similarities with the canonical solution\n2. Running time\n3. Test case pass rate"
   }
 ]
