@@ -4,5 +4,11 @@
     "timestamp": "2026-03-01T18:39:24.453675+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\ntest test\n\n**Example Question:** test\n- Paraphrase 1: test\n- Paraphrase 2: test\n- Paraphrase 3: test\n\n**Models:** test\n\n**Consistency Metric:**\ntest test"
+  },
+  {
+    "name": "Hari Raman Pokhrel",
+    "timestamp": "2026-03-01T18:42:25.749973+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical, Legal, Automotive, Industrial, Research\n\n**Example Question:** What is the best way to sedate patients who are on a ventilator?\n- Paraphrase 1: Which anesthetic agents are useful in intubated patients?\n- Paraphrase 2: For patients that are on mechanical ventilators, which medications can you use to sedate them?\n- Paraphrase 3: A patient has acute respiratory failure requiring intubation, which medications would keep the patient at RASS Of -2 ?\n\n**Models:** GPT 5, Claude 4.6 Sonnet, Deepseek, Kimi 2.5\n\n**Consistency Metric:**\nGive names of two anesthetic agents such as Propofol + fentanyl, Versed + fentanyl , Propofol + Versed."
   }
 ]
