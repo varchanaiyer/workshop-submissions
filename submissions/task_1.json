@@ -190,5 +190,11 @@
     "timestamp": "2026-03-01T18:49:34.261207+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Economics (how politics is influencing)\n2. Medical (diagnosis, symptoms)\n3. Math (concepts and formulas)\n4. Engineering (concepts and formulas and problem solving)\n5. Geography (landmarks)\n\n**Example Question:** Where is the Grand Canyon?\n- Paraphrase 1: Where can you find the Grand Canyon?\n- Paraphrase 2: What region is Grand Canyon in?\n- Paraphrase 3: What are the coordinates of the Grand Canyon?\n\n**Models:** Gemini, Cursor\n\n**Consistency Metric:**\nGive atleast two relative descriptions of where the Grand Canyon is or one absolute description"
+  },
+  {
+    "name": "Joanna Li",
+    "timestamp": "2026-03-01T18:50:24.913112+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2.  Coding\n3. Ethics\n4. Factual\n5. History\n\n**Example Question:** What is one political development during Reconstruction from 1865 to 1877?\n- Paraphrase 1: From 1865 to 1877, what was one reform that took place during Reconstruction?\n- Paraphrase 2: Briefly describe a political shift that occurred between 1865 and 1877 during Reconstruction?\n- Paraphrase 3: Between 1865 and 1877, during Reconstruction, what was one significant political development?\n\n**Models:** GPT 5, claude sonnet 4-6, Gemini 3\n\n**Consistency Metric:**\nFor history prompts, the LLM responses should mention the name of the event, briefly explain what happened, who was affected, and what happened after."
   }
 ]
