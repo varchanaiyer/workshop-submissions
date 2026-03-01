@@ -202,5 +202,11 @@
     "timestamp": "2026-03-01T18:59:03.497057+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nGSM8K\n\n**Prompting Strategies:**\nZero Shot\n\n**Models:** Claude Sonnet , Gemini Flash\n\n**Answer Extraction & Accuracy:**\nPrecision on set of paraphrased maths question"
+  },
+  {
+    "name": "Alice Chen",
+    "timestamp": "2026-03-01T19:00:40.375485+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nGSM8K (grade-school math)\n\n**Prompting Strategies:**\n1. Zero-shot: {question}\n2. Few-shot: Here are {x} examples:\\n{examples}\\n\\nNow solve: {question}\n3. Pleading: PLEASE PLEASE PLEASE I NEED TO SOLVE {question}\n\n**Models:** GPT-4o-mini\n\n**Answer Extraction & Accuracy:**\nExtraction: Look for \"answer is X\", \"X is the answer\", or the last number returned"
   }
 ]
