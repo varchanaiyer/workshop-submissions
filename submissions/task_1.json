@@ -22,5 +22,11 @@
     "timestamp": "2026-03-01T18:43:16.252262+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nmath\nhistory\nchemistry\ntennis\ncs\n\n**Example Question:** what is the best way to make NaCl\n- Paraphrase 1: how do you make salt in chemistry\n- Paraphrase 2: How do you get Na in Nacl\n- Paraphrase 3: where can you find NaCl\n\n**Models:** GPT 5.2\n\n**Consistency Metric:**\ni would just compare the answer and manually tell if they are saying the same things abt the topic"
+  },
+  {
+    "name": "Avi Nautiyal",
+    "timestamp": "2026-03-01T18:43:18.361215+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics (percentages, algebra)\n\nComputer Science (code output, complexity)\n\nHistory (dates, cause/effect)\n\nEthics (AI bias, moral dilemmas)\n\nScience (concept explanations)\n\n**Example Question:** If a stock increases by 20% and then decreases by 20%, is the final price higher, lower, or equal to the original?\n- Paraphrase 1: A value goes up 20% and then drops 20%. Does it end above, below, or at the starting point?\n- Paraphrase 2: Start with $100. Add 20%, then subtract 20%. Is the result greater, smaller, or the same as $100?\n- Paraphrase 3: After a 20% gain followed by a 20% loss, what happens compared to the original value?\n\n**Models:** GPT-4o-mini , Claude 3.5 Sonnet , Gemini 1.5 Flash\n\n**Consistency Metric:**\nFor factual questions: exact match after lowercasing and removing punctuation.\n\nFor open-ended questions: similarity of word sets."
   }
 ]
