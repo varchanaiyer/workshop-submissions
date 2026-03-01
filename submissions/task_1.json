@@ -40,5 +40,11 @@
     "timestamp": "2026-03-01T18:43:55.261181+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Sports\n2. Coding\n3. Personal Advice\n4. News\n5. Pop Culture\n\n**Example Question:** Who is the greatest NBA player of all time?\n- Paraphrase 1: In the NBA, who is the best player ever?\n- Paraphrase 2: Name the NBA's best player ever?\n- Paraphrase 3: Someone is asking me who the best NBA player is ever, who is it?\n\n**Models:** Gemini Flash, GPT-4omini\n\n**Consistency Metric:**\nGive a name and a clear explanation why they are the best player."
+  },
+  {
+    "name": "Adarsh Sudheer",
+    "timestamp": "2026-03-01T18:44:26.434483+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical domain\nNature domain\nFinancial domain\nMathematic domain\nLinquistic understanding\n\n**Example Question:** How many ducks live in a pond?\n- Paraphrase 1: How many ducks usually call this pond home?\n- Paraphrase 2: What is the average duck population density for a freshwater pond of this size?\n- Paraphrase 3: What is the carrying capacity for ducks in this specific pond ecosystem?\n\n**Models:** Claude, gemini, chat-gpt 4o\n\n**Consistency Metric:**\nTo check similarities, I could use a semantic score to check whether the core meaning of the messages are the same. We could grade each submission on a scale from 0-1, to check the similarities between each resposne."
   }
 ]
