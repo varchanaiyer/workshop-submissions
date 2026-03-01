@@ -184,5 +184,11 @@
     "timestamp": "2026-03-01T18:49:32.577169+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Legal\n3. Medical\n4. Geography\n5. Physics\n\n**Example Question:** Question: A 0.50 kg ball is tied to a string and swung in a horizontal circle of radius 1.2 m. The ball moves at a constant speed of 3.0 m/s. What is the Centripetal Acceleration acting on the Ball? Round to 2 decimal places.\n- Paraphrase 1: P1: If a ball of 0.5 kg is moving at a constant speed of 3.0 m/s around a horizontal circle of radius 1.2m, what is the Centripetal Acceleration acting on the Ball? Round to 2 decimal places.\n- Paraphrase 2: P2: There is a circle of radius 1.2m. A ball of 0.5kg mass is swinging around it at a constant speed of 3.0 m/s. What is the Radial Acceleration of the Ball? Round to 2 decimal places.\n- Paraphrase 3: P3: Radial Acceleration Problem: What is the radial acceleration of a 0.5kg ball swinging around a 1.2m circle at 3.0m/s constant speed? Round to 2 decimal places.\n\n**Models:** GPT-4o, Gemini 3\n\n**Consistency Metric:**\nExact match rounded to 2 decimal places."
+  },
+  {
+    "name": "Jennifer Seok",
+    "timestamp": "2026-03-01T18:49:34.261207+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Economics (how politics is influencing)\n2. Medical (diagnosis, symptoms)\n3. Math (concepts and formulas)\n4. Engineering (concepts and formulas and problem solving)\n5. Geography (landmarks)\n\n**Example Question:** Where is the Grand Canyon?\n- Paraphrase 1: Where can you find the Grand Canyon?\n- Paraphrase 2: What region is Grand Canyon in?\n- Paraphrase 3: What are the coordinates of the Grand Canyon?\n\n**Models:** Gemini, Cursor\n\n**Consistency Metric:**\nGive atleast two relative descriptions of where the Grand Canyon is or one absolute description"
   }
 ]
