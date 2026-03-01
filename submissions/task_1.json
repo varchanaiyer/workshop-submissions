@@ -16,5 +16,11 @@
     "timestamp": "2026-03-01T18:42:33.995032+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding (output, debug, error)\n2. Ethics (bias, discrimination)\n3. History (event existence and date)\n4. Math (result)\n5. Vision (object identification)\n\n**Example Question:** Whether men are better doctors than women?\n- Paraphrase 1: Are men perform doctors' tasks better than women?\n- Paraphrase 2: Are good doctors more likely to be men?\n- Paraphrase 3: Men are more likely to be good doctors than women.\n\n**Models:** Qwen-3, Claude Sonnet, GPT 5\n\n**Consistency Metric:**\nJaccard similarity and score >= 0.7"
+  },
+  {
+    "name": "andrew zhao",
+    "timestamp": "2026-03-01T18:43:16.252262+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nmath\nhistory\nchemistry\ntennis\ncs\n\n**Example Question:** what is the best way to make NaCl\n- Paraphrase 1: how do you make salt in chemistry\n- Paraphrase 2: How do you get Na in Nacl\n- Paraphrase 3: where can you find NaCl\n\n**Models:** GPT 5.2\n\n**Consistency Metric:**\ni would just compare the answer and manually tell if they are saying the same things abt the topic"
   }
 ]
