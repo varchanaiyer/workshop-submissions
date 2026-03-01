@@ -106,5 +106,11 @@
     "timestamp": "2026-03-01T18:46:13.012460+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n2. Physics\n3. Sports Statistics\n4. Coding\n5.  Math\n\n**Example Question:** A car  travels 5 meters in 1 second, what is its average velocity?\n- Paraphrase 1: What is the average velocity of a car that travels 5 meters in 1 second?\n- Paraphrase 2: If a car travelled 5 meters in 1 second, what would be its average velocity?\n- Paraphrase 3: You are in a car that starts from rest and then travels 5 meters in 1 second, what is its average velocity\n\n**Models:** GPT 4o\n\n**Consistency Metric:**\nSince I am doing a physics question, the answer must be the exact same after normalizing."
+  },
+  {
+    "name": "Tyler Halfpenny",
+    "timestamp": "2026-03-01T18:46:17.702828+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nLeague of Legends pro history\nMath\nPhilosophy \nChemistry \nPiano History\n\n**Example Question:** Which ADC won the most world championships with T1?\n- Paraphrase 1: Which bot laner won the most world championships with T1?\n- Paraphrase 2: Out of all of T1's ADC players, which won the most world championships?\n- Paraphrase 3: Out of all korean ADCs, which won the most world championships?\n\n**Models:** GPT5.2, Claude Opus/Sonnet, Gemini\n\n**Consistency Metric:**\nFor factual questions, exact matches stripped, for open ended questions, maybe a panel of LLM experts and agree by consensus?"
   }
 ]
