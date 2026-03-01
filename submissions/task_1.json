@@ -34,5 +34,11 @@
     "timestamp": "2026-03-01T18:43:31.324979+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical, Research, Education, Ethics, Math\n\n**Example Question:** Why do leaves change color in the fall?\n- Paraphrase 1: What causes leaves to turn red and orange in autumn?\n- Paraphrase 2: Why don't leaves stay green all year round?\n- Paraphrase 3: What's happening to a tree when its leaves change color?\n\n**Models:** Claude, OpenAI, Gemini\n\n**Consistency Metric:**\nCheck if the LLM is hitting the same main points as the original answer. For example, if the original answer gives 3 main points, check how many out of the 3 it hits."
+  },
+  {
+    "name": "Ryan Dhalbisoi",
+    "timestamp": "2026-03-01T18:43:55.261181+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Sports\n2. Coding\n3. Personal Advice\n4. News\n5. Pop Culture\n\n**Example Question:** Who is the greatest NBA player of all time?\n- Paraphrase 1: In the NBA, who is the best player ever?\n- Paraphrase 2: Name the NBA's best player ever?\n- Paraphrase 3: Someone is asking me who the best NBA player is ever, who is it?\n\n**Models:** Gemini Flash, GPT-4omini\n\n**Consistency Metric:**\nGive a name and a clear explanation why they are the best player."
   }
 ]
