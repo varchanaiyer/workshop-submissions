@@ -70,5 +70,11 @@
     "timestamp": "2026-03-01T18:44:59.737998+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Prediction - Kalshi\n2. Ethics\n3. Math - Calculus problems\n4. Physics - AP Physics problems\n5. Best tech - rank the best tech based on prompts\n\n**Example Question:** What is the standard amount of RAM in a computer?\n- Paraphrase 1: When building a PC, what is the standard amount of RAM?\n- Paraphrase 2: In most computers, how much RAM will it most likely have?\n- Paraphrase 3: I have a comptuer - predict how much RAM it has inside?\n\n**Models:** Gemini Pro, GPT 5.2\n\n**Consistency Metric:**\nFor factual questions, gives the right answer\nFor subjective questions - gives a similar answer"
+  },
+  {
+    "name": "David Li",
+    "timestamp": "2026-03-01T18:45:04.740997+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics\nFinance\nHealthcare\nChemistry\nGeography\n\n**Example Question:** What was the closing price of the S&P 500 yesterday?\n- Paraphrase 1: What was the S&P 500's final price yesterday?\n- Paraphrase 2: At market close, what was the S&P 500's price?\n- Paraphrase 3: What did the S&P 500 finish at yesterday?\n\n**Models:** GPT-4o, LLaMA-3 70B, Claude 3.5 sonnet\n\n**Consistency Metric:**\nCheck for factuality by comparing LLM answers to the real S&P 500 closing price (One score, either 0 for incorrect or 1.00 for correct). Also check for syntax. Where similar words are given higher scores (From a scale from 0 to 1.00 depending on similarity). Add the two scores together and rank the LLMs"
   }
 ]
