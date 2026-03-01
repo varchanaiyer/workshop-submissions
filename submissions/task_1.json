@@ -118,5 +118,11 @@
     "timestamp": "2026-03-01T18:46:19.742522+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Finance\n3. Legal\n4. Software Engineering\n5. Math\n\n**Example Question:** What are the recommended advice doctors give for when people are dealing with a cold?\n- Paraphrase 1: What is the best way to treat a common cold?\n- Paraphrase 2: How can a cold be treated?\n- Paraphrase 3: I have a cold, how do I deal with it?\n\n**Models:** Claude Opus 4.5, Gemini 2.5 Pro\n\n**Consistency Metric:**\nSimply check if it is correct with what doctors would recommend in the real world."
+  },
+  {
+    "name": "Jacob Lipner",
+    "timestamp": "2026-03-01T18:46:33.366498+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nnational parks, fashion, geography, zoology, movies\n\n**Example Question:** What is the best national park in the United States?\n- Paraphrase 1: Which national park in America should I go to for my upcoming vacation?\n- Paraphrase 2: How should I choose the national park I should go to for my trip?\n- Paraphrase 3: I am going on vacation soon and want to go to a national park, where should I go?\n\n**Models:** Claude Sonnet, Qwen 2.5B\n\n**Consistency Metric:**\nBased on whether the same park is chosen for each question."
   }
 ]
