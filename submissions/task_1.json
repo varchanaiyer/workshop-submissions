@@ -166,5 +166,11 @@
     "timestamp": "2026-03-01T18:48:21.841118+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n(this is more hardware but I think it should work for this part)\nHardware Architecture (component selection, circuit design)\nAutonomous Navigation (pathfinding algorithms)\nControl Systems\nComputer Vision (object detection, spatial awareness)\nEmbedded Logic\n\n**Example Question:** How should a PID controller be tuned to minimize overshoot in a motor?\n- Paraphrase 1: What are the best methods for reducing motor overshoot using PID tuning?\n- Paraphrase 2: Explain the process of adjusting PID constants for a high-torque system to ensure stability.\n- Paraphrase 3: To prevent high-torque motors from overshooting, which PID parameter should I prioritize?\n\n**Models:** Gemini 3 Flash,  Claude 3.5 Sonnet,  GPT-4o\n\n**Consistency Metric:**\nsimilarity of important technical terms"
+  },
+  {
+    "name": "Max Peng",
+    "timestamp": "2026-03-01T18:48:51.535577+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (cancer detection)\n2. Math (MATH500 problem accuracy)\n3. Science (Explanation of phenomena)\n4. Economics (Explaining economic conditions)\n5. Logic (Cause and Effect)\n\n**Example Question:** If Sam gets a 30% discount on a $100 dollar item, how much does he have to pay?\n- Paraphrase 1: How much does Sam have to pay for a $100 dollar item that is 30% off?\n- Paraphrase 2: A $100 dollar item is being sold in a sale, where all items are 30% off. How much does Sam have to pay for this item?\n- Paraphrase 3: Sam receives a 30% discount on a $100 dollar item. How much money should he prepare for the cashier?\n\n**Models:** I don't have API access to any models.\n\n**Consistency Metric:**\nExact match for the answer \"70\" or \"$70\""
   }
 ]
