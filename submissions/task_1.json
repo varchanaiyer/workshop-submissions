@@ -52,5 +52,11 @@
     "timestamp": "2026-03-01T18:44:28.872016+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAnalytical / Logical Reasoning\nFactual Knowledge\nCreative Generation\nFactual Knowledge (RAG)\nEthics\n\n**Example Question:** What is the capital of Argentina?\n- Paraphrase 1: Which city is Argentina\u2019s capital?\n- Paraphrase 2: Argentina\u2019s national capital is which city?\n- Paraphrase 3: Argentina\u2019s government is based in which city?\n\n**Models:** Claude-4.5 Opus, GPT 5.3 Codex, Gemini 3 Flash\n\n**Consistency Metric:**\nThe answer should match Buenos Aires"
+  },
+  {
+    "name": "Arnav Kakani",
+    "timestamp": "2026-03-01T18:44:36.378703+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAstronomy\nEconomics\nEnvironmental Science\nLinguistics\nEthics & Philosophy\n\n**Example Question:** Why is the sky blue?\n- Paraphrase 1: Describe the role of Rayleigh scattering in the interaction between solar radiation and the Earth\u2019s atmosphere.\n- Paraphrase 2: Why does the air look blue when we look up during a clear day?\n- Paraphrase 3: Explain the physical reason for the sky's blue color in exactly two sentences.\n\n**Models:** GPT-4o and Gemini 3\n\n**Consistency Metric:**\nMeasure consistency by calculating the cosine similarity between response embeddings to verify that the mathematical meaning remains stable across all paraphrases. Additionally, perform entity extraction to ensure that \"hard facts\" like dates, names, or technical jargon do not drift between versions. Conclude by applying a 1-to-5 qualitative rubric to detect if the model\u2019s logical stance or tone shifts when the prompt's framing changes."
   }
 ]
