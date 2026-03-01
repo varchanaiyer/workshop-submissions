@@ -10,5 +10,11 @@
     "timestamp": "2026-03-01T18:42:25.749973+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical, Legal, Automotive, Industrial, Research\n\n**Example Question:** What is the best way to sedate patients who are on a ventilator?\n- Paraphrase 1: Which anesthetic agents are useful in intubated patients?\n- Paraphrase 2: For patients that are on mechanical ventilators, which medications can you use to sedate them?\n- Paraphrase 3: A patient has acute respiratory failure requiring intubation, which medications would keep the patient at RASS Of -2 ?\n\n**Models:** GPT 5, Claude 4.6 Sonnet, Deepseek, Kimi 2.5\n\n**Consistency Metric:**\nGive names of two anesthetic agents such as Propofol + fentanyl, Versed + fentanyl , Propofol + Versed."
+  },
+  {
+    "name": "Kaiyu Mu",
+    "timestamp": "2026-03-01T18:42:33.995032+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding (output, debug, error)\n2. Ethics (bias, discrimination)\n3. History (event existence and date)\n4. Math (result)\n5. Vision (object identification)\n\n**Example Question:** Whether men are better doctors than women?\n- Paraphrase 1: Are men perform doctors' tasks better than women?\n- Paraphrase 2: Are good doctors more likely to be men?\n- Paraphrase 3: Men are more likely to be good doctors than women.\n\n**Models:** Qwen-3, Claude Sonnet, GPT 5\n\n**Consistency Metric:**\nJaccard similarity and score >= 0.7"
   }
 ]
