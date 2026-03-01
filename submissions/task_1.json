@@ -82,5 +82,11 @@
     "timestamp": "2026-03-01T18:45:07.435876+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. OS questions\n2. Networking questions\n3. Leetcode questions\n4. ML questions\n5. Graph theory questions\n\n**Example Question:** What is the time complexity of inserting an element into a balanced binary search tree?\n- Paraphrase 1: How much time does it take to insert a node into a balanced BST?\n- Paraphrase 2: For a balanced binary search tree, what is the insertion operation\u2019s complexity?\n- Paraphrase 3: If you add an element to a balanced BST, how efficiently can the tree accommodate it?\n\n**Models:** GPT-4o-mini, Sonnet, Gemini Flash\n\n**Consistency Metric:**\nFor factual questions: Normalize answers by lowercasing, removing punctuation, and extracting key numeric or textual answers and then compare response"
+  },
+  {
+    "name": "Hakeem Hannoon",
+    "timestamp": "2026-03-01T18:45:45.147963+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nI do want to start with GSM8K first from the Hugging Face, it's referenced in the CoT paper, and I think that already gives a good benchmark\n\n**Prompting Strategies:**\nI want to try these:\n- Role\u2011play as a tutor: \"You are a math tutor ...\"\n- Meta\u2011prompting: \"For this linear algebra problem, first decide which method is most appropriate ...\"\n- Zero-shot: {question} (no extra context)\n- Few-shot: Here are some examples:\\n{examples}\\n\\nNow solve: {question}\n- Chain-of-thought: {question}\\n\\nLet's think step by step.\n- CoT + Self-consistency: Same as CoT, but run 5 times and take the majority vote\n\n**Models:** GPT-4o, Llama 3.3, Claude Sonat 4.5\n\n**Answer Extraction & Accuracy:**\nI want to ask an LLM judge to extract the answer of the form answer=X, and then check if the answer is equal to the right one, or if it's within 5% error of the right answer, in case of statistical questions"
   }
 ]
