@@ -226,5 +226,11 @@
     "timestamp": "2026-03-01T19:04:29.546924+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: Humaneval\nSource: https://huggingface.co/datasets/openai/openai_humaneval/viewer/openai_humaneval/test?row=1\n50 tests and 10 for few shots\nType: coding\n\n**Prompting Strategies:**\n1. Zero-shot: write a function inserting the number at the correct position in the array\n2. Few-shot: 3 to be inserted the 2nd in [1, 4, 5, 7]; 5 to be inserted the 3rd in [1, 2, 6, 8]; 8 to be inserted the 5th in [1, 2, 4, 7, 9]\n3. Chain-of-thought: Step 1: consider the number against the 1st element, whether it's greater or smaller than it? Step 2: if it is yes, then insert, otherwise loop to the next element.\n4. CoT + Self-consistency: Same as CoT, but run 5 times and take majority vote\n\n**Models:** Qwen-3, Claude Sonnet, Gemini 3\n\n**Answer Extraction & Accuracy:**\n1. The similarities with the canonical solution\n2. Running time\n3. Test case pass rate"
+  },
+  {
+    "name": "Thanakorn Angkasirisan",
+    "timestamp": "2026-03-02T15:36:07.865086+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nWe evaluate on the GSM8K benchmark (Cobbe et al., 2021), using the first 50 examples from the held-out test split. GSM8K consists of linguistically diverse grade school math word problems requiring multi-step arithmetic reasoning.\n\n**Prompting Strategies:**\n1. Zero-shot: {question} Provide only the final numerical answer. Do not show your work.\n2. Few-shot: 3 examples {question} Provide only the final numerical answer.\n3. Few-shot CoT: 3 examples {question} Let's think step by step. Show your reasoning, then end with 'Answer: <number>'\n4. CoT + self consistency: Same as Few-shot CoT, but run 5 times and take majority vote\n\n**Models:** Gemini 2.5 flash & Llama 3.3 70b versatile\n\n**Answer Extraction & Accuracy:**\nextract, normalize, compare \u2014 repeated 400 times across all questions, strategies, and models"
   }
 ]
