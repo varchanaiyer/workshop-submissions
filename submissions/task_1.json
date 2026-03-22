@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Andrew Dai",
+    "timestamp": "2026-03-22T20:37:02.040687+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Logical\n4. Ethics\n5. Medical\n\n**Example Question:** What is the the 5 squared?\n- Paraphrase 1: What number do you get when you multiply 5 by itself?\n- Paraphrase 2: What is 5 to the power of 2?\n- Paraphrase 3: If I wanted to have 5 groups of 5 items, what is the total number of items in all groups?\n\n**Models:** Codex, Claude Code\n\n**Consistency Metric:**\nFor the math question, it should give a  result such as \"The answer is 25 (items\""
+  }
+]
