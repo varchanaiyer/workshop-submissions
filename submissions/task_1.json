@@ -4,5 +4,11 @@
     "timestamp": "2026-03-22T20:37:02.040687+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Logical\n4. Ethics\n5. Medical\n\n**Example Question:** What is the the 5 squared?\n- Paraphrase 1: What number do you get when you multiply 5 by itself?\n- Paraphrase 2: What is 5 to the power of 2?\n- Paraphrase 3: If I wanted to have 5 groups of 5 items, what is the total number of items in all groups?\n\n**Models:** Codex, Claude Code\n\n**Consistency Metric:**\nFor the math question, it should give a  result such as \"The answer is 25 (items\""
+  },
+  {
+    "name": "feliciano serrano",
+    "timestamp": "2026-03-22T20:37:58.448068+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nenvironmental science\nds&a\nmachine learning\nreading comprehension\nmath\n\n**Example Question:** Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n- Paraphrase 1: If you are given a vector of integers (nums) and a target number, find the indices of two numbers in that array so that, when added, they equal target\n- Paraphrase 2: In an integer array, you must find two numbers that, when summed, equal the target integer you are given\n- Paraphrase 3: Given a target, loop through an integer list and find two numbers that add up to the integer target\n\n**Models:** Gemini flash, Claude Sonnet\n\n**Consistency Metric:**\nWhat data structure do they use to solve? Will they brute force or use a hashmap? Names of the variables possibly? Do they assume a list or an array?"
   }
 ]
