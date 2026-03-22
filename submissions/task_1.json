@@ -10,5 +10,11 @@
     "timestamp": "2026-03-22T20:37:58.448068+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nenvironmental science\nds&a\nmachine learning\nreading comprehension\nmath\n\n**Example Question:** Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n- Paraphrase 1: If you are given a vector of integers (nums) and a target number, find the indices of two numbers in that array so that, when added, they equal target\n- Paraphrase 2: In an integer array, you must find two numbers that, when summed, equal the target integer you are given\n- Paraphrase 3: Given a target, loop through an integer list and find two numbers that add up to the integer target\n\n**Models:** Gemini flash, Claude Sonnet\n\n**Consistency Metric:**\nWhat data structure do they use to solve? Will they brute force or use a hashmap? Names of the variables possibly? Do they assume a list or an array?"
+  },
+  {
+    "name": "Naman Chetwani",
+    "timestamp": "2026-03-22T20:38:53.787529+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical dosage / safety guidelines\nHistorical causality\nEthical dilemmas\nEconomics problems\nCreative writing tone\n\n**Example Question:** What is the recommended daily dose of acetaminophen for a healthy adult?\n- Paraphrase 1: A healthy adult has body aches \u2014 how much Tylenol can they take in a single day without risk?\n- Paraphrase 2: My doctor said not to exceed the daily limit of acetaminophen. What is that limit for adults?\n- Paraphrase 3: If I'm over 18 and have no liver issues, what's the ceiling on acetaminophen in 24 hours?\n\n**Models:** Gemini 3 Flash, GPT 5.4, Claude Haiku 4.5\n\n**Consistency Metric:**\nTwo responses are consistent if they agree on the core claim and don't contradict each other across paraphrases."
   }
 ]
