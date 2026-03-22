@@ -106,5 +106,11 @@
     "timestamp": "2026-03-22T20:53:49.177519+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (MedQA[clinical reasoning, medical knowledge recall, USMLE)\n2. Trivia (TriviaQA [Trivia questions - self explanatory])\n3. Legal (LegalBench [Legal Reasoning, Statutory interpretation])\n4. Financial (FinQA [Numerical Reasoning, Financial document understanding])\n5. Open-domain answering (NaturalQuestions [General open-domain question answering, Retrieval + reasoning over large corpora])\n\n**Example Question:** who discovered penicillin\n- Paraphrase 1: how was penicillin first discovered\n- Paraphrase 2: the scientist credited with finding penicillin\n- Paraphrase 3: person who found the mold that became penicillin\n\n**Models:** Claude sonnet 4.6, ChatGPT4o\n\n**Consistency Metric:**\nFor NaturalQuestions: short spans, entity-focused, sometimes multi-sentence but usually factoid centered"
+  },
+  {
+    "name": "Lily Nguyen",
+    "timestamp": "2026-03-22T21:11:39.982503+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. engineering\n2. finance\n3. education\n4. legal/compliance\n5. tourism\n\n**Example Question:** Solve the quadratic equation x^2-2x-15=0.\n- Paraphrase 1: Find the values of x that satisfy x^2-2x-15=0.\n- Paraphrase 2: Determine the solutions to the quadratic equation x^2-2x-15=0.\n- Paraphrase 3: What values of x in x^2-2x-15=0 make the equation true?\n\n**Models:** GPT-5.2 Thinking, Claude 3.7 Sonnet\n\n**Consistency Metric:**\nThe answer should extract 2 values for x: -3, 5"
   }
 ]
