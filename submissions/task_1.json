@@ -40,5 +40,11 @@
     "timestamp": "2026-03-22T20:41:16.587842+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath \nEthics\nLogic/Riddles\nStory writing (Brainstorming, outlining, feedback)\nBusiness/Economics\n\n**Example Question:** Emily has 8 apples and gives away 4. How many does she have left?\n- Paraphrase 1: Emily has given away 4 of her 8 apples. Now she has?\n- Paraphrase 2: Previously, Emily had 8 apples but then she gave away 4. How many does she have left?\n- Paraphrase 3: 4 apples were given away from Emily's original sum of 8. How many does she have now?\n\n**Models:** Gemini Flash, Claude Sonnet, GPT 4o-mini\n\n**Consistency Metric:**\nFor more factual questions like mathematics you can check to see if the numerical value is the same. \nFor open-ended questions take the main point and see the total overlap. If 70%+ of main points match then you can label it as consistent."
+  },
+  {
+    "name": "Arnaud Kohler",
+    "timestamp": "2026-03-22T20:41:25.823109+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology\n2. Math\n3. Literature\n4. Ethical\n5. Logic\n\n**Example Question:** What is the main theme of the book 1984?\n- Paraphrase 1: Explain what George Orwell tried to communicate in 1984\n- Paraphrase 2: Tell me about the overarching idea of the book 1984\n- Paraphrase 3: What should I takeaway from the book 1984?\n\n**Models:** GPT-5.4 thinking\n\n**Consistency Metric:**\nkeyword similarity"
   }
 ]
