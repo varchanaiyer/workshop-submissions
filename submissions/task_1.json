@@ -22,5 +22,11 @@
     "timestamp": "2026-03-22T20:39:26.766384+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1.)  Arithmetic Reasoning\n2.) Symbolic Logic and Deduction\n3.) Multi step planning\n4.) Algorithmic Tasks\n5.) Ambiguity Check\n\n**Example Question:** Question: How can I prepare a sandwich for a vegeterian?\n- Paraphrase 1: For someone who does not eat meat, how can I prepare a sandwich?\n- Paraphrase 2: I am craving a sandwich with vegetables and a variety. Give me a recipe.\n- Paraphrase 3: I would like a plan to make a vegetable sandwich\n\n**Models:** Claude, Gemini, ChatGPT\n\n**Consistency Metric:**\nMaybe vector embeddings through AWS or other platforms"
+  },
+  {
+    "name": "Khang Pham",
+    "timestamp": "2026-03-22T20:40:07.231365+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding output efficiency,\nEconomics analysis\nLegal logistics\nEducation, learning new things\nMedical\n\n**Example Question:** ways can I cook an egg?\n- Paraphrase 1: How can I cook only an egg?\n- Paraphrase 2: I only have an egg, give me instructions to cook it\n- Paraphrase 3: If i'm hungry right now, list the ways I can cook an egg?\n\n**Models:** Gemini Flash\n\n**Consistency Metric:**\nSince this is an open ended question, we could give the output a score above 0.8"
   }
 ]
