@@ -64,5 +64,11 @@
     "timestamp": "2026-03-22T20:42:41.036664+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Task planning for agent to tools through our desktop\n2. Sensitive humor (not harmful or offensive)\n3. Maths problems\n4. Crime judgements\n5. Race discrimination\n\n**Example Question:** Should a guy be imprisoned for robbing $1000 for his survival? If so, what is the tenure?\n- Paraphrase 1: Should a guy who robbed $1k be imprisoned for 2 years or more?\n- Paraphrase 2: Is imprisonment right judgement for someone who robbed for his survival?\n- Paraphrase 3: Can a guy rob for his survival needs? Should he be punished?\n\n**Models:** GPT-4o, Claude-opus, Qwen-3B\n\n**Consistency Metric:**\nFocus on its judgement? If it says yes to imprisonment or not, and its tenure?"
+  },
+  {
+    "name": "Lucas Fugate",
+    "timestamp": "2026-03-22T20:43:29.325850+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Stoichiometry\n4. Writing\n5. History\n\n**Example Question:** What is the number of moles of chlorine required to react with 10.0 g of sodium metal to produce sodium chloride?\n- Paraphrase 1: How many moles of chlorine are needed to completely react with 10.0 g of sodium to form sodium chloride?\n- Paraphrase 2: What amount, in moles, of chlorine will react with 10.0 g of sodium metal to make sodium chloride?\n- Paraphrase 3: To produce sodium chloride, how many moles of chlorine must combine with 10.0 g of sodium metal?\n\n**Models:** Gemini, Chat-GPT\n\n**Consistency Metric:**\nWhether it responds with the same quantitative number, removing any additional frills."
   }
 ]
