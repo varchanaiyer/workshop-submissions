@@ -28,5 +28,11 @@
     "timestamp": "2026-03-22T20:40:07.231365+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding output efficiency,\nEconomics analysis\nLegal logistics\nEducation, learning new things\nMedical\n\n**Example Question:** ways can I cook an egg?\n- Paraphrase 1: How can I cook only an egg?\n- Paraphrase 2: I only have an egg, give me instructions to cook it\n- Paraphrase 3: If i'm hungry right now, list the ways I can cook an egg?\n\n**Models:** Gemini Flash\n\n**Consistency Metric:**\nSince this is an open ended question, we could give the output a score above 0.8"
+  },
+  {
+    "name": "Leqi Jia",
+    "timestamp": "2026-03-22T20:40:38.075765+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance/Economics\n2. Science (basic laws, calculations, concepts)\n3. Computer Science\n4. Ethics/Social Issues (moral reasoning)\n5. Geography\n\n**Example Question:** What happens to the pressure of a gas if its volume is halved while temperature stays constant?\n- Paraphrase 1: If you reduce a gas container to half its size without changing temperature, how does the pressure change?\n- Paraphrase 2: Keeping temperature fixed, what effect does cutting volume in half have on gas pressure?\n- Paraphrase 3: A gas is compressed to 50% of its original volume at constant temperature, so what happens to its pressure?\n\n**Models:** Claude 4.6 Opus, GPT-5.2, Gemini Flash 2.5\n\n**Consistency Metric:**\nDo the answers produce the same final result or conclusion? Do they use the same reasoning or method to get there? Are key terms or concepts consistent across responses? Do they follow a similar structure in explanation?"
   }
 ]
