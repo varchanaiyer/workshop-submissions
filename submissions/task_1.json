@@ -88,5 +88,11 @@
     "timestamp": "2026-03-22T20:49:25.625080+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematical (Proof based questions) \n2. Education (explaining concepts at different levels)\n3. Philosophy (epistemology, metaphysics, logic puzzles)\n4. Temporal reasoning (questions involving dates, sequences, durations)\n5. Psychology (cognitive biases, behavioral explanations)\n\n**Example Question:** How much sugar can an adult consume in one day?\n- Paraphrase 1: What is the daily value % of sugar consumption in one day?\n- Paraphrase 2: For a person over the age of 21, what's the maximum sugar limit in one day?\n- Paraphrase 3: How much daily sugar intake should not be exceeded?\n\n**Models:** GPT 5.4, Claude Sonnet 4.6\n\n**Consistency Metric:**\nConsistency in answer after every prompt."
+  },
+  {
+    "name": "Lindsey Li",
+    "timestamp": "2026-03-22T20:50:27.339858+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath, medical, coding, ethics, writing\n\n**Example Question:** If you roll a 6-sided dice, what's the probability of rolling an even number?\n- Paraphrase 1: What's the probability of rolling a 2, 4, or 6 on a dice?\n- Paraphrase 2: Find the chance of getting an even number when rolling a regular dice.\n- Paraphrase 3: A dice has faces labeled 1 to 6. What is the likelihood of not rolling an odd number?\n\n**Models:** GPT-4o-mini, Claude sonnet, Gemini flash\n\n**Consistency Metric:**\nChecking if the numerical answer is the same."
   }
 ]
