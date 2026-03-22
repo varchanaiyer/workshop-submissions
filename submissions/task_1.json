@@ -16,5 +16,11 @@
     "timestamp": "2026-03-22T20:38:53.787529+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical dosage / safety guidelines\nHistorical causality\nEthical dilemmas\nEconomics problems\nCreative writing tone\n\n**Example Question:** What is the recommended daily dose of acetaminophen for a healthy adult?\n- Paraphrase 1: A healthy adult has body aches \u2014 how much Tylenol can they take in a single day without risk?\n- Paraphrase 2: My doctor said not to exceed the daily limit of acetaminophen. What is that limit for adults?\n- Paraphrase 3: If I'm over 18 and have no liver issues, what's the ceiling on acetaminophen in 24 hours?\n\n**Models:** Gemini 3 Flash, GPT 5.4, Claude Haiku 4.5\n\n**Consistency Metric:**\nTwo responses are consistent if they agree on the core claim and don't contradict each other across paraphrases."
+  },
+  {
+    "name": "Chaitanya Nagesh (Manju Nagesh)",
+    "timestamp": "2026-03-22T20:39:26.766384+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1.)  Arithmetic Reasoning\n2.) Symbolic Logic and Deduction\n3.) Multi step planning\n4.) Algorithmic Tasks\n5.) Ambiguity Check\n\n**Example Question:** Question: How can I prepare a sandwich for a vegeterian?\n- Paraphrase 1: For someone who does not eat meat, how can I prepare a sandwich?\n- Paraphrase 2: I am craving a sandwich with vegetables and a variety. Give me a recipe.\n- Paraphrase 3: I would like a plan to make a vegetable sandwich\n\n**Models:** Claude, Gemini, ChatGPT\n\n**Consistency Metric:**\nMaybe vector embeddings through AWS or other platforms"
   }
 ]
