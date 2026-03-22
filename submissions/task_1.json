@@ -34,5 +34,11 @@
     "timestamp": "2026-03-22T20:40:38.075765+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance/Economics\n2. Science (basic laws, calculations, concepts)\n3. Computer Science\n4. Ethics/Social Issues (moral reasoning)\n5. Geography\n\n**Example Question:** What happens to the pressure of a gas if its volume is halved while temperature stays constant?\n- Paraphrase 1: If you reduce a gas container to half its size without changing temperature, how does the pressure change?\n- Paraphrase 2: Keeping temperature fixed, what effect does cutting volume in half have on gas pressure?\n- Paraphrase 3: A gas is compressed to 50% of its original volume at constant temperature, so what happens to its pressure?\n\n**Models:** Claude 4.6 Opus, GPT-5.2, Gemini Flash 2.5\n\n**Consistency Metric:**\nDo the answers produce the same final result or conclusion? Do they use the same reasoning or method to get there? Are key terms or concepts consistent across responses? Do they follow a similar structure in explanation?"
+  },
+  {
+    "name": "Dhruv Bhatnagar",
+    "timestamp": "2026-03-22T20:41:16.587842+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath \nEthics\nLogic/Riddles\nStory writing (Brainstorming, outlining, feedback)\nBusiness/Economics\n\n**Example Question:** Emily has 8 apples and gives away 4. How many does she have left?\n- Paraphrase 1: Emily has given away 4 of her 8 apples. Now she has?\n- Paraphrase 2: Previously, Emily had 8 apples but then she gave away 4. How many does she have left?\n- Paraphrase 3: 4 apples were given away from Emily's original sum of 8. How many does she have now?\n\n**Models:** Gemini Flash, Claude Sonnet, GPT 4o-mini\n\n**Consistency Metric:**\nFor more factual questions like mathematics you can check to see if the numerical value is the same. \nFor open-ended questions take the main point and see the total overlap. If 70%+ of main points match then you can label it as consistent."
   }
 ]
