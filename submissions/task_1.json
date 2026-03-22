@@ -94,5 +94,11 @@
     "timestamp": "2026-03-22T20:50:27.339858+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath, medical, coding, ethics, writing\n\n**Example Question:** If you roll a 6-sided dice, what's the probability of rolling an even number?\n- Paraphrase 1: What's the probability of rolling a 2, 4, or 6 on a dice?\n- Paraphrase 2: Find the chance of getting an even number when rolling a regular dice.\n- Paraphrase 3: A dice has faces labeled 1 to 6. What is the likelihood of not rolling an odd number?\n\n**Models:** GPT-4o-mini, Claude sonnet, Gemini flash\n\n**Consistency Metric:**\nChecking if the numerical answer is the same."
+  },
+  {
+    "name": "Ryan You",
+    "timestamp": "2026-03-22T20:53:32.406971+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematics (word questions in particular)\n2. Ethics (regarding magnitude vs scope weighing)\n3. Literature (Analylsis of different texts)\n4. Physics (word problems)\n5. Investment (portfolio and risks)\n\n**Example Question:** Give me a sequence with 5 unique letters/symbols (0,1,2,3,4) with subsequence length 3 such that all subsequences of length 3 are unique.\n- Paraphrase 1: Construct a De Brujin sequence with 5 keys/alphabets (0,1,2,3,4) with subsequence length 3.\n- Paraphrase 2: Construct a sequence that has 5 unique keys/alphabets (0,1,2,3,4). A subsequence must be contiguous and wrap arounds are allowed. Every subsequence must be distinct/unique with every possible triple subsequence showing up once. This subsequence is of length 3 give me a sequence that fits all these requirements.\n- Paraphrase 3: Choose 5 unique letters/symbols from the set of letters/symbols (0,1,2,3,4). Generate all possible subsequences of length 3 from the chosen letters/symbols. Check if each substring is unique; if not, discard it. Then construct one massive De Brujin sequence that includes all unique substrings of length 3.\n\n**Models:** GPT-4, Gemini-3 Pro\n\n**Consistency Metric:**\nThe sequence is in the exact same order with the proper symbols. Sequences are identical including wrap arounds and where the sequence starts is irrelevant as long as the sequence order is the same."
   }
 ]
