@@ -46,5 +46,11 @@
     "timestamp": "2026-03-22T20:41:25.823109+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology\n2. Math\n3. Literature\n4. Ethical\n5. Logic\n\n**Example Question:** What is the main theme of the book 1984?\n- Paraphrase 1: Explain what George Orwell tried to communicate in 1984\n- Paraphrase 2: Tell me about the overarching idea of the book 1984\n- Paraphrase 3: What should I takeaway from the book 1984?\n\n**Models:** GPT-5.4 thinking\n\n**Consistency Metric:**\nkeyword similarity"
+  },
+  {
+    "name": "Rishab Konada",
+    "timestamp": "2026-03-22T20:41:43.177654+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical(diagnosing diseases, patient priority)\n2. Ethical(hiring practices, common ethical problems)\n3. Math(AIME/AMC competitions, IMO)\n4. Coding(debugging code, novel code)\n5. History(basic factual retriveal)\n\n**Example Question:** How do I solve a quadratic equation using the quadratic formula?\n- Paraphrase 1: Given a quadratic equation, how does the quadratic formula work?\n- Paraphrase 2: Use the quadratic formula to solve a general equation.\n- Paraphrase 3: What is the algebraic procedure for isolating the values of  \ud835\udc65 x in a quadratic equation using a known formula?\n\n**Models:** Claude, Gemini, GPT 4o\n\n**Consistency Metric:**\nFor factual questions, look for similar/exact word usage or numbers.\nFor open-ended questions, check for similar underlying meaning."
   }
 ]
