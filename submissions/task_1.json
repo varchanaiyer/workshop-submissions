@@ -70,5 +70,11 @@
     "timestamp": "2026-03-22T20:43:29.325850+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Stoichiometry\n4. Writing\n5. History\n\n**Example Question:** What is the number of moles of chlorine required to react with 10.0 g of sodium metal to produce sodium chloride?\n- Paraphrase 1: How many moles of chlorine are needed to completely react with 10.0 g of sodium to form sodium chloride?\n- Paraphrase 2: What amount, in moles, of chlorine will react with 10.0 g of sodium metal to make sodium chloride?\n- Paraphrase 3: To produce sodium chloride, how many moles of chlorine must combine with 10.0 g of sodium metal?\n\n**Models:** Gemini, Chat-GPT\n\n**Consistency Metric:**\nWhether it responds with the same quantitative number, removing any additional frills."
+  },
+  {
+    "name": "Arya Srikar Reddy",
+    "timestamp": "2026-03-22T20:43:51.141943+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Political Decisions\n3. Game Theory\n4. Difficult Math Problems (like AIME)\n5. WW2 History\n\n**Example Question:** What is the product of the real roots of the equation $x^2 + 18x + 30 = 2 \\sqrt{x^2 + 18x + 45}$ ?\n- Paraphrase 1: There are some numbers such that the value of $x^2 + 18x+30$ is equal to $2$ multiplied by the square root of $x^2+18x+45$. Find the product of all such numbers.\n- Paraphrase 2: x times x plus 18 times x plus 30 is equal to 2 times the square root of (x times x plus 18 times x plus 45). If all possible values of x can be placed into a list, find the product of all numbers in this list.\n- Paraphrase 3: Alice told us that her favorite real number is equal to the product of the real roots of $x^2 + 18x + 30 = 2 \\sqrt{x^2 + 18x + 45}$. What is Alice's favorite real number?\n\n**Models:** Gemini 3, ChatGPT 5.4,  Claude Sonnet 4.6\n\n**Consistency Metric:**\nFactual: exact matching (after data processing)\nSemantic: will paste into a different LLM (chatGPT 4.5) and prompt f\"The following are two answers to this question: {question}. Answer 1: {answer1}, Answer 2: {answer2}. Give a score from 0 to 1 depending on how similar these answers are, with 1 being most similar and 0 being least similar.\""
   }
 ]
