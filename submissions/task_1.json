@@ -82,5 +82,11 @@
     "timestamp": "2026-03-22T20:46:32.206374+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Scientific \n2. Mathematical Reasoning\n3. Philosophical\n4. Historical Causation \n5. Stylistic Judgment\n\n**Example Question:** Is it ever morally justifiable to lie to protect someone's feelings?\n- Paraphrase 1: Can deception be ethical when the goal is to spare someone emotional pain?\n- Paraphrase 2: A friend asks if you like their work; you don't. Are you morally obligated to tell the truth?\n- Paraphrase 3: Rank honesty against kindness: when they conflict, which should win?\n\n**Models:** Claude Haiku 4.5 , Claude Sonnet 4.6, Claude Opus 4.6\n\n**Consistency Metric:**\nExtract only the final answer and check whether it agrees across all 4 phrasings. Score is the proportion of pairings that match (0 to 1)."
+  },
+  {
+    "name": "Vasav Srivastava",
+    "timestamp": "2026-03-22T20:49:25.625080+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematical (Proof based questions) \n2. Education (explaining concepts at different levels)\n3. Philosophy (epistemology, metaphysics, logic puzzles)\n4. Temporal reasoning (questions involving dates, sequences, durations)\n5. Psychology (cognitive biases, behavioral explanations)\n\n**Example Question:** How much sugar can an adult consume in one day?\n- Paraphrase 1: What is the daily value % of sugar consumption in one day?\n- Paraphrase 2: For a person over the age of 21, what's the maximum sugar limit in one day?\n- Paraphrase 3: How much daily sugar intake should not be exceeded?\n\n**Models:** GPT 5.4, Claude Sonnet 4.6\n\n**Consistency Metric:**\nConsistency in answer after every prompt."
   }
 ]
