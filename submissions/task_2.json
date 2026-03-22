@@ -4,5 +4,12 @@
     "timestamp": "2026-03-22T20:48:17.004038+00:00",
     "task": 2,
     "text": "Evaluation via benchmark test \nEmpirical Study"
+  },
+  {
+    "name": "Marlin Wong",
+    "timestamp": "2026-03-22T21:59:48.959672+00:00",
+    "task": 2,
+    "text": "Actually switched to Ablation Plan. Evaluate for NaturalQuestions.",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_2_0e2701eccafa.png"
   }
 ]
