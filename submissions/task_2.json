@@ -35,5 +35,11 @@
     "timestamp": "2026-03-29T21:00:05.023996+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT-5.3 Instant\n\n**Zero-shot:** A 25% discount means the sale price is 75% of the original price.  Let the original price be  x x.  0.75x=120 0.75x=120  Solve:  x=1200.75=160 x= 0.75 120 \t\u200b  =160  Original price = $160\n**Few-shot:** After a 25% discount, the customer pays 75% of the original price.  So:  120=0.75\u00d7original 120=0.75\u00d7original  Solve:  Original  =1200.75=160 = 0.75 120 \t\u200b  =160  Answer: $160\n**Chain-of-Thought:** A 25% discount means the $120 sale price is 75% of the original price.  So:  original price=1200.75=160 original price= 0.75 120 \t\u200b  =160  Answer: $160\n**CoT + Self-Consistency:** Run 1: A 25% discount means the sale price is 75% of the original price.  So:  0.75x=120 0.75x=120 x=1200.75=160 x= 0.75 120 \t\u200b  =160  The original price was $160. Run 2: A 25% discount means the sale price is 75% of the original price.  So:  0.75x=120 0.75x=120 x=1200.75=160 x= 0.75 120 \t\u200b  =160  The original price was $160. Run 3: A 25% discount means the sale price is 75% of the original price.  So:  0.75x=120 0.75x=120 x=1200.75=160 x= 0.75 120 \t\u200b  =160  The original price was $160. Majority: 160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** Ironically zero-shot had the least confusing reasoning to me.\nThere is possibly some bias from the fact that ChatGPT remembers your preferences, and may remember that I liked that style of reasoning, whereas few-shot enforces a reasoning style in the examples."
+  },
+  {
+    "name": "Chaitanya Nagesh (Manju Nagesh)",
+    "timestamp": "2026-03-29T21:01:02.876058+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** The original price was $160.\n**Few-shot:** A: The sale price is 75% of the original. Original = $120 \u00f7 0.75 = $160.\n**Chain-of-Thought:** A 25% discount means the customer pays 75% of the original price.  So,  0.75 \u00d7 original price = 120 0.75\u00d7original price=120 original price = 120 0.75 = 160 original price= 0.75 120 \t\u200b  =160\n**CoT + Self-Consistency:** Run 1: $160| Run 2: Answer is $160 | Run 3: 160 dollars\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** All of them got it right"
   }
 ]
