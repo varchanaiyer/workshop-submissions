@@ -53,5 +53,11 @@
     "timestamp": "2026-03-29T21:04:19.196082+00:00",
     "task": 2,
     "text": "**Model(s):** GPT5.3-Instant\n\n**Zero-shot:** A 25% discount means the customer pays 75% of the original price.  Let the original price be  P.  After the discount:  0.75P=120  Solve for  P:  P= 0.75 / 120 =160  \u2705 Original price = $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  So,  Original Price = Sale Price / 0.75 Original Price = 120 / 0.75 = 160  Answer: The original price of the jacket was $160.\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  So:  Original price = $120 / 0.75 = $160  Answer: $160\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 -> majority answer: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** I was surprised that CoT gave a shorter answer than both zero-shot and few-shot prompting."
+  },
+  {
+    "name": "Dhruv Bhatnagar",
+    "timestamp": "2026-03-29T21:06:18.287816+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** Step 1: A 25% discount means the customer pays 100% - 25% = 75% of the original price. Step 2: So $120 represents 75% of the original price. Step 3: To find 100%, divide by 0.75: 120 / 0.75 = 160 The original price was $160.\n**CoT + Self-Consistency:** $160, $160, $160. Majority $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** I couldn't access a model that may of actually struggled with zero shot vs COT but if you would use a model that is less advanced then you would see much bigger differences. I also believe that the model's internal reasoning has implemented these methods regardless so I wasn't able to show a massive difference."
   }
 ]
