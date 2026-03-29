@@ -5,5 +5,12 @@
     "task": 3,
     "text": "Benchmark: LLM consistency vary but generally do well in NaturalQuestions and TriviaQA with a >0.70 Benchmark Accuracy\n\nAblation: On NaturalQuestionsQA, GPT 4o consistently performs the best. Once retrieval is introduced, accuracy increases.\n\nCombined: Higher-end models benefit more from advanced strategies\nUsed Claude code for this\n\n\n",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_3_4625c57db548.png"
+  },
+  {
+    "name": "test3",
+    "timestamp": "2026-03-29T15:53:45.691159+00:00",
+    "task": 3,
+    "text": "",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_3_e8d8a449d8e2.png"
   }
 ]
