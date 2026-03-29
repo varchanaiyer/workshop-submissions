@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Marlin Wong",
+    "timestamp": "2026-03-29T20:35:47.895702+00:00",
+    "task": 6,
+    "text": "**Errors found (6) \u2014 Somewhat sure:**\n\nError 1: 94.2% accuracy on GMS8K is basically impossible\nError 2: SRP outperforms GPT4 and Claude Sonnet - SRP is a prompting strategy, not a model\nError 3: CURATED subset of GSM8K is not the full GSM8K\nError 4: SRP can be \"applied to any autoregressive language model\"\nError 5: \"improves model accuracy on math word problems (doesn't specify)\"\nError 6: Doesn't describe how SRP is new from CoT"
+  }
+]
