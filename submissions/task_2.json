@@ -23,5 +23,11 @@
     "timestamp": "2026-03-29T20:56:39.835982+00:00",
     "task": 2,
     "text": "**Model(s):** Copilot\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160\n**Chain-of-Thought:** Step 1: The jacket was sold at a 25% discount. This means the consumer paid 100% - 25% = 75% of the original price Step 2: Let x = the original price. Since $120 represents 75% of the original price, we can set the equation 0.75x = 120. Step 3:  To find x, we can set that x  = 120/0.75 = $160. The jacket's original price is $160.\n**CoT + Self-Consistency:** Run 1: $160 Run 2: Run $160 Run 3: $160 Majority Answer: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All strategies got the answer right, but CoT and CoT + SC had more explanations for getting their solutions through their work"
+  },
+  {
+    "name": "Rishab Konada",
+    "timestamp": "2026-03-29T20:57:14.336161+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT\n\n**Zero-shot:** $160\n**Few-shot:** 160\n**Chain-of-Thought:** 160\n**CoT + Self-Consistency:** Run 1: 160. Run 2: 160. Run 3: 160. Majority: 160\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
