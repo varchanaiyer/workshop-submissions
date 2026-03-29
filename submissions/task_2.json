@@ -41,5 +41,11 @@
     "timestamp": "2026-03-29T21:01:02.876058+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** The original price was $160.\n**Few-shot:** A: The sale price is 75% of the original. Original = $120 \u00f7 0.75 = $160.\n**Chain-of-Thought:** A 25% discount means the customer pays 75% of the original price.  So,  0.75 \u00d7 original price = 120 0.75\u00d7original price=120 original price = 120 0.75 = 160 original price= 0.75 120 \t\u200b  =160\n**CoT + Self-Consistency:** Run 1: $160| Run 2: Answer is $160 | Run 3: 160 dollars\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** All of them got it right"
+  },
+  {
+    "name": "Muhammad Saadat",
+    "timestamp": "2026-03-29T21:01:07.735449+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT 5\n\n**Zero-shot:** The original price was $160. Here's the reasoning: if $120 is 75% of the original price (after a 25% discount), then: Original price = $120 \u00f7 0.75 = $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  So,  Original Price = 120 0.75 = 160 Original Price= 0.75 120 \t\u200b  =160  Answer: $160\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  So:  0.75 \ud835\udc65 = 120 0.75x=120 \ud835\udc65 = 120 0.75 = 160 x= 0.75 120 \t\u200b  =160  The original price was $160.\n**CoT + Self-Consistency:** Run 1: 160 Run 2: 160 Run 3: 160 majority: 160\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
