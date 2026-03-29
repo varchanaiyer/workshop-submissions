@@ -47,5 +47,11 @@
     "timestamp": "2026-03-29T21:01:07.735449+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT 5\n\n**Zero-shot:** The original price was $160. Here's the reasoning: if $120 is 75% of the original price (after a 25% discount), then: Original price = $120 \u00f7 0.75 = $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  So,  Original Price = 120 0.75 = 160 Original Price= 0.75 120 \t\u200b  =160  Answer: $160\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  So:  0.75 \ud835\udc65 = 120 0.75x=120 \ud835\udc65 = 120 0.75 = 160 x= 0.75 120 \t\u200b  =160  The original price was $160.\n**CoT + Self-Consistency:** Run 1: 160 Run 2: 160 Run 3: 160 majority: 160\n\n**Best strategy:** CoT + Self-Consistency"
+  },
+  {
+    "name": "Lily Nguyen",
+    "timestamp": "2026-03-29T21:04:19.196082+00:00",
+    "task": 2,
+    "text": "**Model(s):** GPT5.3-Instant\n\n**Zero-shot:** A 25% discount means the customer pays 75% of the original price.  Let the original price be  P.  After the discount:  0.75P=120  Solve for  P:  P= 0.75 / 120 =160  \u2705 Original price = $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  So,  Original Price = Sale Price / 0.75 Original Price = 120 / 0.75 = 160  Answer: The original price of the jacket was $160.\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  So:  Original price = $120 / 0.75 = $160  Answer: $160\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 -> majority answer: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** I was surprised that CoT gave a shorter answer than both zero-shot and few-shot prompting."
   }
 ]
