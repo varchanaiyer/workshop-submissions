@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Brayden Feng",
+    "timestamp": "2026-04-19T22:55:55.048955+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Haiku\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** I'll work through this step by step. Step 1: Understand what happened  The jacket was sold for $120 (this is the sale price) A 25% discount was applied to the original price We need to find the original price  Step 2: Figure out what percentage of the original price was paid  If there's a 25% discount, that means 25% was taken off The customer pays: 100% - 25% = 75% of the original price  Step 3: Set up an equation  Let P = original price 75% of P = $120 0.75P = $120  Step 4: Solve for the original price  P = $120 \u00f7 0.75 P = $160  Step 5: Check our answer  Original price: $160 25% discount: 0.25 \u00d7 $160 = $40 Sale price: $160 - $40 = $120 \u2713  The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160, Run 2: $160, Run 3: $160, Majority: $160\n\n**Best strategy:** CoT + Self-Consistency"
+  }
+]
