@@ -28,5 +28,11 @@
     "timestamp": "2026-04-19T22:43:37.454122+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Medicine\n3. Math\n4. Reasoning\n5. Nutrition\n\n**Example Question:** What is the upper limit of potassium for teenagers?\n- Paraphrase 1: What is the max amount of potassium a teenager can ingest?\n- Paraphrase 2: How much potassium should a teenager ingest at most?\n- Paraphrase 3: For a teenager, what is the most amount of potassium they should take?\n\n**Models:** Claude Sonnet 4.5, Gemini 2.5 Pro, Grok 3\n\n**Consistency Metric:**\nExact match after normalizing, by extracting the answer and comparing them."
+  },
+  {
+    "name": "Ajay Aravanan",
+    "timestamp": "2026-04-19T22:44:48.684737+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Robotics\n2. Music\n3. Environmental Science\n4. Biology\n5. Cybersecurity\n\n**Example Question:** Which woodwind instrument uses a double reed and plays in the bass clef?\n- Paraphrase 1: Identify the specific member of the woodwind family that requires to pieces of cane vibrating against each other to produce a low-pitch sound.\n- Paraphrase 2: A person is holding an instrument with a double reed and reading music on the F-clef, what instrument would they most likely be holding?\n- Paraphrase 3: Name the woodwind that has low-pitched sounds and uses a double reed.\n\n**Models:** Claude 4.7 Sonnet, Gemini 2.5 Flash, GPT 5.4\n\n**Consistency Metric:**\nSpearman correlation coeficient. https://arxiv.org/pdf/2505.23799"
   }
 ]
