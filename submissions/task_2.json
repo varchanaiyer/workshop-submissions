@@ -22,5 +22,11 @@
     "timestamp": "2026-04-19T23:01:00.999495+00:00",
     "task": 2,
     "text": "**Model(s):** Deepseek-R1 7B\n\n**Zero-shot:** **Solution:**  Let's denote the original price of the jacket as \\( x \\).  Given that a 25% discount was applied, the customer paid 75% of the  original price. Therefore:  \\[ 0.75x = \\$120 \\]  To find the original price (\\( x \\)), divide both sides of the equation by  0.75:  \\[ x = \\frac{\\$120}{0.75} \\]  \\[ x = \\$160 \\]  **Answer:** The original price was \\(\\boxed{160}\\) dollars.\n**Few-shot:** The original price of the jacket can be determined by understanding that a  25% discount means paying 75% of the original price. Given that the sale  price is $120 after this discount, we set up the equation:  \\[ 0.75 \\times x = \\$120 \\]  Solving for \\(x\\) (the original price):  \\[ x = \\frac{\\$120}{0.75} = \\$160 \\]  **Answer:** The original price was $\\boxed{160}$ dollars.\n**Chain-of-Thought:** The jacket was originally priced at **$160**.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 -> Majority: $160\n\n**Best strategy:** CoT + Self-Consistency"
+  },
+  {
+    "name": "Shivank Sinha",
+    "timestamp": "2026-04-19T23:27:29.737243+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** The original price was **$160**.  **Here's the reasoning:**  If $120 is the price *after* a 25% discount, that means $120 represents 75% of the original price.  So: Original price \u00d7 0.75 = $120  Original price = $120 \u00f7 0.75 = **$160**  **Check:** $160 \u2212 25% ($40) = $120 \u2713\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** **Step 1: Understand what the discount means.** A 25% discount means the customer pays 100% \u2212 25% = **75%** of the original price.  **Step 2: Set up the equation.** If the original price is *P*, then: 0.75 \u00d7 P = $120  **Step 3: Solve for P.** P = $120 \u00f7 0.75 = **$160**  **Step 4: Verify.** 25% of $160 = $40 discount \u2192 $160 \u2212 $40 = $120 \u2713  The original price of the jacket was **$160**.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 | Majority: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Zero-shot gave the right answer and also gave a good explanation."
   }
 ]
