@@ -22,5 +22,11 @@
     "timestamp": "2026-04-19T22:43:03.623147+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematics \n2. History \n3. Ethics \n4. Biology/Medicine\n5. Computer Science\n\n**Example Question:** What is the primary function of the mitochondria in a cell?\n- Paraphrase 1: What role do mitochondria play in how a cell operates?\n- Paraphrase 2: Which cellular process is mainly carried out by mitochondria?\n- Paraphrase 3: In a cell, what are mitochondria responsible for doing?\n\n**Models:** Clause Sonnet, Gemini Flash, GPT 4o Mini\n\n**Consistency Metric:**\nConvert answers to lowercase. Then, remove punctuation and filler phrases (ex: the answer is). After extract the key concept. If all paraphrases produce the same core answer then it is consistent."
+  },
+  {
+    "name": "Brayden Feng",
+    "timestamp": "2026-04-19T22:43:37.454122+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Medicine\n3. Math\n4. Reasoning\n5. Nutrition\n\n**Example Question:** What is the upper limit of potassium for teenagers?\n- Paraphrase 1: What is the max amount of potassium a teenager can ingest?\n- Paraphrase 2: How much potassium should a teenager ingest at most?\n- Paraphrase 3: For a teenager, what is the most amount of potassium they should take?\n\n**Models:** Claude Sonnet 4.5, Gemini 2.5 Pro, Grok 3\n\n**Consistency Metric:**\nExact match after normalizing, by extracting the answer and comparing them."
   }
 ]
