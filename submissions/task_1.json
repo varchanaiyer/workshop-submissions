@@ -52,5 +52,11 @@
     "timestamp": "2026-04-19T22:46:27.298545+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance problems (DCF calculations, etc.)\n2. Math problems\n3. Econ and market reasoning\n4. Politics\n5. Logic puzzles\n\n**Example Question:** Does democracy improve economic growth in developing countries?\n- Paraphrase 1: Is democracy a catalyst for developing countries' economies?\n- Paraphrase 2: In developing nations, is economic growth positively influenced by democratic systems of government?\n- Paraphrase 3: Is there a measurable growth advantage in developing economies that operate under democracy?\n\n**Models:** GPT_4o, Gemini, Claude Sonnet\n\n**Consistency Metric:**\nJaccard similarity on word sets >0.7"
+  },
+  {
+    "name": "Prajesh Mishra",
+    "timestamp": "2026-04-19T22:47:12.588785+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics: Focus on multi-step arithmetic or word problems.\nCoding: Focus on syntax correction or basic logic functions.\nBiology: Focus on cellular processes or anatomical functions.\nPhysics: Focus on formula applications or laws of motion.\nEthics : trolley problems, etc.\n\n**Example Question:** What is the primary function of the mitochondria in a human cell?\n- Paraphrase 1: Explain how mitochondria contribute to the energy needs of a cell.\n- Paraphrase 2: Through what process do human cells generate ATP within the mitochondria?\n- Paraphrase 3: If a cell's \"power plant\" was disabled, which specific organelle would be failing to perform its job?\n\n**Models:** GPT4o-mini, Gemini Flash\n\n**Consistency Metric:**\nFor factual questions, I will use Normalized Exact Match to compare core answers after removing case, punctuation, and units. For descriptive responses, I will apply Jaccard Similarity to calculate the intersection over union of unique word sets between paraphrases. A consistency score above 0.8 across all question variations will be considered a successful match."
   }
 ]
