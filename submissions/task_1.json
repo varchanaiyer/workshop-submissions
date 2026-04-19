@@ -4,5 +4,11 @@
     "timestamp": "2026-04-19T22:41:01.698211+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics\n3. History\n4. Philosophy\n5. Economics\n\n**Example Question:** What is the best metric for evaluating a nation's wealth?\n- Paraphrase 1: What number tells the most about a nation's wealth?\n- Paraphrase 2: A nation's chief economist wants to report economic success, what metric would be best to use?\n- Paraphrase 3: What one datapoint gives the most information about a nation's economic success?\n\n**Models:** GPT-4o mini, Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nJaccard similarity on word sets / Embed with sentence transformers + cosine similarity in the embedded space."
+  },
+  {
+    "name": "Saibilila Abudukelimu",
+    "timestamp": "2026-04-19T22:41:17.091383+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCreative scenarios\nRecipe making\nSummarization\nQuestion/study guide making\nWeb search/researching\n\n**Example Question:** Search the web for information on the best way to make chocolate chip cookies.\n- Paraphrase 1: How do you make the best chocolate chip cookies.\n- Paraphrase 2: Give me a recipe for the best chocolate chip cookies.\n- Paraphrase 3: What do I need to do to make the best chocolate chip cookies.\n\n**Models:** Claude Sonnet, Gemini\n\n**Consistency Metric:**\nSimilarity of words, ingredients, and methods."
   }
 ]
