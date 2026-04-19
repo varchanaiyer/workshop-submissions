@@ -1,8 +1,1 @@
-[
-  {
-    "name": "Marlin Wong",
-    "timestamp": "2026-03-29T20:15:09.221406+00:00",
-    "task": 5,
-    "text": "**Errors found (4) \u2014 Pretty confident:**\n\nError 1: \"state-of-the-art performance\" -> Unjustified\nError 2: Implausible \"23.4% average accuracy improvement\" -> Doesn't show baseline acc, new accuracy, and dataset results\nError 3: \"reduces consistency by 60%\" -> What is inconsistency\nError 4: \"Novel consistency score\" -> No formula or comparison to existing metrics"
-  }
-]
+[]
