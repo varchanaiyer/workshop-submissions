@@ -58,5 +58,11 @@
     "timestamp": "2026-04-19T22:47:12.588785+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics: Focus on multi-step arithmetic or word problems.\nCoding: Focus on syntax correction or basic logic functions.\nBiology: Focus on cellular processes or anatomical functions.\nPhysics: Focus on formula applications or laws of motion.\nEthics : trolley problems, etc.\n\n**Example Question:** What is the primary function of the mitochondria in a human cell?\n- Paraphrase 1: Explain how mitochondria contribute to the energy needs of a cell.\n- Paraphrase 2: Through what process do human cells generate ATP within the mitochondria?\n- Paraphrase 3: If a cell's \"power plant\" was disabled, which specific organelle would be failing to perform its job?\n\n**Models:** GPT4o-mini, Gemini Flash\n\n**Consistency Metric:**\nFor factual questions, I will use Normalized Exact Match to compare core answers after removing case, punctuation, and units. For descriptive responses, I will apply Jaccard Similarity to calculate the intersection over union of unique word sets between paraphrases. A consistency score above 0.8 across all question variations will be considered a successful match."
+  },
+  {
+    "name": "Hikaru Isayama",
+    "timestamp": "2026-04-19T22:49:22.475544+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Creative writing\n3. Ethics\n4. Mathematics\n5. History\n\n**Example Question:** What is the derivative of x^2\n- Paraphrase 1: Differentiate the functioned formed by squaring x\n- Paraphrase 2: Find d/dx (x^2)\n- Paraphrase 3: What is the rate of change of x^2\n\n**Models:** Gpt-4o, Claude-Opus, Gemini\n\n**Consistency Metric:**\nCollect all model outputs, extract answers using regex (\"2x\"), compute consistency score"
   }
 ]
