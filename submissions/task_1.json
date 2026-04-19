@@ -34,5 +34,11 @@
     "timestamp": "2026-04-19T22:44:48.684737+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Robotics\n2. Music\n3. Environmental Science\n4. Biology\n5. Cybersecurity\n\n**Example Question:** Which woodwind instrument uses a double reed and plays in the bass clef?\n- Paraphrase 1: Identify the specific member of the woodwind family that requires to pieces of cane vibrating against each other to produce a low-pitch sound.\n- Paraphrase 2: A person is holding an instrument with a double reed and reading music on the F-clef, what instrument would they most likely be holding?\n- Paraphrase 3: Name the woodwind that has low-pitched sounds and uses a double reed.\n\n**Models:** Claude 4.7 Sonnet, Gemini 2.5 Flash, GPT 5.4\n\n**Consistency Metric:**\nSpearman correlation coeficient. https://arxiv.org/pdf/2505.23799"
+  },
+  {
+    "name": "Ian Yoon",
+    "timestamp": "2026-04-19T22:46:19.080041+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Philosophy\n2. Physics\n3. Music\n4. Economics / Administration \n5. Military Strategy\n\n**Example Question:** Whats the most efficient way to allocate my employees? *insert situation*\n- Paraphrase 1: How can I best maximize my profit in this situation? *insert situation*\n- Paraphrase 2: For my employees, whats the best way for me to manage them? *insert situation*\n- Paraphrase 3: I have a problem -- whats the best course of action? *insert situation*\n\n**Models:** Claude Sonnet, Gemini Fast, GPT-4o\n\n**Consistency Metric:**\nI'll compare the results and see which one indeed maximizes profit for the businessman. Not sure right now but I hope to run it through a simulation"
   }
 ]
