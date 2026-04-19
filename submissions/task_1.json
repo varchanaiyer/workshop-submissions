@@ -70,5 +70,11 @@
     "timestamp": "2026-04-19T22:49:47.025074+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Cooking (recipes, timing)\n2. Weather (simple science)\n3. Sports (Rules, famous moments, scoring)\n4. Money (credit cards, savings accounts)\n5. Travel (packing, airport)\n\n**Example Question:** What should you pack in your carry-on to make a long-haul flight more comfortable?\n- Paraphrase 1: Which essential items belong in your hand luggage for a lengthy international flight?\n- Paraphrase 2: If you're facing 10+ hours in the air, what do you bring on board to stay comfortable?\n- Paraphrase 3: What are the must-haves to keep in your bag during a long airplane journey?\n\n**Models:** GPT-4o-mini, Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nJaccard similarity on word sets, intersection/union of unique words, score>0.6 = consistent"
+  },
+  {
+    "name": "Aniekan",
+    "timestamp": "2026-04-19T22:50:19.885677+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAI & Machine Learning\nFinance & Economics\nEthics & Philosophy\nBiomedical Science\nLaw & Policy\n\n**Example Question:** Is machine learning a subset of AI?\n- Paraphrase 1: Does machine learning fall under the broader umbrella of artificial intelligence?\n- Paraphrase 2: Is AI a wider field that machine learning belongs to?\n- Paraphrase 3: Can machine learning be considered a subcategory within artificial intelligence\n\n**Models:** GPT-5.3, Claude Sonnet, Gemini 3 Flash\n\n**Consistency Metric:**\nFor factual questions: If the meaning of the statements is the same"
   }
 ]
