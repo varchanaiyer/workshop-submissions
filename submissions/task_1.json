@@ -10,5 +10,11 @@
     "timestamp": "2026-04-19T22:41:17.091383+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCreative scenarios\nRecipe making\nSummarization\nQuestion/study guide making\nWeb search/researching\n\n**Example Question:** Search the web for information on the best way to make chocolate chip cookies.\n- Paraphrase 1: How do you make the best chocolate chip cookies.\n- Paraphrase 2: Give me a recipe for the best chocolate chip cookies.\n- Paraphrase 3: What do I need to do to make the best chocolate chip cookies.\n\n**Models:** Claude Sonnet, Gemini\n\n**Consistency Metric:**\nSimilarity of words, ingredients, and methods."
+  },
+  {
+    "name": "Edward Palacci",
+    "timestamp": "2026-04-19T22:41:23.490532+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1) Coding\n2) Math\n3) Logic problems\n4) Philosophy (more subjective)\n5) Societal rules (more concrete, yet still subjective)\n\n**Example Question:** What is De Morgan's Law?\n- Paraphrase 1: What is the formula for De Morgan's Law?\n- Paraphrase 2: For a student taking comp sci A, can you describe De Morgan's Law?\n- Paraphrase 3: How can I describe de Morgan's law to a future computer scientist?\n\n**Models:** GPT 4-o-mini, Claude Opus 4.7, Llama 3\n\n**Consistency Metric:**\nIf the model reverts back to one central idea about de Morgan's Law in this case (something as popular as \"Mitochondria is the powerhouse of the cell\"), and uses certain keywords (AND, OR, etc) consistently."
   }
 ]
