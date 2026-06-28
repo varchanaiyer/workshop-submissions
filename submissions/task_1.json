@@ -430,5 +430,11 @@
     "timestamp": "2026-06-28T18:31:49.063241+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical\nScience\nHealth\nWellness\nPhysiology\n\n**Example Question:** What's a healthy body temperature for adults?\n- Paraphrase 1: How warm is a healthy adult's body temperature?\n- Paraphrase 2: For adults, what should their body temperature be?\n- Paraphrase 3: If an adult is feeling sick, what temperature do they have to be to not have a fever?\n\n**Models:** Gemini Flash,  GPT 5.5, Claude Sonnet 4.6\n\n**Consistency Metric:**\nI will see if the number is given is the same. If not the exact same, what's the difference between each number."
+  },
+  {
+    "name": "Gabriel Morel",
+    "timestamp": "2026-06-28T18:31:56.061262+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. AI Ethical Rules\n2. Historical Context and Situations\n3. Debugging machine code\n4. Culinary cultural traditions\n5. Mathematical theories and laws\n\n**Example Question:** What is the amount of bias that AI should have for historical situations?\n- Paraphrase 1: What's the rule of thumb that AI should have towards AI bias in history concepts?\n- Paraphrase 2: How much should AI have in contextual bias towards historical events?\n- Paraphrase 3: Should AI have an inherit bias in complex history conflicts and events?\n\n**Models:** Claude Opus 4.8, Gemini Flash 2.5, ChatGPT 5\n\n**Consistency Metric:**\nFor open-ended questions I will make sure it doesn't give any hallucinations towards historical bias or inherit flaws towards incorrect historical situations."
   }
 ]
