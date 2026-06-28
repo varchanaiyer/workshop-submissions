@@ -34,5 +34,11 @@
     "timestamp": "2026-06-28T18:31:05.083491+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT / GPT-5.5 Thinking\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original price because the jacket has a 25% discount. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: A 25% discount means the sale price is 75% of the original price. Step 2: $120 is 75% of the original price. Step 3: Original price = $120 / 0.75 = $160. The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 \u2192 Majority: $160\n\n**Best strategy:** Chain-of-Thought"
+  },
+  {
+    "name": "Kiyan Yaghnam ",
+    "timestamp": "2026-06-28T18:31:08.772922+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Opus 4.8\n\n**Zero-shot:** $160. $120 \u00f7 0.75 = $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** price?  Let's think step by step.21:28\ue11d\ue064\ue056\ue03bClaude responded: The sale price is 75% of the original price (100% \u2212 25%).The sale price is 75% of the original price (100% \u2212 25%). So: original \u00d7 0.75 = $120 Original = $120 \u00f7 0.75 = $160 Check: $160 \u00d7 0.25 = $40 discount, and $160 \u2212 $40 = $120. \u2713\n**CoT + Self-Consistency:** Run 1: 160  | Run 2: 160 | Run 3: 160  | Majority: 160 |\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All of the runs got the correct answere."
   }
 ]
