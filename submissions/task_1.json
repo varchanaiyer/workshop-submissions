@@ -226,5 +226,11 @@
     "timestamp": "2026-06-28T18:24:27.929493+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Arithmetic & quantitative reasoning\n2. Factual world knowledge\n3. Health & safety guidance \n4. Subjective recommendations\n5. Ethical / normative judgment\n\n**Example Question:** How long does light from the Sun take to reach Earth?\n- Paraphrase 1: If the Sun blinked out right now, how long until the sky on Earth would actually go dark?\n- Paraphrase 2: Using the average Earth\u2013Sun distance and the speed of light, work out how long sunlight is in transit.\n- Paraphrase 3: The sunlight hitting Earth's surface right now,  how long has it already been traveling?\n\n**Models:** GPT-4o-mini, Gemini 4.1 mini,  Claude Haiku 4.5\n\n**Consistency Metric:**\nEach item is the original question plus its 3 paraphrases, all queried at temperature 0 so phrasing is the only thing that varies. I extract the core answer from each and check agreement across the 6 possible pairs. A pair agrees if numbers fall within 5%, factual answers match exactly, or subjective answers score \u22650.85 embedding similarity. Consistency = agreeing pairs / 6, averaged per category and per model. 1.0 = same answer every time, 0.0 = all four differ. I report per-category scores to show where answers are framing-dependent."
+  },
+  {
+    "name": "Lauren Phomsopha",
+    "timestamp": "2026-06-28T18:24:32.061222+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Art History\n2. Math\n3. Chemistry\n4. Time\n5. Code\n\n**Example Question:** Which painter created the Starry Night painting?\n- Paraphrase 1: The painting called the Starry Night was painted by which artist?\n- Paraphrase 2: The post-impressionist Starry Night was made by who?\n- Paraphrase 3: Which historical artist painted the Starry Night?\n\n**Models:** Gemini Thinking, Claude, Chat GPT\n\n**Consistency Metric:**\nCorrect answer/keywords"
   }
 ]
