@@ -184,5 +184,11 @@
     "timestamp": "2026-06-28T18:23:58.483213+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nBusiness\nSports\nEntertainment\nLiterature\nFinance\n\n**Example Question:** How much money does Elon Musk have.\n- Paraphrase 1: How many dollars does Elon Musk have.\n- Paraphrase 2: Elon musk's net worth is how much.\n- Paraphrase 3: How many dollars is Elon musk's net worth.\n\n**Models:** Claude Sonnet, Claude opus, Claude Hiku\n\n**Consistency Metric:**\nConsistency Score = (number of phrasings where the answer falls in the same magnitude range) \u00f7 4, expressed as a percentage per model."
+  },
+  {
+    "name": "Nandan Ramaswamy ",
+    "timestamp": "2026-06-28T18:24:03.616327+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Philosophy \n2. Mathematics \n3. Politics \n4. History\n5. Physics\n\n**Example Question:** What team is favored to win the Super Bowl this season?\n- Paraphrase 1: Which NFL team is most likely to win the Super Bowl this year?\n- Paraphrase 2: If you had to bet on one- which NFL team would you bet on to win the Super Bowl?\n- Paraphrase 3: Which American football team has the highest chance to be Super Bowl champions this season?\n\n**Models:** GPT, Claude, Copilot\n\n**Consistency Metric:**\nI will compare the lowercase response with the generally accepted answer by mathematicians online."
   }
 ]
