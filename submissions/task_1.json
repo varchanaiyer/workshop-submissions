@@ -442,5 +442,11 @@
     "timestamp": "2026-06-28T18:33:44.208521+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Geography\n3. Chemistry\n4. Music (style-based completions of chord progressions)\n5. History (what-if scenarios)\n\n**Example Question:** What element is the first to fill up the p-orbital?\n- Paraphrase 1: Which element is the first to include an electron configuration denoting a p-orbital?\n- Paraphrase 2: At which element does the filling of the p-orbital commence?\n- Paraphrase 3: On the periodic table, which element is positioned such that they are the first to have electrons on the p-orbital?\n\n**Models:** GPT 4-o mini, Claude Opus 4.8, Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor factual questions, it is just a simple parser-based checking system. For subjective questions, measure semantically using LLM embeddings."
+  },
+  {
+    "name": "Naman Siddheshwar",
+    "timestamp": "2026-06-28T18:34:16.740818+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Geography\n3. Chemistry\n4. Music (style-based completions of chord progressions)\n5. History (what-if scenarios)\n\n**Example Question:** What element is the first to fill up the p-orbital?\n- Paraphrase 1: Which element is the first to include an electron configuration denoting a p-orbital?\n- Paraphrase 2: At which element does the filling of the p-orbital commence?\n- Paraphrase 3: On the periodic table, which element is positioned such that they are the first to have electrons on the p-orbital?\n\n**Models:** GPT 4-o mini, Claude Opus 4.8, Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor factual questions, it is just a simple parser-based checking system. For subjective questions, measure semantically using LLM embeddings."
   }
 ]
