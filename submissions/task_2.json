@@ -82,5 +82,11 @@
     "timestamp": "2026-06-28T18:45:29.573277+00:00",
     "task": 2,
     "text": "**Model(s):** GPT-5.5 Instant\n\n**Zero-shot:** A 25% discount means the sale price is 75% of the original price.  So:  Original Price= 0.75 120 \t\u200b  =160  \u2705 Original price = $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  So:  Original price = 120\u00f70.75=160  \u2705 Original price = $160\n**Chain-of-Thought:** We\u2019ll go step by step.  Step 1: Understand what the discount means  A 25% discount means the customer pays 75% of the original price.  So:  Sale price=0.75\u00d7Original price Step 2: Plug in the given value  We know the sale price is $120:  120=0.75\u00d7Original price Step 3: Solve for the original price  Divide both sides by 0.75:  Original price= 0.75 120 \t\u200b  Original price=160 Final Answer:  The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All of the strategies gave the correct answer"
+  },
+  {
+    "name": "Abhiram Kuchi",
+    "timestamp": "2026-06-28T18:47:58.093101+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** $160, $160, $160, majority: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** No all of them performed similarly"
   }
 ]
