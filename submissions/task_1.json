@@ -220,5 +220,11 @@
     "timestamp": "2026-06-28T18:24:24.526580+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Robotics\n2. VLA, APO\n3. ERP\n4. Google Colab Coding\n5. RoboSuite\n\n**Example Question:** How can we experiment to simulate robots in learning physical actions?\n- Paraphrase 1: What is the limit of tokens to allow robots to learn physical actions?\n- Paraphrase 2: What are limits of robotics actions that they cannot learn by themselves?\n- Paraphrase 3: How can we connect multiple LLMs to learn each other?\n\n**Models:** Claude, Cursor, RoboSuite\n\n**Consistency Metric:**\nWhen using the ERP to diagnose the success and failure of robots actions, it should provide a empirical evaluation and histogram of success rate."
+  },
+  {
+    "name": "Kiyan Yaghnam ",
+    "timestamp": "2026-06-28T18:24:27.929493+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Arithmetic & quantitative reasoning\n2. Factual world knowledge\n3. Health & safety guidance \n4. Subjective recommendations\n5. Ethical / normative judgment\n\n**Example Question:** How long does light from the Sun take to reach Earth?\n- Paraphrase 1: If the Sun blinked out right now, how long until the sky on Earth would actually go dark?\n- Paraphrase 2: Using the average Earth\u2013Sun distance and the speed of light, work out how long sunlight is in transit.\n- Paraphrase 3: The sunlight hitting Earth's surface right now,  how long has it already been traveling?\n\n**Models:** GPT-4o-mini, Gemini 4.1 mini,  Claude Haiku 4.5\n\n**Consistency Metric:**\nEach item is the original question plus its 3 paraphrases, all queried at temperature 0 so phrasing is the only thing that varies. I extract the core answer from each and check agreement across the 6 possible pairs. A pair agrees if numbers fall within 5%, factual answers match exactly, or subjective answers score \u22650.85 embedding similarity. Consistency = agreeing pairs / 6, averaged per category and per model. 1.0 = same answer every time, 0.0 = all four differ. I report per-category scores to show where answers are framing-dependent."
   }
 ]
