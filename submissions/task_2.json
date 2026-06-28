@@ -70,5 +70,11 @@
     "timestamp": "2026-06-28T18:33:39.958486+00:00",
     "task": 2,
     "text": "**Model(s):** laude sonnet, spuss, haiku\n\n**Zero-shot:** 160\n**Few-shot:** 160\n**Chain-of-Thought:** Let's think step by step.  1:32 PM Step 1: A 25% discount means the customer pays 100% \u2212 25% = 75% of the original price.  Step 2: We know that 75% of the original price = $120.  Step 3: To find 100%, divide by 0.75:  $120 \u00f7 0.75 = $160  The original price was $160.\n**CoT + Self-Consistency:** 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** no"
+  },
+  {
+    "name": "Shayen Nair",
+    "timestamp": "2026-06-28T18:33:53.401163+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: The jacket is sold for $120 after a 25% discount. This means $120 represents 75% of the original price (100% - 25% = 75%). Step 2: To find the original price, we need to divide the current price by 0.75. Step 3: $120 / 0.75 = $160. The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 \u2192 Majority: $160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** Zero-shot and few-shot got the answer right immediately because the math was relatively simple. However, Chain-of-Thought provided the most complete answer by explaining the logic of the percentage calculation, which makes the result easier to verify."
   }
 ]
