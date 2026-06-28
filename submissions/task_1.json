@@ -106,5 +106,11 @@
     "timestamp": "2026-06-28T18:21:26.963884+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nHistory\n\n**Example Question:** Who was the first president of the United States?\n- Paraphrase 1: What person took up the role of leading the United States for the first time since its independence?\n- Paraphrase 2: Who held the office of commander in chief of the US before anyone else?\n- Paraphrase 3: Which American leader became the nation's first president?\n\n**Models:** GPT-4o mini, Claude Sonnet\n\n**Consistency Metric:**\nThe same answer, \"George Washington\" for each question."
+  },
+  {
+    "name": "Soham Ravindra Lokhande",
+    "timestamp": "2026-06-28T18:21:40.061004+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nFood\nMedical\nLegal\nScientific\nMath\n\n**Example Question:** How many voting members are in the House of Representatives?\n- Paraphrase 1: What is the exact number of voting representatives in the U.S. House?\n- Paraphrase 2: How many seats are officially established for voting members in the House of Representatives?\n- Paraphrase 3: What is the legally mandated size of the voting body in the U.S. House of Representatives?\n\n**Models:** Gemini Flash, Claude Sonnet, GPT 5.5\n\n**Consistency Metric:**\nExact keyword/count match"
   }
 ]
