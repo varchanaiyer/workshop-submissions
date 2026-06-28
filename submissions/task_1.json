@@ -124,5 +124,11 @@
     "timestamp": "2026-06-28T18:21:50.844803+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Ethics\n3. History\n4. Math\n5. Science\n\n**Example Question:** What are the main causes of global sea-level rise?'\n- Paraphrase 1: What primary factors are driving the increase in global ocean levels?\n- Paraphrase 2: Why are worldwide sea levels currently rising?\n- Paraphrase 3: If someone is studying climate change, what principal forces should they blame for expanding oceans?\n\n**Models:** GPT-4o-mini, Claude Sonnet, Llama\n\n**Consistency Metric:**\nExact match of responses in terms of characters and punctuation."
+  },
+  {
+    "name": "Denis Lim",
+    "timestamp": "2026-06-28T18:22:24.402508+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics (arithmetic word problems, percentage calculations)\nEthics/moral reasoning (value trade-offs, dilemmas)\nCoding (algorithm trace, bug identification)\nHistory (cause-and-effect, attribution, dates)\nCommonsense reasoning (everyday logic, physical intuition)\n\n**Example Question:** Is it ethical to lie to protect someone's feelings?\n- Paraphrase 1: Does lying to spare someone emotional pain constitute moral behavior?\n- Paraphrase 2: Your friend shows you their terrible painting and asks what you think \u2014 is a white lie justified?\n- Paraphrase 3: How should one weigh honesty against compassion when the truth would cause unnecessary harm?\n\n**Models:** Claude Haiku 4.5, GPT-4o-mini, Gemini 1.5 Flash\n\n**Consistency Metric:**\nFor factual categories: exact match after lowercasing, stripping punctuation, and extracting the core numeric or entity answer (\"The answer is 42 miles\" \u2192 \"42\").\nFor open-ended/subjective categories: semantic equivalence judged by a separate LLM"
   }
 ]
