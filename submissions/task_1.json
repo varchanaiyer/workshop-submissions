@@ -274,5 +274,11 @@
     "timestamp": "2026-06-28T18:25:30.615474+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Philosophy\n4. Economics\n5. Physics\n\n**Example Question:** What is the best strategy to solve related-rates problems?\n- Paraphrase 1: How should I approach solving related-rates problems efficiently?\n- Paraphrase 2: What is the most effective approach for solving related-rates problems?\n- Paraphrase 3: What is the optimal strategy for solving related-rates problems?\n\n**Models:** Claude Opus, GPT-4o mini,\n\n**Consistency Metric:**\nIf the paraphrased and original response convey the same meaning, they will be considered the same answer. The consistency will be measured as the percentage of paraphrased questions that receive the same answer as the original."
+  },
+  {
+    "name": "Hanish Mamidi",
+    "timestamp": "2026-06-28T18:25:43.037974+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Grammar\n4. Philosophy\n5. Inferencing\n\n**Example Question:** How long would it take light to cross the Milky Way?\n- Paraphrase 1: The Milky Way allows light to be crossed in how much time?\n- Paraphrase 2: How long can we expect light to go from one end of the Milky Way to the other?\n- Paraphrase 3: What is the fastest time anything could cross the Milky Way?\n\n**Models:** Claude Sonnet, Gemini 2.5\n\n**Consistency Metric:**\nA roughly similar time frame should be provided for each answer,\nEach answer should also use proper grammar and have the same core idea."
   }
 ]
