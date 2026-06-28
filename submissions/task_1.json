@@ -130,5 +130,11 @@
     "timestamp": "2026-06-28T18:22:24.402508+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics (arithmetic word problems, percentage calculations)\nEthics/moral reasoning (value trade-offs, dilemmas)\nCoding (algorithm trace, bug identification)\nHistory (cause-and-effect, attribution, dates)\nCommonsense reasoning (everyday logic, physical intuition)\n\n**Example Question:** Is it ethical to lie to protect someone's feelings?\n- Paraphrase 1: Does lying to spare someone emotional pain constitute moral behavior?\n- Paraphrase 2: Your friend shows you their terrible painting and asks what you think \u2014 is a white lie justified?\n- Paraphrase 3: How should one weigh honesty against compassion when the truth would cause unnecessary harm?\n\n**Models:** Claude Haiku 4.5, GPT-4o-mini, Gemini 1.5 Flash\n\n**Consistency Metric:**\nFor factual categories: exact match after lowercasing, stripping punctuation, and extracting the core numeric or entity answer (\"The answer is 42 miles\" \u2192 \"42\").\nFor open-ended/subjective categories: semantic equivalence judged by a separate LLM"
+  },
+  {
+    "name": "Jonathan Desta",
+    "timestamp": "2026-06-28T18:23:02.058647+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. History\n4. Philosophy\n5. Physics\n\n**Example Question:** What is the epsilon-delta proof of a limit?\n- Paraphrase 1: Give the formal definition of a limit.\n- Paraphrase 2: How do I prove limits?\n- Paraphrase 3: Explain the epsilon-delta proof.\n\n**Models:** Claude Opus, Gemini Pro, GPT 5.5\n\n**Consistency Metric:**\nThe same proof is described in the same manner."
   }
 ]
