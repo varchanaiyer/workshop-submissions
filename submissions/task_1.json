@@ -238,5 +238,11 @@
     "timestamp": "2026-06-28T18:24:41.658587+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Geography\n3. Nutrition\n4. Finance\n5. Science\n\n**Example Question:** What is the minimum number of calories a teenager needs per day to stay healthy?\n- Paraphrase 1: Below how many daily calories does a teen's intake become unsafe?\n- Paraphrase 2: A 15-year-old wants to cut back on food, what's the lowest daily calorie amount they shouldn't drop under?\n- Paraphrase 3: What's the calorie floor that keeps an adolescent's body functioning normally?\n\n**Models:** GPT 5.5, Claude Sonnet 4.6, Gemini 3.5 Flash\n\n**Consistency Metric:**\nIf the LLMs give the same number for each question"
+  },
+  {
+    "name": "Ruthvik Arra",
+    "timestamp": "2026-06-28T18:24:44.216334+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Finance\n3. Math\n4. Logic\n5. Sports Analytics\n\n**Example Question:** What is the best way to divide my investment portfolio?\n- Paraphrase 1: What is the most effective way to split up my investment portfolio?\n- Paraphrase 2: How should I allocate my investments across different assets?\n- Paraphrase 3: What is the best strategy for distributing money within my investment portfolio?\n\n**Models:** GPT - 40 , Claude Sonnet\n\n**Consistency Metric:**\nI will measure consistency by comparing whether the LLM gives the same overall investment recommendation for each paraphrased version of the question. A response will be considered consistent if the LLM recommends the same general portfolio allocation strategy across all versions, such as keeping a similar balance between stocks, bonds, cash, and other assets. Minor wording differences will not count as inconsistency."
   }
 ]
