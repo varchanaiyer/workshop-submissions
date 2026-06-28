@@ -214,5 +214,11 @@
     "timestamp": "2026-06-28T18:24:22.690828+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical \n2. Law\n3. Coding\n4. Investment\n5. Book recommendation\n\n**Example Question:** What is the recommended order of books to read if I want to gain a fundamental understanding of the different schools of psychology?\n- Paraphrase 1: In what order should I read fundamental psychology books to understand all the different schools of thought?\n- Paraphrase 2: For a student trying to understand the underlying arguments of different schools of thoughts, how should I order books to read?\n- Paraphrase 3: If I was a person trying to understand the different schools of thought in psychology, how would I proceed in reading?\n\n**Models:** Claude Sonnet, GPT-4o, Qwen 3.5 Flash\n\n**Consistency Metric:**\nTo measure consistency, we will look at semantic meaning, seeing if the contents of books listed and reasoning behind the order matches."
+  },
+  {
+    "name": "Troy Pham",
+    "timestamp": "2026-06-28T18:24:24.526580+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Robotics\n2. VLA, APO\n3. ERP\n4. Google Colab Coding\n5. RoboSuite\n\n**Example Question:** How can we experiment to simulate robots in learning physical actions?\n- Paraphrase 1: What is the limit of tokens to allow robots to learn physical actions?\n- Paraphrase 2: What are limits of robotics actions that they cannot learn by themselves?\n- Paraphrase 3: How can we connect multiple LLMs to learn each other?\n\n**Models:** Claude, Cursor, RoboSuite\n\n**Consistency Metric:**\nWhen using the ERP to diagnose the success and failure of robots actions, it should provide a empirical evaluation and histogram of success rate."
   }
 ]
