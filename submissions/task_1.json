@@ -352,5 +352,11 @@
     "timestamp": "2026-06-28T18:27:25.712372+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. GSM8K (Basic math problems, how it performs on it)\n2. Ethics (Ethical questions and how it replies)\n3. Computer Internals(How well it can identify and work with it)\n4. Network Design(How it works with networks and finds weaknesses)\n5. Physics (How well it understands natural physics)\n\n**Example Question:** What open-source LLM is best for an ASUS Ascent GX10?\n- Paraphrase 1: I have  an ASUS Ascent GX10, what open-source LLM uses it most efficent?\n- Paraphrase 2: What open-source LLM can actually utilize my  an ASUS Ascent GX10 well?\n- Paraphrase 3: How do I choose the right LLM for my ASUS Ascent GX10?\n\n**Models:** Claude Sonnet 4.6, ChatGPT 40-Mini, Gemini Flash 2.5\n\n**Consistency Metric:**\nI will match the models it provides me with each other, so exact-match of models and size. An LLM as a judge will filter through the replies and make sure it extracts the models and returns them in an array form for each response."
+  },
+  {
+    "name": "Aayush Singh",
+    "timestamp": "2026-06-28T18:27:37.531219+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. GSM8K (Basic math problems, how it performs on it)\n2. Ethics (Ethical questions and how it replies)\n3. Computer Internals(How well it can identify and work with it)\n4. Network Design(How it works with networks and finds weaknesses)\n5. Physics (How well it understands natural physics)\n\n**Example Question:** What open-source LLM is best for an ASUS Ascent GX10?\n- Paraphrase 1: I have  an ASUS Ascent GX10, what open-source LLM uses it most efficent?\n- Paraphrase 2: What open-source LLM can actually utilize my  an ASUS Ascent GX10 well?\n- Paraphrase 3: How do I choose the right LLM for my ASUS Ascent GX10?\n\n**Models:** Claude Sonnet 4.6, ChatGPT 40-Mini, Gemini Flash 2.5\n\n**Consistency Metric:**\nI will match the models it provides me with each other, so exact-match of models and size. An LLM as a judge will filter through the replies and make sure it extracts the models and returns them in an array form for each response."
   }
 ]
