@@ -76,5 +76,11 @@
     "timestamp": "2026-04-19T22:50:19.885677+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nAI & Machine Learning\nFinance & Economics\nEthics & Philosophy\nBiomedical Science\nLaw & Policy\n\n**Example Question:** Is machine learning a subset of AI?\n- Paraphrase 1: Does machine learning fall under the broader umbrella of artificial intelligence?\n- Paraphrase 2: Is AI a wider field that machine learning belongs to?\n- Paraphrase 3: Can machine learning be considered a subcategory within artificial intelligence\n\n**Models:** GPT-5.3, Claude Sonnet, Gemini 3 Flash\n\n**Consistency Metric:**\nFor factual questions: If the meaning of the statements is the same"
+  },
+  {
+    "name": "Rajdeep Singh",
+    "timestamp": "2026-06-28T18:19:08.017408+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCulinary Arts (cooking temperatures, ingredient substitutions)\nPersonal Finance (budgeting rules, compound interest)\nGeography (capitals, border countries)\nAutomotive (basic maintenance, dashboard lights)\nPop Culture (movie release years, award winners)\n\n**Example Question:** What is the safe minimum internal temperature for cooked chicken?\n- Paraphrase 1: At what internal temperature is chicken considered fully cooked and safe to eat?\n- Paraphrase 2: How hot does the inside of a piece of poultry need to be to avoid foodborne illness?\n- Paraphrase 3: When using a meat thermometer on chicken, what number indicates it's done?\n\n**Models:** Gemini 1.5 Pro, Claude 3.5 Sonnet\n\n**Consistency Metric:**\nFor factual queries (like temperatures or dates), extract the core answer (e.g., \"165\u00b0F\" or \"165\"). Normalize the text by converting it to lowercase and stripping punctuation.\nIf the normalized core answers match across all responses for the original question and its paraphrases, it scores a 1 (Consistent). Any deviation in the core fact scores a 0 (Inconsistent)."
   }
 ]
