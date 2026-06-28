@@ -88,5 +88,11 @@
     "timestamp": "2026-06-28T18:20:30.604870+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics (determining morality)\n3. Creative (writing a story)\n4. Medical Advice\n5. Financial Help\n\n**Example Question:** How should I invest $100 in the stock market today?\n- Paraphrase 1: What is the best way to put $100 into stocks?\n- Paraphrase 2: How can you maximize benefits for $100 in the stock market?\n- Paraphrase 3: I just earned $100 and I want to invest in stocks -- how should I do that?\n\n**Models:** Gemini Flash, GPT free plan, Claude Sonnet\n\n**Consistency Metric:**\nFor open-ended questions like my financial one, I will judge it based on how the steps it details matches up."
+  },
+  {
+    "name": "Andrew Somerset",
+    "timestamp": "2026-06-28T18:21:02.050394+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. medicine\n2. finance\n3. law\n4. social media\n5. sports\n\n**Example Question:** What football player is statistically the best penalty taker?\n- Paraphrase 1: Who is the best penalty taker based on stats?\n- Paraphrase 2: Who's most likely to score a penalty out of all players?\n- Paraphrase 3: If you need a penalty to be scored which player is statistically the best?\n\n**Models:** sonnet, opus, gpt 5.6, gemini 3.4\n\n**Consistency Metric:**\nExact match - normalize based on last name"
   }
 ]
