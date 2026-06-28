@@ -4,5 +4,11 @@
     "timestamp": "2026-06-28T18:24:48.844052+00:00",
     "task": 5,
     "text": "**Errors found (4) \u2014 Certain:**\n\nError 1: It says LLM, which isn't explicitly defined as Large Language Model\nError 2: Instead of using \"prompting\" and \"approaches\" interchangeably, only one should be used at a time for consistency. \nError 3: It says \"evaluating large language model consistency\" although the grammatically correct version should be \"evaluating large language models consistency\"\nError 4: It refers to BenchEval as a framework, but immediately changes it to a method in the next sentence."
+  },
+  {
+    "name": "Emmanuel Awoyemi",
+    "timestamp": "2026-06-28T20:05:14.024466+00:00",
+    "task": 5,
+    "text": "**Errors found (3) \u2014 Pretty confident:**\n\nError 1: It is impossible for the benchmarks to all hit state of the art while being behind yours by 23.4%\nError 2: If BenchEval measures consistency, it should measure consistency not an accuracy of 23.4%\nError 3: Improving by 60% from 0 shot does not really happen\nError 4: There are only 3 errors, not 4"
   }
 ]
