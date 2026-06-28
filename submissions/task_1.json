@@ -82,5 +82,11 @@
     "timestamp": "2026-06-28T18:19:08.017408+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCulinary Arts (cooking temperatures, ingredient substitutions)\nPersonal Finance (budgeting rules, compound interest)\nGeography (capitals, border countries)\nAutomotive (basic maintenance, dashboard lights)\nPop Culture (movie release years, award winners)\n\n**Example Question:** What is the safe minimum internal temperature for cooked chicken?\n- Paraphrase 1: At what internal temperature is chicken considered fully cooked and safe to eat?\n- Paraphrase 2: How hot does the inside of a piece of poultry need to be to avoid foodborne illness?\n- Paraphrase 3: When using a meat thermometer on chicken, what number indicates it's done?\n\n**Models:** Gemini 1.5 Pro, Claude 3.5 Sonnet\n\n**Consistency Metric:**\nFor factual queries (like temperatures or dates), extract the core answer (e.g., \"165\u00b0F\" or \"165\"). Normalize the text by converting it to lowercase and stripping punctuation.\nIf the normalized core answers match across all responses for the original question and its paraphrases, it scores a 1 (Consistent). Any deviation in the core fact scores a 0 (Inconsistent)."
+  },
+  {
+    "name": "Leela Unnikrishnan",
+    "timestamp": "2026-06-28T18:20:30.604870+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics (determining morality)\n3. Creative (writing a story)\n4. Medical Advice\n5. Financial Help\n\n**Example Question:** How should I invest $100 in the stock market today?\n- Paraphrase 1: What is the best way to put $100 into stocks?\n- Paraphrase 2: How can you maximize benefits for $100 in the stock market?\n- Paraphrase 3: I just earned $100 and I want to invest in stocks -- how should I do that?\n\n**Models:** Gemini Flash, GPT free plan, Claude Sonnet\n\n**Consistency Metric:**\nFor open-ended questions like my financial one, I will judge it based on how the steps it details matches up."
   }
 ]
