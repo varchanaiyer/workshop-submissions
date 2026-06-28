@@ -100,5 +100,11 @@
     "timestamp": "2026-06-28T18:21:12.810373+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n2. Medical\n3. Chemistry\n4. Mathematics\n5. Coding\n\n**Example Question:** What's the product obtained from reacting benzophenone with a Grignard reagent?\n- Paraphrase 1: If benzophenone and a Grignard reagent are reacted, what is produced?\n- Paraphrase 2: Name the result of a reaction between a Grignard reagent and benzophenone.\n- Paraphrase 3: Tell me the product from a Grignard reagent and benzophenone reaction.\n\n**Models:** Claude Opus 4.8\n\n**Consistency Metric:**\nExtract a string that matches \"triphenylmethanol\" or \"tertiary alcohol\""
+  },
+  {
+    "name": "Aishi Dev",
+    "timestamp": "2026-06-28T18:21:26.963884+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nHistory\n\n**Example Question:** Who was the first president of the United States?\n- Paraphrase 1: What person took up the role of leading the United States for the first time since its independence?\n- Paraphrase 2: Who held the office of commander in chief of the US before anyone else?\n- Paraphrase 3: Which American leader became the nation's first president?\n\n**Models:** GPT-4o mini, Claude Sonnet\n\n**Consistency Metric:**\nThe same answer, \"George Washington\" for each question."
   }
 ]
