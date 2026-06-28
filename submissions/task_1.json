@@ -232,5 +232,11 @@
     "timestamp": "2026-06-28T18:24:32.061222+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Art History\n2. Math\n3. Chemistry\n4. Time\n5. Code\n\n**Example Question:** Which painter created the Starry Night painting?\n- Paraphrase 1: The painting called the Starry Night was painted by which artist?\n- Paraphrase 2: The post-impressionist Starry Night was made by who?\n- Paraphrase 3: Which historical artist painted the Starry Night?\n\n**Models:** Gemini Thinking, Claude, Chat GPT\n\n**Consistency Metric:**\nCorrect answer/keywords"
+  },
+  {
+    "name": "Neev Grover",
+    "timestamp": "2026-06-28T18:24:41.658587+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Geography\n3. Nutrition\n4. Finance\n5. Science\n\n**Example Question:** What is the minimum number of calories a teenager needs per day to stay healthy?\n- Paraphrase 1: Below how many daily calories does a teen's intake become unsafe?\n- Paraphrase 2: A 15-year-old wants to cut back on food, what's the lowest daily calorie amount they shouldn't drop under?\n- Paraphrase 3: What's the calorie floor that keeps an adolescent's body functioning normally?\n\n**Models:** GPT 5.5, Claude Sonnet 4.6, Gemini 3.5 Flash\n\n**Consistency Metric:**\nIf the LLMs give the same number for each question"
   }
 ]
