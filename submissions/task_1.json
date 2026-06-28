@@ -286,5 +286,11 @@
     "timestamp": "2026-06-28T18:25:45.538898+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology\n2. Coding\n3. Math\n4. Physics\n5. LLMs\n\n**Example Question:** Why do cells divide\n- Paraphrase 1: What causes a cell to divide\n- Paraphrase 2: What is the purpose of cell division\n- Paraphrase 3: How does cell division happen\n\n**Models:** Claude Sonnet, Gemini 2.5-Flash, GPT-4o\n\n**Consistency Metric:**\nI will measure the LLM's response to the paraphrased questions by manually reviewing the answer since the answer to my question is more semantically related and doesnt have a straight one phrase answer (e.g $160), its greatly influenced by the interpretation of the question."
+  },
+  {
+    "name": "Veda Kunamneni",
+    "timestamp": "2026-06-28T18:25:55.599335+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Chemistry\n2. History\n3. Cybersecurity\n4. Cooking\n5. Physics\n\n**Example Question:** What volume does one mole of an ideal gas occupy at standard temperature and pressure?\n- Paraphrase 1: At 0 degrees Celsius and 1 atmosphere, how many liters of space does a single mole of a perfect gas take up?\n- Paraphrase 2: Calculate the molar volume for an ideal gas assuming STP conditions.\n- Paraphrase 3: If an experiment uses exactly Avogadro's number of ideal gas particles under standard conditions, what capacity will they fill?\n\n**Models:** Gemini 3.5 Flash, Claude Sonnet 4.8, GPT 5.4\n\n**Consistency Metric:**\nRegex extraction and substring matching after text sanitization (converting to lowercase, removing stopwords, and stripping units). E.g., 'The gas occupies 22.4 liters' matches '22.4'."
   }
 ]
