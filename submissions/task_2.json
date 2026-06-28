@@ -64,5 +64,11 @@
     "timestamp": "2026-06-28T18:33:25.008249+00:00",
     "task": 2,
     "text": "**Model(s):** Gemini 3.1 Flash-Lite\n\n**Zero-shot:** The original price of the jacket was $160.  To find this, you can set up the equation where the selling price (120) represents 75% of the original price (since 100%\u221225%=75%):  0.75\u00d7Original\u00a0Price=120  Dividing 120 by 0.75 gives you 160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** To find the original price of the jacket, we can follow these steps:  1. Understand the Relationship The sale price represents the original price minus the discount. Since the discount is 25%, the customer pays 75% of the original price (because 100%\u221225%=75%).  2. Set up the Equation Let x be the original price. We can write the relationship as: 0.75\u00d7x=120  3. Solve for the Original Price To isolate x, divide both sides by 0.75: x=  0.75 120 \u200b    x=160  Conclusion The original price of the jacket was $160.  Verification: 25% of 160 is 40 (160\u00d70.25=40). Subtracting the discount from the original price: 160\u221240=120. The result matches the sale price provided.\n**CoT + Self-Consistency:** Calculation 1: 160  Calculation 2: 160  Calculation 3: 160  The majority answer is that the original price of the jacket was $160.\n\n**Best strategy:** Few-shot\n\n**Surprises:** Few-shot, not zero-shot, gave the shortest answer."
+  },
+  {
+    "name": "Arnav Gupta",
+    "timestamp": "2026-06-28T18:33:39.958486+00:00",
+    "task": 2,
+    "text": "**Model(s):** laude sonnet, spuss, haiku\n\n**Zero-shot:** 160\n**Few-shot:** 160\n**Chain-of-Thought:** Let's think step by step.  1:32 PM Step 1: A 25% discount means the customer pays 100% \u2212 25% = 75% of the original price.  Step 2: We know that 75% of the original price = $120.  Step 3: To find 100%, divide by 0.75:  $120 \u00f7 0.75 = $160  The original price was $160.\n**CoT + Self-Consistency:** 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** no"
   }
 ]
