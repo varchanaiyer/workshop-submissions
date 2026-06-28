@@ -112,5 +112,11 @@
     "timestamp": "2026-06-28T18:21:40.061004+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nFood\nMedical\nLegal\nScientific\nMath\n\n**Example Question:** How many voting members are in the House of Representatives?\n- Paraphrase 1: What is the exact number of voting representatives in the U.S. House?\n- Paraphrase 2: How many seats are officially established for voting members in the House of Representatives?\n- Paraphrase 3: What is the legally mandated size of the voting body in the U.S. House of Representatives?\n\n**Models:** Gemini Flash, Claude Sonnet, GPT 5.5\n\n**Consistency Metric:**\nExact keyword/count match"
+  },
+  {
+    "name": "Mahima Sachan",
+    "timestamp": "2026-06-28T18:21:48.212223+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nGeneral knowledge\n\n**Example Question:** How many states does US have?\n- Paraphrase 1: Does US have 50 states?\n- Paraphrase 2: No of states US has?\n- Paraphrase 3: United States no of states\n\n**Models:** Claude Opus, GPT 4-o-mini\n\n**Consistency Metric:**\nJaccard similarity on words. Similarity >=0.7"
   }
 ]
