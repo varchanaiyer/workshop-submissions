@@ -250,5 +250,11 @@
     "timestamp": "2026-06-28T18:24:53.471361+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1.) health\n2.) law\n3.) cooking\n4.) military\n5.) crypto\n\n**Example Question:** What kind of vitamins  should adults over 40 years old take?\n- Paraphrase 1: What vitamin should a 40 year old take?\n- Paraphrase 2: Whats a recommended brand of vitamins for someone over 40?\n- Paraphrase 3: Should a healthy 40 year old take vitamins?\n\n**Models:** Claude, GPT 4.0\n\n**Consistency Metric:**\nLLM-as-a-Judge Semantic Equivalence:\nSince the question formats shift between listing types, naming brands, and responding with a Yes/No, standard keyword overlap will fail. \n\nuse an external judge model (e.g., GPT-4o) to evaluate consistency. The judge will read the baseline answer and the paraphrase answer, then output a binary score: \n- 1: The answers structurally align or do not medically contradict each other.\n- 0: The answers offer conflicting health advice or completely disjointed information.\n\nThe final metric will be the average consistency score (0.0 to 1.0) across the 3 paraphrase test pairs."
+  },
+  {
+    "name": "Avika Prasad",
+    "timestamp": "2026-06-28T18:24:57.851650+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nQuantum Physics & Mechanics (Factual: equations, theoretical paradoxes)\n\nCreative Writing & Nuance (Subjective: tone shifts, subtext, poetry constraints)\n\nFinancial Forecasting & Math (Factual: compound interest scenarios, data extraction)\n\nSocietal & Philosophy Debates (Subjective: cultural relativism, political neutrality)\n\nCybersecurity & Logic (Factual: vulnerability identification, code obfuscation)\n\n**Example Question:** What is an unhealthy amount of water to drink in a single day for adults?\n- Paraphrase 1: How much water can adults drink in a day without it being injurious?\n- Paraphrase 2: What is the maximum amount of water for adults to drink in a day?\n- Paraphrase 3: At what point does the amount of water an adult drinks per day become too much?\n\n**Models:** GPT 4o-mini, Gemini, Claude\n\n**Consistency Metric:**\nFactual question, so it should give an acceptable range."
   }
 ]
