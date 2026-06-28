@@ -400,5 +400,11 @@
     "timestamp": "2026-06-28T18:28:34.524214+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Creative storytelling\n3. Space exploration\n4. Coding\n5. Politics\n\n**Example Question:** Should humans continue to investigate and explore in space?\n- Paraphrase 1: Is space exploration needed?\n- Paraphrase 2: Should humans continue space exploration?\n- Paraphrase 3: Do humans need space exploration?\n\n**Models:** Claude Sonnet, Gemini 3.5 Pro, ChatGPT4-o mini\n\n**Consistency Metric:**\nJaccard similarity/cosine similarity of words"
+  },
+  {
+    "name": "Jordan Zhang",
+    "timestamp": "2026-06-28T18:29:01.469630+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedicine\n\n**Example Question:** What type of UV are blocked by glass?\n- Paraphrase 1: Which UV rays are not allowed through by glass?\n- Paraphrase 2: If I'm behind a glass window, what kind of UV is not going to reach me?\n- Paraphrase 3: While UV-A tends to penetrate glass, what UV gets blocked?\n\n**Models:** GPT5.5, Claude Sonnet, Qwen-32B\n\n**Consistency Metric:**\nExact match, and Jaccard distance < 1. UV-B UV B and UVB are the only really accepted answers."
   }
 ]
