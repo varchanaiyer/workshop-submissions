@@ -310,5 +310,11 @@
     "timestamp": "2026-06-28T18:26:16.215464+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Cooking\n2. Geography\n3. Math\n4. Health\n5. History\n\n**Example Question:** How long should chicken breast be baked at 400 degree F?\n- Paraphrase 1: How many minutes does it take to cook chicken breast in the oven at 400 degress?\n- Paraphrase 2: If I bake chicken breast at 400\u00b0F, what cooking time is recommended?\n- Paraphrase 3: What is the usual oven cooking time for chicken breast set to 400 degrees?\n\n**Models:** GPT-4o-mini, Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nFor factual questions, answers will be considered consistent if they provide the same information or numerical value, even if the wording differs. For example, \"20\u201325 minutes\" and \"about 25 minutes\" would be considered consistent. A model's consistency score will be the percentage of paraphrased questions that receive equivalent answers."
+  },
+  {
+    "name": "Kevin Xie ",
+    "timestamp": "2026-06-28T18:26:21.446194+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Physics\n3. Economics\n4. Coding\n5. Baking\n\n**Example Question:** You have 3 quarters and 2 dimes. How much money do you have in total?\n- Paraphrase 1: What is the total value of three quarters and two dimes?\n- Paraphrase 2: If someone has three 25-cent coins and two 10-cent coins, how many cents do they have altogether?\n- Paraphrase 3: A wallet contains 3 quarters and 2 dimes, what is the combined amount of money in the wallet?\n\n**Models:** Gemini Pro, Claude Opus\n\n**Consistency Metric:**\nWe compare whether the answers are semantically equivalent after normalization (e.g., \"$0.95\" and \"95 cents\" are treated as the same answer)."
   }
 ]
