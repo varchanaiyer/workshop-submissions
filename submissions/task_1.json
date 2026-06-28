@@ -406,5 +406,11 @@
     "timestamp": "2026-06-28T18:29:01.469630+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedicine\n\n**Example Question:** What type of UV are blocked by glass?\n- Paraphrase 1: Which UV rays are not allowed through by glass?\n- Paraphrase 2: If I'm behind a glass window, what kind of UV is not going to reach me?\n- Paraphrase 3: While UV-A tends to penetrate glass, what UV gets blocked?\n\n**Models:** GPT5.5, Claude Sonnet, Qwen-32B\n\n**Consistency Metric:**\nExact match, and Jaccard distance < 1. UV-B UV B and UVB are the only really accepted answers."
+  },
+  {
+    "name": "Nakul Sundaram",
+    "timestamp": "2026-06-28T18:29:47.250099+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Rocket Science\n2. Archaeology\n3. Mechanical Engineering\n4. World History\n5. Full Stack Web Development\n\n**Example Question:** \"What were the main causes of World War I?\"\n- Paraphrase 1: Which nations and political decisions most directly triggered the outbreak of World War I in 1914?\n- Paraphrase 2: \"Break down the political, economic, and social factors that pushed Europe into war in the early 20th century.\"\n- Paraphrase 3: \"If the assassination of Archduke Franz Ferdinand hadn't happened, what underlying tensions still made a large-scale European war nearly inevitable?\"\n\n**Models:** Claude Sonnet 4.6 (Anthropic) GPT-4o (OpenAI) Gemini 1.5 Pro (Google)\n\n**Consistency Metric:**\nA model is consistent if it returns the same key facts across all paraphrases of a question, measured by cosine similarity \u2265 0.85 between answer embeddings"
   }
 ]
