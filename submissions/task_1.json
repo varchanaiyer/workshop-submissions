@@ -304,5 +304,11 @@
     "timestamp": "2026-06-28T18:26:07.215661+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Food industry\n3. Health industry\n4. STEM questions\n5. Music Theory\n\n**Example Question:** What is the key signature of D major?\n- Paraphrase 1: How many sharps should I use when I'm playing a piece in D major?\n- Paraphrase 2: Does D major have any notes that I should add a sharp or flat?\n- Paraphrase 3: What notes are sharped in D major?\n\n**Models:** GPT-4o, LLaMA.\n\n**Consistency Metric:**\nThe answer will contain at the answer similar to:  F and C sharp."
+  },
+  {
+    "name": "Feker Demere",
+    "timestamp": "2026-06-28T18:26:16.215464+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Cooking\n2. Geography\n3. Math\n4. Health\n5. History\n\n**Example Question:** How long should chicken breast be baked at 400 degree F?\n- Paraphrase 1: How many minutes does it take to cook chicken breast in the oven at 400 degress?\n- Paraphrase 2: If I bake chicken breast at 400\u00b0F, what cooking time is recommended?\n- Paraphrase 3: What is the usual oven cooking time for chicken breast set to 400 degrees?\n\n**Models:** GPT-4o-mini, Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nFor factual questions, answers will be considered consistent if they provide the same information or numerical value, even if the wording differs. For example, \"20\u201325 minutes\" and \"about 25 minutes\" would be considered consistent. A model's consistency score will be the percentage of paraphrased questions that receive equivalent answers."
   }
 ]
