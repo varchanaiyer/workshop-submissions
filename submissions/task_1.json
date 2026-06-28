@@ -256,5 +256,11 @@
     "timestamp": "2026-06-28T18:24:57.851650+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nQuantum Physics & Mechanics (Factual: equations, theoretical paradoxes)\n\nCreative Writing & Nuance (Subjective: tone shifts, subtext, poetry constraints)\n\nFinancial Forecasting & Math (Factual: compound interest scenarios, data extraction)\n\nSocietal & Philosophy Debates (Subjective: cultural relativism, political neutrality)\n\nCybersecurity & Logic (Factual: vulnerability identification, code obfuscation)\n\n**Example Question:** What is an unhealthy amount of water to drink in a single day for adults?\n- Paraphrase 1: How much water can adults drink in a day without it being injurious?\n- Paraphrase 2: What is the maximum amount of water for adults to drink in a day?\n- Paraphrase 3: At what point does the amount of water an adult drinks per day become too much?\n\n**Models:** GPT 4o-mini, Gemini, Claude\n\n**Consistency Metric:**\nFactual question, so it should give an acceptable range."
+  },
+  {
+    "name": "Arshia Mathur",
+    "timestamp": "2026-06-28T18:25:17.261060+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology \n2. Coding\n3. Ethics\n4. History\n5. Governance\n\n**Example Question:** What is the threshold for antibiotic resistance before they no longer benefit humanity?\n- Paraphrase 1: How many antibiotics can humans take before modern technology no longer works?\n- Paraphrase 2: What antibiotics are at a threat of complete resistance?\n- Paraphrase 3: What technology is being developed to prevent high antibiotic resistance?\n\n**Models:** Claude Sonnet, Gemini, ChatGPT 5.5\n\n**Consistency Metric:**\nI will ensure that any quantitative and qualitative answers match with a percentage of error of about .1%.,"
   }
 ]
