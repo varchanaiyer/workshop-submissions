@@ -178,5 +178,11 @@
     "timestamp": "2026-06-28T18:23:56.028986+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nLongevity(Aging biology, healthspan, interventions)\nEngineering(Systems design, materials, problem-solving)\nSustainable energy(Renewables, grids, climate policy)\nPhysics(Classical, quantum, thermodynamics)\nFinance(Markets, investing, economic concepts)\n\n**Example Question:** Q What is the maximum recorded human lifespan, and what biological factors are thought to set that limit?\n- Paraphrase 1: How long has the longest-lived human ever survived, and which biological mechanisms are believed to cap that number?\n- Paraphrase 2: Scientifically speaking, what determines the upper ceiling on a human lifespan, and what's the oldest age ever verified?\n- Paraphrase 3: A  researcher wants to know: what is the oldest a human has ever been, and what biology stops us from living longer?\n\n**Models:** Claude Sonnet 4.5 ,OpenAI GPT-4o ,Google Gemini 1.5 Pro\n\n**Consistency Metric:**\nMetric 1 \u2014 factual questions\nExact match (EM)\nExtract the key factual answer (a number, name, or term) from both responses. Score 1 if they match, 0 if not.Metric 2 \u2014 explanatory questions\nSemantic similarity (SS)\nEmbed both answers using a sentence embedding model. Compute cosine similarity. A score \u2265 0.85 means the answers are semantically consistent.Metric 2 \u2014 explanatory questions\nSemantic similarity (SS)\nEmbed both answers using a sentence embedding model. Compute cosine similarity. A score \u2265 0.85 means the answers are semantically consistent."
+  },
+  {
+    "name": "Arnav Gupta",
+    "timestamp": "2026-06-28T18:23:58.483213+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nBusiness\nSports\nEntertainment\nLiterature\nFinance\n\n**Example Question:** How much money does Elon Musk have.\n- Paraphrase 1: How many dollars does Elon Musk have.\n- Paraphrase 2: Elon musk's net worth is how much.\n- Paraphrase 3: How many dollars is Elon musk's net worth.\n\n**Models:** Claude Sonnet, Claude opus, Claude Hiku\n\n**Consistency Metric:**\nConsistency Score = (number of phrasings where the answer falls in the same magnitude range) \u00f7 4, expressed as a percentage per model."
   }
 ]
