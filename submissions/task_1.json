@@ -190,5 +190,11 @@
     "timestamp": "2026-06-28T18:24:03.616327+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Philosophy \n2. Mathematics \n3. Politics \n4. History\n5. Physics\n\n**Example Question:** What team is favored to win the Super Bowl this season?\n- Paraphrase 1: Which NFL team is most likely to win the Super Bowl this year?\n- Paraphrase 2: If you had to bet on one- which NFL team would you bet on to win the Super Bowl?\n- Paraphrase 3: Which American football team has the highest chance to be Super Bowl champions this season?\n\n**Models:** GPT, Claude, Copilot\n\n**Consistency Metric:**\nI will compare the lowercase response with the generally accepted answer by mathematicians online."
+  },
+  {
+    "name": "Ruthvik Arra",
+    "timestamp": "2026-06-28T18:24:08.654620+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Finance\n3. Math\n4. Logic\n5. Sports Analytics\n\n**Example Question:** What is the best way to divide my investment portfolio?\n- Paraphrase 1: What is the most effective way to split up my investment portfolio?\n- Paraphrase 2: How should I allocate my investments across different assets?\n- Paraphrase 3: What is the best strategy for distributing money within my investment portfolio?\n\n**Models:** GPT - 40 , Claude Sonnet\n\n**Consistency Metric:**\nI will measure consistency by comparing whether the LLM gives the same overall investment recommendation for each paraphrased version of the question. A response will be considered consistent if the LLM recommends the same general portfolio allocation strategy across all versions, such as keeping a similar balance between stocks, bonds, cash, and other assets. Minor wording differences will not count as inconsistency."
   }
 ]
