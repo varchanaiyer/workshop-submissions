@@ -148,5 +148,11 @@
     "timestamp": "2026-06-28T18:23:27.169055+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Factual knowledge(Can it answer verifiable facts)\n2. Mathmatical reasoning\n3. Evaluating experimental cooking recepies\n4. Short story writing\n5. Ethics\n\n**Example Question:** What is the derivative of x^3 +4x^2 \u22127x+5?\n- Paraphrase 1: Differentiate the function x^3 +4x^2 \u22127x+5 with respect to x.\n- Paraphrase 2: Find f \u2032 (x) if f(x)=x^3 +4x^2 \u22127x+5.\n- Paraphrase 3: Using calculus, determine the slope function for x^3 +4x^2 \u22127x+5.\n\n**Models:** GPT-5.5,Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nThe model will be considered consistent if it gives the same correct answer to the original question and all three paraphrases"
+  },
+  {
+    "name": "Ryan Conti",
+    "timestamp": "2026-06-28T18:23:29.739721+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1) Niche reference recitation (popular linguistics sentences that are unlikely to appear elsewhere) \n2) Translation into low-resource language\n3)\n\n**Example Question:** What is the famous sentence in Chomsky's \"Syntactic Structures\" that is gramatically well-formed but semantically meaningless?\n- Paraphrase 1: Complete the sentence: \"colorless green ideas...\"\n- Paraphrase 2: What is a famous sentence in linguistics that tries to highlight a difference between syntax and semantics?\n- Paraphrase 3: Senseless but semantically meaningful sentence examples?\n\n**Models:** Claude sonnet, Claude opus, claude haiku\n\n**Consistency Metric:**\nFor this, whether or not the model outputs \"Colorless green ideas sleep furiously\" in its response is the primary metric. If it doesn't, then it is failing."
   }
 ]
