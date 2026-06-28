@@ -94,5 +94,11 @@
     "timestamp": "2026-06-28T18:21:02.050394+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. medicine\n2. finance\n3. law\n4. social media\n5. sports\n\n**Example Question:** What football player is statistically the best penalty taker?\n- Paraphrase 1: Who is the best penalty taker based on stats?\n- Paraphrase 2: Who's most likely to score a penalty out of all players?\n- Paraphrase 3: If you need a penalty to be scored which player is statistically the best?\n\n**Models:** sonnet, opus, gpt 5.6, gemini 3.4\n\n**Consistency Metric:**\nExact match - normalize based on last name"
+  },
+  {
+    "name": "Tiffany Gu",
+    "timestamp": "2026-06-28T18:21:12.810373+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n2. Medical\n3. Chemistry\n4. Mathematics\n5. Coding\n\n**Example Question:** What's the product obtained from reacting benzophenone with a Grignard reagent?\n- Paraphrase 1: If benzophenone and a Grignard reagent are reacted, what is produced?\n- Paraphrase 2: Name the result of a reaction between a Grignard reagent and benzophenone.\n- Paraphrase 3: Tell me the product from a Grignard reagent and benzophenone reaction.\n\n**Models:** Claude Opus 4.8\n\n**Consistency Metric:**\nExtract a string that matches \"triphenylmethanol\" or \"tertiary alcohol\""
   }
 ]
