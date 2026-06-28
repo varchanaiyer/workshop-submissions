@@ -436,5 +436,11 @@
     "timestamp": "2026-06-28T18:31:56.061262+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. AI Ethical Rules\n2. Historical Context and Situations\n3. Debugging machine code\n4. Culinary cultural traditions\n5. Mathematical theories and laws\n\n**Example Question:** What is the amount of bias that AI should have for historical situations?\n- Paraphrase 1: What's the rule of thumb that AI should have towards AI bias in history concepts?\n- Paraphrase 2: How much should AI have in contextual bias towards historical events?\n- Paraphrase 3: Should AI have an inherit bias in complex history conflicts and events?\n\n**Models:** Claude Opus 4.8, Gemini Flash 2.5, ChatGPT 5\n\n**Consistency Metric:**\nFor open-ended questions I will make sure it doesn't give any hallucinations towards historical bias or inherit flaws towards incorrect historical situations."
+  },
+  {
+    "name": "Naman Siddheshwar",
+    "timestamp": "2026-06-28T18:33:44.208521+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Geography\n3. Chemistry\n4. Music (style-based completions of chord progressions)\n5. History (what-if scenarios)\n\n**Example Question:** What element is the first to fill up the p-orbital?\n- Paraphrase 1: Which element is the first to include an electron configuration denoting a p-orbital?\n- Paraphrase 2: At which element does the filling of the p-orbital commence?\n- Paraphrase 3: On the periodic table, which element is positioned such that they are the first to have electrons on the p-orbital?\n\n**Models:** GPT 4-o mini, Claude Opus 4.8, Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor factual questions, it is just a simple parser-based checking system. For subjective questions, measure semantically using LLM embeddings."
   }
 ]
