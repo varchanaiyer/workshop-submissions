@@ -424,5 +424,11 @@
     "timestamp": "2026-06-28T18:31:37.407287+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Geography\n4. Logic\n5. Finance\n\n**Example Question:** If I flip a coin twice, what is the probability I get two heads?\n- Paraphrase 1: If a coin is flipped twice, what's the likelihood of getting two heads?\n- Paraphrase 2: Out of 4 coin-flip possible outcomes, what is the probability I get 2 heads?\n- Paraphrase 3: For two coin flips, how likely is getting two heads?\n\n**Models:** Claude Sonnet 4.5, GPT-5, Grok\n\n**Consistency Metric:**\nPost-normalization exact match, cosine similarity, majority voting over the answers to the original question plus paraphrased questions"
+  },
+  {
+    "name": "Imoni Ahmad",
+    "timestamp": "2026-06-28T18:31:49.063241+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical\nScience\nHealth\nWellness\nPhysiology\n\n**Example Question:** What's a healthy body temperature for adults?\n- Paraphrase 1: How warm is a healthy adult's body temperature?\n- Paraphrase 2: For adults, what should their body temperature be?\n- Paraphrase 3: If an adult is feeling sick, what temperature do they have to be to not have a fever?\n\n**Models:** Gemini Flash,  GPT 5.5, Claude Sonnet 4.6\n\n**Consistency Metric:**\nI will see if the number is given is the same. If not the exact same, what's the difference between each number."
   }
 ]
