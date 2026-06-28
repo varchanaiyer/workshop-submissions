@@ -418,5 +418,11 @@
     "timestamp": "2026-06-28T18:30:07.793915+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. History\n3. Math\n4. Economics\n5. Culinary\n\n**Example Question:** What is the recommended stocks I should invest in today?\n- Paraphrase 1: For me, what stock is recommended for me to invest in today?\n- Paraphrase 2: Starting today, which stocks should I put money in?\n- Paraphrase 3: As an investor, which stocks should I add to my portfolio today?\n\n**Models:** ChatGPT5.5,  Gemini 3.5\n\n**Consistency Metric:**\nIf meaning is the same, then the questions are similar."
+  },
+  {
+    "name": "Cameron Kruger",
+    "timestamp": "2026-06-28T18:31:37.407287+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Geography\n4. Logic\n5. Finance\n\n**Example Question:** If I flip a coin twice, what is the probability I get two heads?\n- Paraphrase 1: If a coin is flipped twice, what's the likelihood of getting two heads?\n- Paraphrase 2: Out of 4 coin-flip possible outcomes, what is the probability I get 2 heads?\n- Paraphrase 3: For two coin flips, how likely is getting two heads?\n\n**Models:** Claude Sonnet 4.5, GPT-5, Grok\n\n**Consistency Metric:**\nPost-normalization exact match, cosine similarity, majority voting over the answers to the original question plus paraphrased questions"
   }
 ]
