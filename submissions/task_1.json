@@ -370,5 +370,11 @@
     "timestamp": "2026-06-28T18:28:14.013496+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Ethics\n3. Coding. \n4. Fashion\n5. History\n\n**Example Question:** What are the symptoms for the common cold in adult?\n- Paraphrase 1: How can an adult tell if they have a common cold?\n- Paraphrase 2: Which cold symptoms are most common in adults?\n- Paraphrase 3: An adult has a runny nose, sore throat, and cough -could these be signs of a common cold?\n\n**Models:** GPT-4o-mini, Claude Sonnet, and Gemini Flash\n\n**Consistency Metric:**\nI will measure consistency by extracting the main symptom terms from each model response and comparing them across the original question and its paraphrases. I will normalize synonyms, such as \u201crunny nose\u201d and \u201cnasal discharge,\u201d or \u201ctiredness\u201d and \u201cfatigue.\u201d"
+  },
+  {
+    "name": "Advait Koli",
+    "timestamp": "2026-06-28T18:28:18.470858+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. English Literature\n2. American History\n3. Calculus\n4. Coding\n5. Sports\n\n**Example Question:** What exercises are good for getting a six pack\n- Paraphrase 1: How many exercises can adults do in a day to get a six pack\n- Paraphrase 2: what are the types of exercises adults need to do to gain abs\n- Paraphrase 3: I am a 50 year old man, what exercises do i do to get a 6 pack\n\n**Models:** gemini flash, claude sonnet\n\n**Consistency Metric:**\nCompare it with jaccard similarity and see the similarities of  words with \"abs\",\"exercise\" with adult and 24 hours"
   }
 ]
