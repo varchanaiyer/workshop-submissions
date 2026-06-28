@@ -382,5 +382,11 @@
     "timestamp": "2026-06-28T18:28:20.378606+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n\n**Example Question:** Is race and ethnicity same?\n- Paraphrase 1: Is there any scientific basis of race? What is the basis of ethnicity?\n- Paraphrase 2: Is race a phenotype or a genotype?\n- Paraphrase 3: Is one race better than another race?\n\n**Models:** GPT-4, claude\n\n**Consistency Metric:**\nI will try to look if the answer is based on science or not. I will also try to look for the answer shows  any bias or negativity towards any race or ethnicity."
+  },
+  {
+    "name": "Charlotte Li",
+    "timestamp": "2026-06-28T18:28:25.694818+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics\n3. Scientific Method\n4. Art\n5. Literature\n\n**Example Question:** What is the meaning of Pablo Picasso's Guernica?\n- Paraphrase 1: What does Guernica by Pablo Picasso mean?\n- Paraphrase 2: Pablo Picasso's Guernica has which of the following interpretations?\n- Paraphrase 3: What are common interpretations of Pablo Picasso's Guernica?\n\n**Models:** Claude Sonnet, GPT 4o-mini, Gemini Flash\n\n**Consistency Metric:**\nFor open ended questions, I can use Jaccard similarity on the model output (e.g. threshold greater than 0.6 indicates consistency) or use another LLM to measure sentiment, and see if the sentiment \"scores\" match between my model answers and scholarly interpretations."
   }
 ]
