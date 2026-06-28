@@ -202,5 +202,11 @@
     "timestamp": "2026-06-28T18:24:09.906256+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. biology\n2. coding\n3. ethical dilemma\n4. art\n5. medicine\n\n**Example Question:** What is the best ratio of oil to pigment for the best consistency of oil paint?\n- Paraphrase 1: How many milliliters of oil should be mixed with 10 milligrams of pigment powder?\n- Paraphrase 2: For the best consistency, what is the precise amount of oil that should be combined with a set amount of pigment?\n- Paraphrase 3: What is the percentage of oil that should be combined with pigment to create the smoothest consistency?\n\n**Models:** gpt-4o, claude\n\n**Consistency Metric:**\nSimilarity of answers on a scale"
+  },
+  {
+    "name": "Fernanda N",
+    "timestamp": "2026-06-28T18:24:16.656968+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Cell biology\n2. Photosynthesis & Plant life\n3. Genetics\n4. Ecosystem Interactions\n5. Human body systems\n\n**Example Question:** What is the primary function of the mitochondria in a plant or animal cell?\n- Paraphrase 1: Describe the main job that the mitochondrion performs inside cellular biology.\n- Paraphrase 2: If a cell needs to produce energy to function, which organelle\u2014often called the powerhouse\u2014is responsible for making that happen?\n- Paraphrase 3: What exactly do mitochondria do inside our cells?\n\n**Models:** GPT-4o , Claude 3.5 Sonnet , Gemini 1.5 Pro\n\n**Consistency Metric:**\nKeyword matching after basic text cleanup (lowercase, removing punctuation). For example, if evaluating responses about the mitochondria, the response is marked consistent (1) if key target words like \"energy,\" \"ATP,\" or \"powerhouse\" are present across all outputs."
   }
 ]
