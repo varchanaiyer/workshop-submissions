@@ -262,5 +262,11 @@
     "timestamp": "2026-06-28T18:25:17.261060+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology \n2. Coding\n3. Ethics\n4. History\n5. Governance\n\n**Example Question:** What is the threshold for antibiotic resistance before they no longer benefit humanity?\n- Paraphrase 1: How many antibiotics can humans take before modern technology no longer works?\n- Paraphrase 2: What antibiotics are at a threat of complete resistance?\n- Paraphrase 3: What technology is being developed to prevent high antibiotic resistance?\n\n**Models:** Claude Sonnet, Gemini, ChatGPT 5.5\n\n**Consistency Metric:**\nI will ensure that any quantitative and qualitative answers match with a percentage of error of about .1%.,"
+  },
+  {
+    "name": "Andrew Zhang",
+    "timestamp": "2026-06-28T18:25:27.576968+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nLegal\nFood\nHistory\nScience\nBiology\n\n**Example Question:** What are the common symptoms of dehydration?\n- Paraphrase 1: How can you tell if someone is dehydrated?\n- Paraphrase 2: Which signs usually indicate that a person isn't getting enough fluids?\n- Paraphrase 3: What physical symptoms might suggest dehydration?\n\n**Models:** Gemini, Claude, Chat\n\n**Consistency Metric:**\nI shall check if the AI gives the same answer for the original question and all three paraphrases. The words do not have to be the exact same, but the meaning should be the same. If all 3 paraphrases match the original answer, the score is 100%. If only 2 match, the score is 67%. If only 1 matches, the score is 33%. If none match, the score is 0%."
   }
 ]
