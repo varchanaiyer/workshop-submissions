@@ -280,5 +280,11 @@
     "timestamp": "2026-06-28T18:25:43.037974+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Grammar\n4. Philosophy\n5. Inferencing\n\n**Example Question:** How long would it take light to cross the Milky Way?\n- Paraphrase 1: The Milky Way allows light to be crossed in how much time?\n- Paraphrase 2: How long can we expect light to go from one end of the Milky Way to the other?\n- Paraphrase 3: What is the fastest time anything could cross the Milky Way?\n\n**Models:** Claude Sonnet, Gemini 2.5\n\n**Consistency Metric:**\nA roughly similar time frame should be provided for each answer,\nEach answer should also use proper grammar and have the same core idea."
+  },
+  {
+    "name": "Achintyan Kaliraj",
+    "timestamp": "2026-06-28T18:25:45.538898+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Biology\n2. Coding\n3. Math\n4. Physics\n5. LLMs\n\n**Example Question:** Why do cells divide\n- Paraphrase 1: What causes a cell to divide\n- Paraphrase 2: What is the purpose of cell division\n- Paraphrase 3: How does cell division happen\n\n**Models:** Claude Sonnet, Gemini 2.5-Flash, GPT-4o\n\n**Consistency Metric:**\nI will measure the LLM's response to the paraphrased questions by manually reviewing the answer since the answer to my question is more semantically related and doesnt have a straight one phrase answer (e.g $160), its greatly influenced by the interpretation of the question."
   }
 ]
