@@ -394,5 +394,11 @@
     "timestamp": "2026-06-28T18:28:29.609365+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nLegal\nBanking\nStock Market\nAgriculture\nScience\n\n**Example Question:** Its concerning that heat is soaring in France\n- Paraphrase 1: France is seeing one of the hottest temperature in years\n- Paraphrase 2: People are suffering because of France's heat wave\n- Paraphrase 3: People have not seen such a heat wave in years in France\n\n**Models:** Claude Sonnet, GPT 4, Llama 3 8b\n\n**Consistency Metric:**\nCosine similarity"
+  },
+  {
+    "name": "Abhiram Kuchi",
+    "timestamp": "2026-06-28T18:28:34.524214+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Creative storytelling\n3. Space exploration\n4. Coding\n5. Politics\n\n**Example Question:** Should humans continue to investigate and explore in space?\n- Paraphrase 1: Is space exploration needed?\n- Paraphrase 2: Should humans continue space exploration?\n- Paraphrase 3: Do humans need space exploration?\n\n**Models:** Claude Sonnet, Gemini 3.5 Pro, ChatGPT4-o mini\n\n**Consistency Metric:**\nJaccard similarity/cosine similarity of words"
   }
 ]
