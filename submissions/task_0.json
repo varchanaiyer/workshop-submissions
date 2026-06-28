@@ -255,5 +255,12 @@
     "timestamp": "2026-06-28T18:17:48.234882+00:00",
     "task": 0,
     "text": "Cursor"
+  },
+  {
+    "name": "James Zhang",
+    "timestamp": "2026-06-28T18:18:36.336495+00:00",
+    "task": 0,
+    "text": "Claude code. Installed it via powershell.",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_9b107f271c20.png"
   }
 ]
