@@ -316,5 +316,11 @@
     "timestamp": "2026-06-28T18:26:21.446194+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Physics\n3. Economics\n4. Coding\n5. Baking\n\n**Example Question:** You have 3 quarters and 2 dimes. How much money do you have in total?\n- Paraphrase 1: What is the total value of three quarters and two dimes?\n- Paraphrase 2: If someone has three 25-cent coins and two 10-cent coins, how many cents do they have altogether?\n- Paraphrase 3: A wallet contains 3 quarters and 2 dimes, what is the combined amount of money in the wallet?\n\n**Models:** Gemini Pro, Claude Opus\n\n**Consistency Metric:**\nWe compare whether the answers are semantically equivalent after normalization (e.g., \"$0.95\" and \"95 cents\" are treated as the same answer)."
+  },
+  {
+    "name": "Maryam Taherzadeh",
+    "timestamp": "2026-06-28T18:26:31.357873+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Computational drug discovery / bioactivity classification\n2. Medical reasoning / symptom triage\n3. Math / numerical calculation\n4. Logic / deductive reasoning\n5. Ethics / AI decision-making\n\n**Example Question:** A compound has an IC50 value of 500 nM against MDM2. Should it be classified as active or inactive?\n- Paraphrase 1: Would a molecule with IC50 = 500 nM against MDM2 be considered active?\n- Paraphrase 2: For an MDM2 inhibitor, does an IC50 of 500 nM indicate active or inactive bioactivity?\n- Paraphrase 3: If a small molecule inhibits MDM2 with IC50 = 500 nM, what activity label should it receive?\n\n**Models:** GPT-4o-mini, Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nI will use label agreement as the main consistency metric. Each answer will be normalized by converting it to lowercase and extracting the final activity label: active, intermediate, or inactive. A set of paraphrased questions is consistent if the model gives the same label for the original question and all paraphrases. I will also calculate accuracy by comparing the extracted label with the expected IC50-based label."
   }
 ]
