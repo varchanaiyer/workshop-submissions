@@ -472,5 +472,11 @@
     "timestamp": "2026-07-11T18:25:39.795618+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Code\n2. Math\n3. Sports\n4. History\n5. Grammar\n\n**Example Question:** What is the square root of 56?\n- Paraphrase 1: What is 56 to the 1/2 power?\n- Paraphrase 2: Evaluate sqrt(56)\n- Paraphrase 3: 56^(1/2) = ?\n\n**Models:** Claude Fable 5 Max, ChatGPT 5.6 Sol\n\n**Consistency Metric:**\nExtracting the answer"
+  },
+  {
+    "name": "Saksham Agarwal",
+    "timestamp": "2026-07-11T18:26:18.098580+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical \n2. Coding\n3. Logic games\n4. Favorite color (with a descriptive sentence before) \n5. Ethics\n\n**Example Question:** 1. I went on a walk today and there was a lot of rain falling. Anyway, what is your favorite color?\n- Paraphrase 1: 1. I went on a walk today and saw a cardinal. Anyway, what is your favorite color?\n- Paraphrase 2: 1. I went on a walk today in nature next to some trees. Anyway, what is your favorite color?\n- Paraphrase 3: 1. I went on a walk today and saw a rainbow. Anyway, what is your favorite color?\n\n**Models:** Claude Opus 4.8, Claude Sonnet 5, GPT 5.5\n\n**Consistency Metric:**\nJaccard Similarity. I'd also check consistency to see the color of the AI model chooses. It should be consistent, unless the description of the walk threw the AI Off"
   }
 ]
