@@ -130,5 +130,11 @@
     "timestamp": "2026-07-11T18:32:40.839435+00:00",
     "task": 2,
     "text": "**Model(s):** claude opus 4.8\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** The jacket sold for $120 after the discount, so $120 represents what's left   once 25% is taken off.    Step 1 \u2014 What fraction remains after the discount?   A 25% discount means you pay the remaining 75% of the original price.    $$100% - 25% = 75%$$    Step 2 \u2014 Set up the equation.                                 Let the original price be $P$.      $$0.75 \\times P = 120$$                                        Step 3 \u2014 Solve for $P$.    $$P = \\frac{120}{0.75} = 160$$    Answer: the original price was $160.                                                                 Quick check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713\n**CoT + Self-Consistency:** 160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** this activity is not useful."
+  },
+  {
+    "name": "Abhitha Vegi",
+    "timestamp": "2026-07-11T18:32:57.109213+00:00",
+    "task": 2,
+    "text": "**Model(s):** Gemini flash\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** To find the original price, we can break it down step by step:  **Step 1: Understand what the sale price represents** The jacket is on sale for 25% off. This means the buyer is paying the remaining percentage of the original price.   $$100\\% - 25\\% = 75\\%$$   So, $120 is exactly 75% of the original price.  **Step 2: Set up the equation** Let $x$ be the original price. We can write the percentage as a decimal ($0.75$) and set up the equation:   $$0.75 \\cdot x = 120$$  **Step 3: Solve for the original price** To isolate $x$, divide both sides by $0.75$:   $$x = \\frac{120}{0.75}$$  **Step 4: Calculate the final answer**   $$x = 160$$  The original price of the jacket was **$160**.\n**CoT + Self-Consistency:** Run 1: $160, Run 2: $160, Run 3: $160 => majority: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All the runs were correct but CoT with self-consistency gave the best thought process."
   }
 ]
