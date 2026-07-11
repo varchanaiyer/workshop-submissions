@@ -256,5 +256,11 @@
     "timestamp": "2026-07-11T18:59:12.137138+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** All runs agreed on $160\n\n**Best strategy:** CoT + Self-Consistency"
+  },
+  {
+    "name": "Aarv Bansal",
+    "timestamp": "2026-07-11T19:02:13.793967+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT (GPT-5.5)\n\n**Zero-shot:** Answer : $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** The sale price is 75% of the original price, because a 25% discount means the customer pays 100%\u221225%=75%.  So if the original price is P:  0.75P=120  Divide both sides by 0.75:  P= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** Run 1 : $160 | Run 2 : $160 | Run 3 : $160 -> Majority : $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Zero-shot solved the problem correctly, but CoT provided a clearer explanation of the calculation. Few short helped the model follow a pattern form the examples. All self consistency runs produced the same answer, which shows that the response is reliable."
   }
 ]
