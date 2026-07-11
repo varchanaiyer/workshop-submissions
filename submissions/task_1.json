@@ -496,5 +496,11 @@
     "timestamp": "2026-07-11T18:26:52.725157+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nPhysics: Linear kinematics & projectile motion.\n\nWeb Dev: 3D CSS transforms & scroll animations.\n\nMedical: Dosage safety & healthcare protocols.\n\nNonprofits: Global structural logistics.\n\nEconomics: Oligopoly & monopoly market structures.\n\n**Example Question:** What formula finds final velocity given initial velocity, uniform acceleration, and displacement?\n- Paraphrase 1: How do you calculate terminal speed if you have starting speed, constant acceleration, and distance?\n- Paraphrase 2: What linear kinematic equation links displacement, steady acceleration, and initial velocity to ending velocity?\n- Paraphrase 3: If an object accelerates steadily over a set distance, what formula gives its final speed from its initial state?\n\n**Models:** Gemini 1.5 Flash  Claude 3.5 Sonnet  GPT-4o-mini\n\n**Consistency Metric:**\nExact match after stripping punctuation, converting to lowercase, and isolating the core formula or number."
+  },
+  {
+    "name": "Atharv Santosh",
+    "timestamp": "2026-07-11T18:27:16.282713+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. History\n3. Science\n4. Ethics\n5. Technology\n\n**Example Question:** What were the main causes of World War I?\n- Paraphrase 1: What political and military events led European nations into World War I?\n- Paraphrase 2: Which factors contributed most to the outbreak of World War I?\n- Paraphrase 3: Why did World War I begin in 1914?\n\n**Models:** Gemini 2.5 Pro, Claude Sonnet 4\n\n**Consistency Metric:**\nJaccard Similarity >= 0.7"
   }
 ]
