@@ -508,5 +508,11 @@
     "timestamp": "2026-07-11T18:27:22.353152+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Chemistry\n3. History\n4. Biology\n5. Business\n\n**Example Question:** What is the atomic weight of Oxygen\n- Paraphrase 1: Find the weight of Oxygen shown on a periodic table\n- Paraphrase 2: How much is the atomic weight of Oxygen\n- Paraphrase 3: I need to find the atomic weight of Oxygen\n\n**Models:** Gpt-4, Gemini\n\n**Consistency Metric:**\nFor factual questions I can see if the answer given is the same for both."
+  },
+  {
+    "name": "James Kim",
+    "timestamp": "2026-07-11T18:27:38.178206+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1 Math\n2 Logic\n3 Medicine\n4 Coding\n5 Physics\n\n**Example Question:** A ball is thrown upward at 10 meters per second in a gravity of 10 meters per second squared. How long does it stay in the air?\n- Paraphrase 1: A ball is thrown upward at 10 meters per second in a gravity of 10 meters per second squared. How long until it hits the ground?\n- Paraphrase 2: Ball starts at y=0 and starts with an upward velo of 10m/s. If acceleration is 10m/s^2 down, how long until it reaches y=0 again?\n- Paraphrase 3: Object has upward velo 10m/s and downward acceleration 10m/s^2. How long until it reaches starting position\n\n**Models:** GPT 4 o mini, DeepseekV4, Claude sonnet\n\n**Consistency Metric:**\nFor factual questions an exact match after normalizing"
   }
 ]
