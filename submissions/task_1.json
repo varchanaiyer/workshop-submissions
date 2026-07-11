@@ -484,5 +484,11 @@
     "timestamp": "2026-07-11T18:26:40.536120+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical\nPhysics\nFRC Robotics\nMath\nLogic\n\n**Example Question:** What is the exact maximum weight limit for an FRC robot (excluding bumpers and the battery)?\n- Paraphrase 1: According to the FRC game manual, what is the maximum allowable weight of a robot, excluding its battery and bumpers?\n- Paraphrase 2: When an FRC robot steps onto the official inspection scale, what is the highest weight it can register without its battery and bumpers before being disqualified?\n- Paraphrase 3: What is the structural mass limit, in pounds, for an FRC robot's frame and mechanisms, omitting the bumper assemblies and the 12V battery?\n\n**Models:** Gemini 3.1 Pro, Claude Sonnet\n\n**Consistency Metric:**\nEnsure the LLM provides the answer in one singular word and use NLP + attention to calculate a semantic closeness score in the vector space."
+  },
+  {
+    "name": "Arko Samad",
+    "timestamp": "2026-07-11T18:26:48.672444+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Coding\n3. Finance\n4. Law\n5. Sports\n\n**Example Question:** What does the pancreas produce that raises blood sugar levels?\n- Paraphrase 1: What hormone secreted by the pancreas is responsible for increasing blood glucose levels?\n- Paraphrase 2: Name the pancreatic hormone that counteracts insulin by preventing blood sugar from dropping too low?\n- Paraphrase 3: What is the name of the chemical messenger produced in the pancreas that signals the liver to release stored glucose into the blood?\n\n**Models:** Claude Opus 4.8, GPT 5.4\n\n**Consistency Metric:**\nsearch for the word \"glucagon\" in any of the responses. if the response has glucagon, it counts as a success. Otherwise, it's a failure."
   }
 ]
