@@ -736,5 +736,11 @@
     "timestamp": "2026-07-11T18:37:08.581163+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. History\n2. Coding\n3. Math\n4. Architectural Design\n5. Literature analysis\n\n**Example Question:** What does the green light symbolize in the Great Gatsby?\n- Paraphrase 1: In F. Scott Fitzgerald's novel, the Great Gatsby, he uses the green light to represent?\n- Paraphrase 2: In the Great Gatsby, what does the narrator think is the deeper meaning behind Daisy's green light?\n- Paraphrase 3: There are many items with a deeper significance than face-value in the book, The Great Gatsby. One of those items is the Green Light on Daisy's dock. What does the light represent?\n\n**Models:** DeepSeek V3, Qwen3, Llama 3.3 70B\n\n**Consistency Metric:**\nClosed-ended responses are considered consistent if their normalized final answers (e.g., ignoring capitalization, punctuation, and formatting) are identical, while open-ended responses are considered consistent if the cosine similarity between their sentence embeddings exceeds a predefined threshold. The overall consistency score is the percentage of consistent question pairs"
+  },
+  {
+    "name": "Nolan Horvath",
+    "timestamp": "2026-07-11T18:50:37.938972+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\ne.g,\n1) Favorite Anime?\n2) Which country is closer to the equator?\n3) Moral Dilemmas\n4) Actor names\n5) Judicial verdicts\n\n**Example Question:** Is Canada or Brazil closer to the equator?\n- Paraphrase 1: If you had to pick one, is Canada or Brazil farther from the equator?\n- Paraphrase 2: Based on square miles, is Brazil closer to the equator compared to Canada?\n- Paraphrase 3: Brazil feels warmer than Canada in the winter-- is it closer to the equator?\n\n**Models:** Chat GPT 5.5, Claude Sonnet, Gemini, Deepseek V4\n\n**Consistency Metric:**\nSquare miles and accuracy metric-- If Brazil is closer, is the respective LLM saying Brazil across different phrasing."
   }
 ]
