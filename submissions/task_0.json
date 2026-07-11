@@ -679,5 +679,12 @@
     "task": 0,
     "text": "claude",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_9b4d1d9abdbf.png"
+  },
+  {
+    "name": "Avighna Ganesh Babu",
+    "timestamp": "2026-07-11T18:15:37.837239+00:00",
+    "task": 0,
+    "text": "Installed Claude Code extension in VS Code",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_77c4ad91fe6d.png"
   }
 ]
