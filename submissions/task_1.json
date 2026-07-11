@@ -568,5 +568,11 @@
     "timestamp": "2026-07-11T18:28:31.527000+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (specific drugs)\n2. Neuroscience (neuroanatomy, Neurotransmitters)\n3. Creative and Subjective writing (tone of passage, grammar, critiquing)\n4. Coding and algorithms (debugging)\n5. Social sciences (timelines, historical facts)\n\n**Example Question:** What is the primary neurotransmitter used by motor neurons to signal muscle contraction?\n- Paraphrase 1: Which chemical messenger do motor neurons release?\n- Paraphrase 2: Name the main neurotransmitter for triggering movement in a muscle cell.\n- Paraphrase 3: What part of the nervous system is responsible for muscle movement?\n\n**Models:** Claude Sonnet 5, Gemini Flash\n\n**Consistency Metric:**\nI would check for the presence of exact target keywords or its accepted abbreviations. I would also convert the model's output to lowercase, strip all the punctuation, and remove common filler phrases."
+  },
+  {
+    "name": "Ujaan Sanyal",
+    "timestamp": "2026-07-11T18:28:45.471983+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Legal\n3. Mathematics\n4. Logic problems\n5. Coding/Computer science\n\n**Example Question:** Which team won the 2022 World Cup?\n- Paraphrase 1: The World Cup features many teams, which one won in 2022?\n- Paraphrase 2: In 2022, which team won the World Cup?\n- Paraphrase 3: The World Cup title went to which team in 2022?\n\n**Models:** GPT-4o mini, Claude Sonnet, Gemini Pro\n\n**Consistency Metric:**\nSince this is a factual question, we would likely equalize the LLM's answer by accounting for lowercase answers, answers with special characters, and different ways/languages to represent the winning team."
   }
 ]
