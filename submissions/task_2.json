@@ -262,5 +262,11 @@
     "timestamp": "2026-07-11T19:02:13.793967+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT (GPT-5.5)\n\n**Zero-shot:** Answer : $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** The sale price is 75% of the original price, because a 25% discount means the customer pays 100%\u221225%=75%.  So if the original price is P:  0.75P=120  Divide both sides by 0.75:  P= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** Run 1 : $160 | Run 2 : $160 | Run 3 : $160 -> Majority : $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Zero-shot solved the problem correctly, but CoT provided a clearer explanation of the calculation. Few short helped the model follow a pattern form the examples. All self consistency runs produced the same answer, which shows that the response is reliable."
+  },
+  {
+    "name": "Nolan Horvath",
+    "timestamp": "2026-07-11T19:03:40.756993+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet 5 Medium, Chat GPT 5.5,\n\n**Zero-shot:** 120\n**Few-shot:** 160\n**Chain-of-Thought:** Let's work through it step by step. Step 1: Understand what \"25% discount\" means If the jacket is discounted by 25%, the sale price represents the remaining 75% of the original price. Step 2: Set up the equationLet the original price be PP P. P\u00d7(1\u22120.25)=120P \\times (1 - 0.25) = 120P\u00d7(1\u22120.25)=120 P\u00d70.75=120P \\times 0.75 = 120P\u00d70.75=120 Step 3: Solve for P P=1200.75P = \\frac{120}{0.75}P=0.75120\u200b P=160P = 160P=160 Step 4: Check the answer 25% of $160 is $40. Subtracting: $160 - $40 = $120 \u2713 The original price was $160.\n**CoT + Self-Consistency:** Run 1: 160/ Run 2: 160/ Run 3: 160/ Majority: 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All the CoT +Self-Consistency reported the same answer of 160, and that the few-shot prompt responded with an answer of \"120\" despite being a semi-newer model."
   }
 ]
