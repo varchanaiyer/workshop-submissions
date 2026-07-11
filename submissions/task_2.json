@@ -148,5 +148,11 @@
     "timestamp": "2026-07-11T18:33:52.674301+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** $120 \u00f7 0.75 = $160 original price.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: A 25% discount means the sale price is 100% \u2212 25% = 75% of the original price. Step 2: Set up the equation: 0.75 \u00d7 original = $120. Step 3: Solve: original = $120 / 0.75 = $160. The original price was $160.\n**CoT + Self-Consistency:** Step 1: A 25% discount means $120 is 75% of the original price. Step 2: original = $120 / 0.75. Step 3: original = $160. The original price was $160.\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** They all produced the same answer at the end, however chain of thought showed the most work."
+  },
+  {
+    "name": "Bohuslav Onyshchuk",
+    "timestamp": "2026-07-11T18:33:54.704446+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT\n\n**Zero-shot:** $120\n**Few-shot:** $160\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  So:  Original price = 120\u00f70.75=160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** 1: A 25% discount means the customer pays 75% of the original price.  So the original price is:  0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b2. That's correct.  A 25% discount means the customer pays 75% of the original price.  Let the original price be x.  0.75x=120  Divide both sides by 0.75:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b 3. That's correct.  A 25% discount means the customer pays 75% of the original price.  Let the original price be x.  0.75x=120  Divide both sides by 0.75:  x= 0.75 120 \t\u200b  =160  Answer: $160 \u2705\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
