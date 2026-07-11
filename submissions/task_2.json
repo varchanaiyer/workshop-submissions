@@ -172,5 +172,11 @@
     "timestamp": "2026-07-11T18:34:20.165924+00:00",
     "task": 2,
     "text": "**Model(s):** Gemini Flash\n\n**Zero-shot:** 160\n**Few-shot:** 160\n**Chain-of-Thought:** To find the original price of the jacket, we can think about it step by step:  Understand the discount: The jacket is on sale for a 25% discount. This means the customer is paying 100%\u221225%=75% of the original price.  Set up the equation: Let the original price of the jacket be x. We know that 75% of the original price is equal to 120. Expressing 75% as a decimal (0.75), we can write the equation:  0.75\u00d7x=120 Solve for the original price (x): To find x, divide both sides of the equation by 0.75:  x=  0.75 120 \u200b   Calculate the final answer:  x=160 The original price of the jacket was 160.\n**CoT + Self-Consistency:** 160 | 160 | 160 | Majority: 160\n\n**Best strategy:** Chain-of-Thought"
+  },
+  {
+    "name": "Mofe Atanda",
+    "timestamp": "2026-07-11T18:34:29.357890+00:00",
+    "task": 2,
+    "text": "**Model(s):** Opus 4.8 (High)\n\n**Zero-shot:** $160.  $120 is 75% of the original (after taking 25% off), so original = 120 \u00f7 0.75 = $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: A 25% discount means the sale price is 100% \u2212 25% = 75% of the original price.  Step 2: So $120 = 75% of the original = 0.75 \u00d7 original.  Step 3: Solve for the original: original = $120 \u00f7 0.75 = $160.  Check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713\n**CoT + Self-Consistency:** Run 1: $160, Run 2: $160, Run 3: $160\n\n**Best strategy:** Chain-of-Thought"
   }
 ]
