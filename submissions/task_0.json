@@ -798,5 +798,12 @@
     "task": 0,
     "text": "Installed Claude Code using a PowerShell installation command with irm and iex",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_3b2bf1ec5ba9.png"
+  },
+  {
+    "name": "Haocheng Guo",
+    "timestamp": "2026-07-11T18:22:14.678084+00:00",
+    "task": 0,
+    "text": "Installed Cursor",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_a43d12acd14f.png"
   }
 ]
