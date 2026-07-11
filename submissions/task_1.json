@@ -670,5 +670,11 @@
     "timestamp": "2026-07-11T18:31:05.929507+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. History\n3. Reading \n4. Math\n5. Trivia\n\n**Example Question:** How many grams of protein to take everyday?\n- Paraphrase 1: Throughout one day, how what is the recommended grams of proteins to take?\n- Paraphrase 2: What amount of protein each day to take?\n- Paraphrase 3: Each day how much protein to take?\n\n**Models:** gemini, gpt, claude\n\n**Consistency Metric:**\nIf the amount of grams is between some range"
+  },
+  {
+    "name": "Reya Dawlah",
+    "timestamp": "2026-07-11T18:31:13.198776+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Physics\n4. Medical\n5. Cultural values\n\n**Example Question:** What is the importance of work-life balance in Chinese culture?\n- Paraphrase 1: How much do Chinese nationals value a work-life balance?\n- Paraphrase 2: How much time do Chinese nationals spend on work vs. for other personal lifestyle tasks?\n- Paraphrase 3: What is the definition of work-life balance as per Chinese customs?\n\n**Models:** Gemini Flash, Claude Sonnet 5, GPT 4o-mini\n\n**Consistency Metric:**\nCosine similarity between answers to the original vs. the paraphrased question, where values >0.5 are counted as fairly consistent."
   }
 ]
