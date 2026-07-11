@@ -556,5 +556,11 @@
     "timestamp": "2026-07-11T18:28:15.118651+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Reading Comprehension\n4. Legal Systems\n5. History\n\n**Example Question:** What is the derivative of x^3\n- Paraphrase 1: Calculate d/dx (x^3)\n- Paraphrase 2: Find f'(x) where f(x) = x^3\n- Paraphrase 3: Give me the function for the instantaneous rate of change of x^3\n\n**Models:** Claude Opus, Gemini 3.1 Pro\n\n**Consistency Metric:**\nFor factual questions such as math, verify that the answers are the same."
+  },
+  {
+    "name": "Mofe Atanda",
+    "timestamp": "2026-07-11T18:28:29.157048+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math Problems\n2. Coding (debugging)\n3. Current events / facts\n4. Sports (stats / records)\n5. Ethics\n\n**Example Question:** Which country won the 2022 FIFA World Cup?\n- Paraphrase 1: Argentina and France met in the 2022 World Cup final. Who won?\n- Paraphrase 2: The last men's World Cup was held in Qatar. Name the champion\n- Paraphrase 3: In the 2022 World Cup final, which national team won the World Cup?\n\n**Models:** Fable 5, GTP 5.6-Sol, Grok 4.5\n\n**Consistency Metric:**\nFor factual questions: Extract the key answer, normalize it (lowercase, strip punctuation, standardize numbers/units), and check exact match across all paraphrases. All must agree to count as consistent (score 1, else 0).\nFor open-ended questions: Compute pairwise Jaccard similarity on unique content words (stopwords removed) and average them; mean > 0.6 = consistent. Overall score = consistent question sets \u00f7 total sets, reported separately for factual vs. open-ended."
   }
 ]
