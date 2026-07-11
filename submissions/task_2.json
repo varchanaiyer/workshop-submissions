@@ -112,5 +112,11 @@
     "timestamp": "2026-07-11T18:31:57.824235+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** 160\n**Few-shot:** $160.\n**Chain-of-Thought:** 160\n**CoT + Self-Consistency:** 160,160,160: 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** No"
+  },
+  {
+    "name": "Chayan Malkari",
+    "timestamp": "2026-07-11T18:32:01.433130+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** 160\n**Few-shot:** $160.\n**Chain-of-Thought:** 160\n**CoT + Self-Consistency:** 160,160,160: 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** No"
   }
 ]
