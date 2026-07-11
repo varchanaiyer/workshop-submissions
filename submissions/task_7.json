@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Atharv Santosh",
+    "timestamp": "2026-07-11T19:53:48.245721+00:00",
+    "task": 7,
+    "text": "**Errors found (3) \u2014 Certain:**\n\nError 1:  standard RAG is a bad baseline since there are more recent, stronger methods\nError 2: Ablations cant confirms strong causality\nError 3: Efficiency claim is not meaningful since specifics aren't mentioned (hardware, model size, etc)"
+  }
+]
