@@ -604,5 +604,11 @@
     "timestamp": "2026-07-11T18:29:12.330439+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance\n2. Law\n3. Behavioral Economics\n4. AI\n5. Business\n\n**Example Question:** 1. What is the market cap of each of the magnificent 7 companies\n- Paraphrase 1: 2. For each of the magnificent 7 companies, what is their individual market cap.\n- Paraphrase 2: 3 .What are the market caps for each of these companies: Nvidia, Alphabet, Apple, Microsoft, Amazon, Tesla, and Meta Platforms.\n- Paraphrase 3: 4. Rank each of these companies based on their market cap: Nvidia, Alphabet, Apple, Microsoft, Amazon, Tesla, and Meta Platforms.\n\n**Models:** ChatGPT 5.6 Sol, Gemini Flash 2.5\n\n**Consistency Metric:**\nUse an association matrix table for each stock and its market cap. Ensure that the data is accurate and each stock has the correct market cap. For the ordered questions, make sure the order of reproduction matches reality."
+  },
+  {
+    "name": "Roy Vaid",
+    "timestamp": "2026-07-11T18:29:28.114157+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nGeneral Knowledge (Education system, standardized tests etc)\nOpinion-based (what's the best product in x category)\nLogical ability (doing math/logic puzzles)\nSpatial  reasoning (describing a ransfomration on a object or like finding a shape that fits certain criteria)\nCulling redundant steps (given a plan, figure out what's skippable)\n\n**Example Question:** What's the best sunscreen to buy\n- Paraphrase 1: Which brand has the best product for sunscreen?\n- Paraphrase 2: Give me the best sunscreen top buy\n- Paraphrase 3: How can I get the best sunscreen if I want to protect myself from skin cancer?\n\n**Models:** Sonnet 5 + 5.4 Mini\n\n**Consistency Metric:**\nConsistency over brands/recommended products"
   }
 ]
