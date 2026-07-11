@@ -652,5 +652,11 @@
     "timestamp": "2026-07-11T18:30:51.728051+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. translation\n2. coding\n3. geometry math questions\n4. legal questions\n5. writing an essay\n\n**Example Question:** How much will I be fined for a second offense of DUI in Texas?\n- Paraphrase 1: What fine should I expect for a second offense of DUI in Texas\n- Paraphrase 2: In Texas, what amount will I be fined for a second offense of DUI?\n- Paraphrase 3: If I committed a second offense of DUI in Texas, how much should I be fined?\n\n**Models:** Gemini Flash, Claude Sonnet 5, LLama 70B\n\n**Consistency Metric:**\nFor math, if the final number is equivalent\nFor coding, if the algorithm executes with the same result\nFor writing an essay, if the word count and argument strength are similar"
+  },
+  {
+    "name": "Gomathy Venkata Krishnan ",
+    "timestamp": "2026-07-11T18:30:54.591449+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nGeography\nMathematics \nHealth & Nutrition \nCoding\nRecommendation\n\n**Example Question:** What is the recommended number of questions to solve on Leetcode to achieve the minimal amount of familiarity with the question types?\n- Paraphrase 1: How many questions do you need to solve on leetcode to get a sense of all the difficulties?\n- Paraphrase 2: For a person who is going to interview soon, how many leetcode questions need to be solved?\n- Paraphrase 3: In every difficulty bucket, how many questions should an individual solve to be minimally familiarized?\n\n**Models:** OpenAI GPT-5.5, Anthropic Claude 4 Sonnet,  Google Gemini 2.5 Pro\n\n**Consistency Metric:**\n1 (Consistent): The recommended number/range is the same or very close (e.g., 50\u201375 vs. 60\u201380), and the reasoning is similar.\n0 (Inconsistent): The recommendation changes substantially (e.g., 30 questions vs. 300 questions) or the advice shifts significantly (e.g., \"focus on quantity\" vs. \"don't count questions at all\")."
   }
 ]
