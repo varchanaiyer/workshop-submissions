@@ -408,5 +408,11 @@
     "task": 0,
     "text": "Claude Code via VS Code",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_07fe115acf6b.png"
+  },
+  {
+    "name": "Daniel Tang",
+    "timestamp": "2026-07-11T18:11:50.783897+00:00",
+    "task": 0,
+    "text": "In VS Code I installed Claude Code v2.1.207"
   }
 ]
