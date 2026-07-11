@@ -100,5 +100,11 @@
     "timestamp": "2026-06-28T20:53:52.867948+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT-5.5\n\n**Zero-shot:** 160\n**Few-shot:** 160\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  Let the original price be x.  0.75x=120  Divide both sides by 0.75:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** Run 1: 160 | Run 2: 160 | Run 3: 160 | Majority: 160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** No, there were no surprises or differences between the strategies."
+  },
+  {
+    "name": "Saksham Agarwal",
+    "timestamp": "2026-07-11T18:28:34.064030+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Haiku\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** All 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All of the models agreed on 160. Maybe for more complex questions this would've been different"
   }
 ]
