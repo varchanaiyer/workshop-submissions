@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Kurt Soncco",
+    "timestamp": "2026-07-11T19:08:05.479445+00:00",
+    "task": 6,
+    "text": "**Errors found (5) \u2014 Pretty confident:**\n\n1. Miss the motivation \n2. Unclear definition of the tasks, what queries? on which domain?\n3. Insufficient information on the methods, what is novel?\n4. No specifics on baselines.\n5. Ambiguous percentages results\n6. No limitations"
+  }
+]
