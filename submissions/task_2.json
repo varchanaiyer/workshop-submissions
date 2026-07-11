@@ -202,5 +202,11 @@
     "timestamp": "2026-07-11T18:35:48.727124+00:00",
     "task": 2,
     "text": "**Model(s):** GPT-5.5\n\n**Zero-shot:** Let the original price be **(x)**.  A **25% discount** means the customer pays **75%** of the original price.  So:  [ 0.75x = 120 ]  Solve for (x):  [ x = \\frac{120}{0.75} = 160 ]  **Answer: (\\boxed{$160})**  **Check:**  * 25% of $160 = $40 * $160 \u2212 $40 = $120 \u2705\n**Few-shot:** The sale price is **75%** of the original price (because a 25% discount leaves 75% of the price).  Original price = **$120 \u00f7 0.75 = $160**.  **Answer: $160.**\n**Chain-of-Thought:** I can't provide my private reasoning process, but I can give a concise solution:  A 25% discount means the sale price is **75% of the original price**.  [ \\text{Original price} = \\frac{120}{0.75} = 160 ]  **Answer: (\\boxed{$160})**  Quick check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2714\ufe0f\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 + All are the same and majority is $160\n\n**Best strategy:** Few-shot\n\n**Surprises:** All strategies produced the correct answer ($160). The few-shot prompt gave the most structured response by following the pattern in the examples. Sometimes the internal reasoning isn't provided but you can ask the model to output it's step to see how the question was answered."
+  },
+  {
+    "name": "Ujaan Sanyal",
+    "timestamp": "2026-07-11T18:36:22.511934+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** $160\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.  Let the original price be x.  0.75x=120 x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b  .\n**Chain-of-Thought:** A 25% discount means the sale price is 75% of the original price.  Let the original price be x.  0.75x=120  Divide both sides by 0.75:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** Run 1: $160; Run 2: $160; Run 3: $160 --> Majority: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Zero-shot prompting resulted in a quick and fast answer, while CoT and CoT + Self-consistency (and even few-shot prompting to some extent) resulted in longer, more complete answers."
   }
 ]
