@@ -562,5 +562,11 @@
     "timestamp": "2026-07-11T18:28:29.157048+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math Problems\n2. Coding (debugging)\n3. Current events / facts\n4. Sports (stats / records)\n5. Ethics\n\n**Example Question:** Which country won the 2022 FIFA World Cup?\n- Paraphrase 1: Argentina and France met in the 2022 World Cup final. Who won?\n- Paraphrase 2: The last men's World Cup was held in Qatar. Name the champion\n- Paraphrase 3: In the 2022 World Cup final, which national team won the World Cup?\n\n**Models:** Fable 5, GTP 5.6-Sol, Grok 4.5\n\n**Consistency Metric:**\nFor factual questions: Extract the key answer, normalize it (lowercase, strip punctuation, standardize numbers/units), and check exact match across all paraphrases. All must agree to count as consistent (score 1, else 0).\nFor open-ended questions: Compute pairwise Jaccard similarity on unique content words (stopwords removed) and average them; mean > 0.6 = consistent. Overall score = consistent question sets \u00f7 total sets, reported separately for factual vs. open-ended."
+  },
+  {
+    "name": "Isabella Chong",
+    "timestamp": "2026-07-11T18:28:31.527000+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (specific drugs)\n2. Neuroscience (neuroanatomy, Neurotransmitters)\n3. Creative and Subjective writing (tone of passage, grammar, critiquing)\n4. Coding and algorithms (debugging)\n5. Social sciences (timelines, historical facts)\n\n**Example Question:** What is the primary neurotransmitter used by motor neurons to signal muscle contraction?\n- Paraphrase 1: Which chemical messenger do motor neurons release?\n- Paraphrase 2: Name the main neurotransmitter for triggering movement in a muscle cell.\n- Paraphrase 3: What part of the nervous system is responsible for muscle movement?\n\n**Models:** Claude Sonnet 5, Gemini Flash\n\n**Consistency Metric:**\nI would check for the presence of exact target keywords or its accepted abbreviations. I would also convert the model's output to lowercase, strip all the punctuation, and remove common filler phrases."
   }
 ]
