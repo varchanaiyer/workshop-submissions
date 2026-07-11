@@ -712,5 +712,11 @@
     "timestamp": "2026-07-11T18:34:26.179149+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Civil engineering calculations. \n2. Liability on current Design Codes. \n3. State-of-the-art questions on current methods designs.\n4. Mathematics calculations. \n5. Programs on design-level information.\n\n**Example Question:** What is the recommended height value of a beam given its length?\n- Paraphrase 1: How much factors affects the pre designed height value of a beam?\n- Paraphrase 2: For a beam, which are the minimum height values?\n- Paraphrase 3: Which beam's height are safe within a specific length?\n\n**Models:** GPT4, GLM 5.2\n\n**Consistency Metric:**\nComparison of equations provided. \nAMount of tokens processed for the same answer."
+  },
+  {
+    "name": "Angel Lim",
+    "timestamp": "2026-07-11T18:35:00.756148+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Math\n3. Legal\n4. Medical \n5. Creative writing\n\n**Example Question:** How do I write a python script to load test a website?\n- Paraphrase 1: What off the shelf tool can I use to stress test a website?\n- Paraphrase 2: For testing the reliability of a website, how do I load test it?\n- Paraphrase 3: How to make a tool to load test my website?\n\n**Models:** GPT-5.6, Opus 4.8, Grok4.5\n\n**Consistency Metric:**\nUse an LLM with a prompt to grade"
   }
 ]
