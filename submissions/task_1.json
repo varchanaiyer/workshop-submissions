@@ -478,5 +478,11 @@
     "timestamp": "2026-07-11T18:26:18.098580+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical \n2. Coding\n3. Logic games\n4. Favorite color (with a descriptive sentence before) \n5. Ethics\n\n**Example Question:** 1. I went on a walk today and there was a lot of rain falling. Anyway, what is your favorite color?\n- Paraphrase 1: 1. I went on a walk today and saw a cardinal. Anyway, what is your favorite color?\n- Paraphrase 2: 1. I went on a walk today in nature next to some trees. Anyway, what is your favorite color?\n- Paraphrase 3: 1. I went on a walk today and saw a rainbow. Anyway, what is your favorite color?\n\n**Models:** Claude Opus 4.8, Claude Sonnet 5, GPT 5.5\n\n**Consistency Metric:**\nJaccard Similarity. I'd also check consistency to see the color of the AI model chooses. It should be consistent, unless the description of the walk threw the AI Off"
+  },
+  {
+    "name": "Rishabh Yadav",
+    "timestamp": "2026-07-11T18:26:40.536120+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical\nPhysics\nFRC Robotics\nMath\nLogic\n\n**Example Question:** What is the exact maximum weight limit for an FRC robot (excluding bumpers and the battery)?\n- Paraphrase 1: According to the FRC game manual, what is the maximum allowable weight of a robot, excluding its battery and bumpers?\n- Paraphrase 2: When an FRC robot steps onto the official inspection scale, what is the highest weight it can register without its battery and bumpers before being disqualified?\n- Paraphrase 3: What is the structural mass limit, in pounds, for an FRC robot's frame and mechanisms, omitting the bumper assemblies and the 12V battery?\n\n**Models:** Gemini 3.1 Pro, Claude Sonnet\n\n**Consistency Metric:**\nEnsure the LLM provides the answer in one singular word and use NLP + attention to calculate a semantic closeness score in the vector space."
   }
 ]
