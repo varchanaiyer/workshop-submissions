@@ -634,5 +634,11 @@
     "timestamp": "2026-07-11T18:30:42.005655+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nFitness\nMath\nMedical\nLogic\nEthics\n\n**Example Question:** How many times a week should you work out and how long for each time\n- Paraphrase 1: What intensity workout should I do each week\n- Paraphrase 2: What days are the best to work out with corresponding times\n- Paraphrase 3: Can you give me a workout schedule\n\n**Models:** GPT-4o-mini, Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nI am using an open ended question so I will be using the Jaccard Similarity on each of the word set responses and then test their similarity scores for each of the sets to see how similar they are."
+  },
+  {
+    "name": "Lingyuan",
+    "timestamp": "2026-07-11T18:30:44.398150+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. mathematics\n2. history\n3. fruits\n4. logic\n5. physics\n\n**Example Question:** What is the fruit that fell on Issac Newton's head\n- Paraphrase 1: Which fruit fell on Newton's head?\n- Paraphrase 2: The fruit that fell on Newton's head is what?\n- Paraphrase 3: When Newton was sitting under the tree, what fruit fell on his head?\n\n**Models:** Gemini, Claude, ChatGPT\n\n**Consistency Metric:**\nJaccard Similarity."
   }
 ]
