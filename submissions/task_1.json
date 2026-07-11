@@ -688,5 +688,11 @@
     "timestamp": "2026-07-11T18:32:26.561658+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Mathematical\n3. Logical\n4. Coding\n5. Ethics\n\n**Example Question:** What is the most deadly form of Cancer?\n- Paraphrase 1: Which type of cancer results in the highest number of fatalities?\n- Paraphrase 2: Which specific cancer has the lowest long-term survival rate?\n- Paraphrase 3: If a patient is diagnosed with cancer, which specific type carries the highest statistical risk of death?\n\n**Models:** Claude Sonnet 5, Claude Haiku 4.5, Opus 4.8\n\n**Consistency Metric:**\nUsage of normalizing the answer by extracting the answer alone alongside a Jaccard similarity metric, where if a value over 0.7 is given, then the answers can be considered similar"
+  },
+  {
+    "name": "Bill (William Qian)",
+    "timestamp": "2026-07-11T18:32:35.558899+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Current Events\n3. Coding\n4. Creative Writing\n5. Ethics\n\n**Example Question:** Who is the current CEO of OpenAI, and has there been any major leadership change there in the last few months?\n- Paraphrase 1: Tell me who's currently running OpenAI as CEO, and whether the company's leadership has shifted recently.\n- Paraphrase 2: Has OpenAI had any changes at the top of the company lately? Who holds the CEO position right now?\n- Paraphrase 3: I want to know who leads OpenAI today and if there's been a recent shakeup in its executive leadership.\n\n**Models:** GPT-4o-mini, Claude Sonnet, Gemini Flash\n\n**Consistency Metric:**\nUse multiple LLMs to judge whether the content is the same in the responses"
   }
 ]
