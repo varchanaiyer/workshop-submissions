@@ -460,5 +460,11 @@
     "timestamp": "2026-06-28T18:59:46.075305+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath proofs, Q&A, history, arithmetic, ethics\n\n**Example Question:** What is 150% of 50?\n- Paraphrase 1: Calculate 150% of 50.\n- Paraphrase 2: 1.5 x 50 = ?\n- Paraphrase 3: What is  3/2 x 50?\n\n**Models:** GPT5, Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nFor factual questions, exact same answers at the end.\nFor open-ended questions, similar, but correct flow of logic (for proofs) and similar word and sentence structure."
+  },
+  {
+    "name": "TEST-Claude-Check (ignore)",
+    "timestamp": "2026-07-11T17:22:49.279654+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Test category A\n2. Test B\n3. Test C\n4. Test D\n5. Test E (automated check, ignore)\n\n**Example Question:** TEST: How tall is the Eiffel Tower?\n- Paraphrase 1: TEST: What is the Eiffel Tower's height in meters?\n- Paraphrase 2: TEST: The Eiffel Tower stands how many meters tall?\n- Paraphrase 3: TEST: If you measured the Eiffel Tower, what height would you get?\n\n**Models:** TEST model list\n\n**Consistency Metric:**\nTEST metric: exact match. Automated check, safe to delete."
   }
 ]
