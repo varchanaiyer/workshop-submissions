@@ -244,5 +244,11 @@
     "timestamp": "2026-07-11T18:54:52.529584+00:00",
     "task": 2,
     "text": "**Model(s):** chatgpt 5.4\n\n**Zero-shot:** The jacket\u2019s sale price is 75% of the original price, because a 25% discount leaves 75%.  So: [ 0.75x = 120 ]  [ x = \\frac{120}{0.75} = 160 ]  **Original price: $160**\n**Few-shot:** A 25% discount means the sale price is 75% of the original. Original = $120 / 0.75 = **$160**.\n**Chain-of-Thought:** A 25% discount means the jacket sells for **75% of the original price**.  [ 0.75 \\times \\text{Original Price} = 120 ]  [ \\text{Original Price} = \\frac{120}{0.75} = 160 ]  **The original price was ($160).**\n**CoT + Self-Consistency:** Run 1:160 Run2:160 Run3:160 majority: 160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** They were all correct. I started three new chats, and it gave me the exact same output word for word."
+  },
+  {
+    "name": "Atharv Santosh",
+    "timestamp": "2026-07-11T18:57:04.977544+00:00",
+    "task": 2,
+    "text": "**Model(s):** gpt-2 xl\n\n**Zero-shot:** $125\n**Few-shot:** $150\n**Chain-of-Thought:** $30\n**CoT + Self-Consistency:** 30, 30, 30\n\n**Best strategy:** Few-shot\n\n**Surprises:** CoT was extremely wrong every time"
   }
 ]
