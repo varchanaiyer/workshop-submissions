@@ -610,5 +610,11 @@
     "timestamp": "2026-07-11T18:29:28.114157+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nGeneral Knowledge (Education system, standardized tests etc)\nOpinion-based (what's the best product in x category)\nLogical ability (doing math/logic puzzles)\nSpatial  reasoning (describing a ransfomration on a object or like finding a shape that fits certain criteria)\nCulling redundant steps (given a plan, figure out what's skippable)\n\n**Example Question:** What's the best sunscreen to buy\n- Paraphrase 1: Which brand has the best product for sunscreen?\n- Paraphrase 2: Give me the best sunscreen top buy\n- Paraphrase 3: How can I get the best sunscreen if I want to protect myself from skin cancer?\n\n**Models:** Sonnet 5 + 5.4 Mini\n\n**Consistency Metric:**\nConsistency over brands/recommended products"
+  },
+  {
+    "name": "Chengming Ye",
+    "timestamp": "2026-07-11T18:29:50.957723+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance\n2. Consulting\n3. Supplychain\n4. Accounting\n5. Math\n\n**Example Question:** What happened to the valutation if the cost of equity doubles?\n- Paraphrase 1: What happens to the wacc?\n- Paraphrase 2: How would that reflect on cashflow?\n- Paraphrase 3: How would the valuation change for perpetuity?\n\n**Models:** Claude Sonnet, Gemini Pro, GPT 01\n\n**Consistency Metric:**\nStating the relationship of wacc and COE, apply it to the FCF and perpetuity assumption"
   }
 ]
