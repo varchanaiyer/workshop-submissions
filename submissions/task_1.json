@@ -538,5 +538,11 @@
     "timestamp": "2026-07-11T18:27:51.369692+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Newtonian Physics (Factual / Concept Application): Momentum, friction, and Newton's laws of motion in everyday scenarios.\n2. Cellular Biology (Factual / Structural): Cell organelles, photosynthesis, and basic cellular respiration.\n3. Algorithmic Thinking (Logic / Technical): Basic sorting concepts, loops, and conditional logic.\n4. Earth Science & Meteorology (Factual / Analytical): The water cycle, atmospheric pressure, and weather patterns.\n5. Space Science & Astronomy (Subjective / Theoretical): Explaining abstract concepts like the scale of the universe or the classification of planetary bodies.\n\n**Example Question:** Why does a passenger slide to the right side of their seat when a car makes a sharp turn to the left?\n- Paraphrase 1: Explain how Newton's first law of motion, inertia, applies to a person inside a vehicle turning left.\n- Paraphrase 2: Imagine you are riding a skateboard and suddenly skate hard to the left. Why does your body feel like it's throwing itself to the right side?\n- Paraphrase 3: What physical property prevents a passenger's body from instantly following the car's path when the driver abruptly steers left?\n\n**Models:** GPT-4o, Haiku 4.5\n\n**Consistency Metric:**\nWe will define a list of 2\u20133 critical \"ground truth\" scientific terms or values that must appear in all four responses (e.g., for the physics question, the keywords are \"inertia\", \"Newton's first law\", and \"straight-line motion\"). If all four responses contain the target semantic concepts, it is marked as 100% Consistent."
+  },
+  {
+    "name": "Arjun Dabir",
+    "timestamp": "2026-07-11T18:28:05.599151+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCommon sense\nArithmetic\nSymbolic\nPoetry\nCoding\n\n**Example Question:** If a water is in a bucket, what is its boiling point?\n- Paraphrase 1: Define water's boiling point given its in a bucket\n- Paraphrase 2: Calculate water's boiling point in a bucket\n- Paraphrase 3: For a bucket that contains water - define its boiling point\n\n**Models:** GPT-4.6 sol, Claude Fable, Geminis\n\n**Consistency Metric:**\nIf the model responds 100 degrees celsius"
   }
 ]
