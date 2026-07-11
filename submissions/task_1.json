@@ -646,5 +646,11 @@
     "timestamp": "2026-07-11T18:30:45.938101+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Scientific Reasoning\n2. Programming\n3. Financial Literacy\n4. Ethics & Decision Making\n5. Geography & Current Knowledge\n\n**Example Question:** What is the time complexity of binary search on a sorted array?\n- Paraphrase 1: When searching a sorted list using binary search, what is its Big-O time complexity?\n- Paraphrase 2: A program repeatedly halves the search space in a sorted array. What is the algorithm's computational complexity?\n- Paraphrase 3: If an algorithm finds an element by dividing a sorted array in half each step, what time complexity does it have?\n\n**Models:** GPT-5.5, Claude Sonnet 4, Gemini 2.5 Flash\n\n**Consistency Metric:**\nConsistency will be measured by comparing the responses to the original question and its three paraphrases. A response is considered consistent if it provides the same core answer, maintains factual accuracy, and does not introduce contradictions across paraphrases. Each paraphrase will receive a score of 1 (consistent) or 0 (inconsistent). The final consistency score for each question will be calculated as: \nConsistency Score = (Number of Consistent Responses \u00f7 Total Number of Paraphrases) \u00d7 100%\nFor example, if all three paraphrases produce answers equivalent to the original response, the consistency score is 100%. If only two are consistent, the score is 66.7%."
+  },
+  {
+    "name": "Xinyan Fang",
+    "timestamp": "2026-07-11T18:30:51.728051+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. translation\n2. coding\n3. geometry math questions\n4. legal questions\n5. writing an essay\n\n**Example Question:** How much will I be fined for a second offense of DUI in Texas?\n- Paraphrase 1: What fine should I expect for a second offense of DUI in Texas\n- Paraphrase 2: In Texas, what amount will I be fined for a second offense of DUI?\n- Paraphrase 3: If I committed a second offense of DUI in Texas, how much should I be fined?\n\n**Models:** Gemini Flash, Claude Sonnet 5, LLama 70B\n\n**Consistency Metric:**\nFor math, if the final number is equivalent\nFor coding, if the algorithm executes with the same result\nFor writing an essay, if the word count and argument strength are similar"
   }
 ]
