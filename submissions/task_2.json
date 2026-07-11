@@ -118,5 +118,11 @@
     "timestamp": "2026-07-11T18:32:01.433130+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** 160\n**Few-shot:** $160.\n**Chain-of-Thought:** 160\n**CoT + Self-Consistency:** 160,160,160: 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** No"
+  },
+  {
+    "name": "Isabella Chong",
+    "timestamp": "2026-07-11T18:32:12.962819+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet 5\n\n**Zero-shot:** The original price was $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** The original price was $160.\n**CoT + Self-Consistency:** The original price was $160.\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** Zero-short deifnitely was shorter but had less explanations. COT had explanations."
   }
 ]
