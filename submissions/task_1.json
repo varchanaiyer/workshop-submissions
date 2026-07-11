@@ -664,5 +664,11 @@
     "timestamp": "2026-07-11T18:30:57.759600+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical, history, sports, math, coding\n\n**Example Question:** What is the recommended daily intake of sugar for an adult?\n- Paraphrase 1: How much sugar should an adult consume each day?\n- Paraphrase 2: What is the recommended amount of daily sugar intake for adults?\n- Paraphrase 3: How many grams of sugar are adults advised to consume per day?\n\n**Models:** GPT 3, Gemini Flash\n\n**Consistency Metric:**\nFor numerical based answers, I will compare answers for exact match"
+  },
+  {
+    "name": "Michael Chan",
+    "timestamp": "2026-07-11T18:31:05.929507+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. History\n3. Reading \n4. Math\n5. Trivia\n\n**Example Question:** How many grams of protein to take everyday?\n- Paraphrase 1: Throughout one day, how what is the recommended grams of proteins to take?\n- Paraphrase 2: What amount of protein each day to take?\n- Paraphrase 3: Each day how much protein to take?\n\n**Models:** gemini, gpt, claude\n\n**Consistency Metric:**\nIf the amount of grams is between some range"
   }
 ]
