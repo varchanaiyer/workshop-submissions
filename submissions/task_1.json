@@ -550,5 +550,11 @@
     "timestamp": "2026-07-11T18:28:11.046144+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medication dosage and drug safety\n2. Nutrition and dietary recommendations\n3. Disease symptoms and diagnosis\n4. Medical treatment and first aid\n5. General health and preventive care\n\n**Example Question:** Can acetaminophen and ibuprofen be taken together for pain relief?\n- Paraphrase 1: Is it safe to use both acetaminophen and ibuprofen at the same time to treat pain?\n- Paraphrase 2: If someone has pain, can they combine Tylenol and Advil safely?\n- Paraphrase 3: Would taking acetaminophen alongside ibuprofen be considered a safe pain management option?\n\n**Models:** GPT-4o-mini, Claude 3.5, Sonnet Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor factual medical questions, responses will be labeled as consistent if they have the same final medical recommendation after the text becomes normalized. We will calculate the percentage of paraphrases that produce the same answer as the original for each model. Higher percentages mean greater paraphrasing consistency and lower susceptibility to hallucinations."
+  },
+  {
+    "name": "Sthanav Murali",
+    "timestamp": "2026-07-11T18:28:15.118651+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Coding\n3. Reading Comprehension\n4. Legal Systems\n5. History\n\n**Example Question:** What is the derivative of x^3\n- Paraphrase 1: Calculate d/dx (x^3)\n- Paraphrase 2: Find f'(x) where f(x) = x^3\n- Paraphrase 3: Give me the function for the instantaneous rate of change of x^3\n\n**Models:** Claude Opus, Gemini 3.1 Pro\n\n**Consistency Metric:**\nFor factual questions such as math, verify that the answers are the same."
   }
 ]
