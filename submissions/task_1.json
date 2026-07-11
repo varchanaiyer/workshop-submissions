@@ -784,5 +784,11 @@
     "timestamp": "2026-07-11T19:38:02.145367+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Basic Arithmetic\n2. Basic Reasoning\n3. Essay Writing\n4. Multiple Choice\n5. Pattern Development\n\n**Example Question:** What should a driver do when they drive up to a red light?\n- Paraphrase 1: To a driver what does a red light mean?\n- Paraphrase 2: A red light typically means what to a driver?\n- Paraphrase 3: A driver needs to do what at a red light?\n\n**Models:** Claude Sonnet & Gemini 3.5\n\n**Consistency Metric:**\nFactual Answers: Answers must be standardized to ensure that specific answers can be found.  This would mean finding either letter or numeric answers in the AI model's output and evaluating them against the correct answer.\nOpen-ended Answers: Human or external AI's evaluation of the results would be most appropriate for testing quality."
+  },
+  {
+    "name": "Nicasio David",
+    "timestamp": "2026-07-11T20:26:17.846530+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Sports (facts, awards, history, rules)\n2. Math (varied difficulty, numerical answer)\n3. Language (grammar rules)\n4. Ethics (scenarios)\n5. Subjective recommendation\n\n**Example Question:** What's the best programming language for a beginner to learn first?\n- Paraphrase 1: If someone's never coded before, which language should they start with?\n- Paraphrase 2: For a total novice, what's the best first language to learn programming?\n- Paraphrase 3: My cousin wants to get into coding, what language do you recommend she begin with?\n\n**Models:** Claude Haiku 4.5, Gemini 3.5 Flash, ChatGPT-5.5\n\n**Consistency Metric:**\nExact match after normalizing for objective questions, semantic similarity for open-ended"
   }
 ]
