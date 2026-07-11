@@ -586,5 +586,11 @@
     "timestamp": "2026-07-11T18:28:57.375791+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n2. Coding\n3. Medical\n4. History\n5. Chemistry\n\n**Example Question:** What came first: the chicken or the egg?\n- Paraphrase 1: Can you let me know if the egg or the chicken came first?\n- Paraphrase 2: I'm in a predicament; tell mewhether the chicken or the egg existed first.\n- Paraphrase 3: Choose the one that came first: the chicken or the egg.\n\n**Models:** Claude Sonnet\n\n**Consistency Metric:**\nJaccard similarity"
+  },
+  {
+    "name": "Siddharth Mahesh",
+    "timestamp": "2026-07-11T18:29:05.091078+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics\n3. History\n4. Philosophy\n5. Math\n\n**Example Question:** How were the Americas discovered by the Europeans?\n- Paraphrase 1: What led the Europeans to find the Americas?\n- Paraphrase 2: What caused the finding of the Americas by the Europeans?\n- Paraphrase 3: What factors are responsible for the European finding of the Americas?\n\n**Models:** GPT-5.6 Sol, GPT-5.5, GPT-5.4\n\n**Consistency Metric:**\nI will compare answers using Jaccard similarity of shared causes in addition to total unique causes. It will be consistent if the similarity score is at least .75."
   }
 ]
