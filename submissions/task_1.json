@@ -766,5 +766,11 @@
     "timestamp": "2026-07-11T19:05:29.621826+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nEthics\nHistory\nPhilosophy\nEconomics\n\n**Example Question:** What's the most efficient method to test whether a number is prime?\n- Paraphrase 1: A programmer needs to verify if a given number is prime, what approach should they use?\n- Paraphrase 2: What algorithm determines prime status for a number with the least wasted computation?\n- Paraphrase 3: -\n\n**Models:** Claude Opus\n\n**Consistency Metric:**\nFor open-ended questions (e.g., Ethics, Philosophy, and reasoning-based History/Economics questions): embed each of the 3 paraphrase responses using a sentence transformer (e.g., all-MiniLM-L6-v2), then compute pairwise cosine similarity across the 3 response embeddings. Average the 3 pairwise scores per question. Score > 0.75 = consistent, 0.5\u20130.75 = partially consistent, < 0.5 = inconsistent."
+  },
+  {
+    "name": "Anish Sahoo",
+    "timestamp": "2026-07-11T19:07:01.687149+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math (Solving AMC questions - subjective)\n2. History (Answer questions based on facts)\n3. Biology (Answer factual questions\n4. English (Writing a story based on a prompt)\n5. Ethics (Decision-making questions - subjective)\n\n**Example Question:** What day is Independence Day in the USA?\n- Paraphrase 1: On what day of the year is the American Independence day celebrated?\n- Paraphrase 2: Today there were fireworks for American Independence Day. What date is it today?\n- Paraphrase 3: What date does the United States celebrate becoming an independent country?\n\n**Models:** GPT-4o-Mini, Claude Sonnet, Gemini 3 Flash\n\n**Consistency Metric:**\nFactual questions - Extract answers and test for accuracy.\nOpen-Ended Questions - Look for overlapping main ideas and wood similarity."
   }
 ]
