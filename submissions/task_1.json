@@ -742,5 +742,11 @@
     "timestamp": "2026-07-11T18:50:37.938972+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\ne.g,\n1) Favorite Anime?\n2) Which country is closer to the equator?\n3) Moral Dilemmas\n4) Actor names\n5) Judicial verdicts\n\n**Example Question:** Is Canada or Brazil closer to the equator?\n- Paraphrase 1: If you had to pick one, is Canada or Brazil farther from the equator?\n- Paraphrase 2: Based on square miles, is Brazil closer to the equator compared to Canada?\n- Paraphrase 3: Brazil feels warmer than Canada in the winter-- is it closer to the equator?\n\n**Models:** Chat GPT 5.5, Claude Sonnet, Gemini, Deepseek V4\n\n**Consistency Metric:**\nSquare miles and accuracy metric-- If Brazil is closer, is the respective LLM saying Brazil across different phrasing."
+  },
+  {
+    "name": "Moulik Jain",
+    "timestamp": "2026-07-11T19:02:02.423568+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical, Legal, Coding, Personal Finance, Ethics\n\n**Example Question:** What's the maximum amount I can contribute to a Roth IRA in a year?\n- Paraphrase 1: I want to max out my Roth IRA this year - what's the annual cap I'm not allowed to go over?\n- Paraphrase 2: A friend is opening a Roth IRA and asked me the yearly contribution ceiling - what should I tell them?\n- Paraphrase 3: If someone puts money into a Roth IRA every month, at what total does the IRS say they must stop for the year?\n\n**Models:** GPT-4o-mini, Claude Sonnet, Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor each question, I normalize all four responses (original + 3 paraphrases) by lowercasing, stripping punctuation, and extracting the key answer value (e.g., a dollar figure). I then compute an exact match rate: the fraction of paraphrase responses whose extracted answer matches the original's exactly. For subjective/open-ended categories like Ethics, I instead compute average semantic similarity (TF-IDF cosine similarity) between the original response and each paraphrase response. A question is scored \"consistent\" if exact match rate = 1.0 for factual/numeric categories, or average similarity > 0.8 for subjective categories."
   }
 ]
