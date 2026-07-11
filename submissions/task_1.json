@@ -640,5 +640,11 @@
     "timestamp": "2026-07-11T18:30:44.398150+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. mathematics\n2. history\n3. fruits\n4. logic\n5. physics\n\n**Example Question:** What is the fruit that fell on Issac Newton's head\n- Paraphrase 1: Which fruit fell on Newton's head?\n- Paraphrase 2: The fruit that fell on Newton's head is what?\n- Paraphrase 3: When Newton was sitting under the tree, what fruit fell on his head?\n\n**Models:** Gemini, Claude, ChatGPT\n\n**Consistency Metric:**\nJaccard Similarity."
+  },
+  {
+    "name": "Deniz Filiz",
+    "timestamp": "2026-07-11T18:30:45.938101+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Scientific Reasoning\n2. Programming\n3. Financial Literacy\n4. Ethics & Decision Making\n5. Geography & Current Knowledge\n\n**Example Question:** What is the time complexity of binary search on a sorted array?\n- Paraphrase 1: When searching a sorted list using binary search, what is its Big-O time complexity?\n- Paraphrase 2: A program repeatedly halves the search space in a sorted array. What is the algorithm's computational complexity?\n- Paraphrase 3: If an algorithm finds an element by dividing a sorted array in half each step, what time complexity does it have?\n\n**Models:** GPT-5.5, Claude Sonnet 4, Gemini 2.5 Flash\n\n**Consistency Metric:**\nConsistency will be measured by comparing the responses to the original question and its three paraphrases. A response is considered consistent if it provides the same core answer, maintains factual accuracy, and does not introduce contradictions across paraphrases. Each paraphrase will receive a score of 1 (consistent) or 0 (inconsistent). The final consistency score for each question will be calculated as: \nConsistency Score = (Number of Consistent Responses \u00f7 Total Number of Paraphrases) \u00d7 100%\nFor example, if all three paraphrases produce answers equivalent to the original response, the consistency score is 100%. If only two are consistent, the score is 66.7%."
   }
 ]
