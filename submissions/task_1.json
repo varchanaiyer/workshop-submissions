@@ -490,5 +490,11 @@
     "timestamp": "2026-07-11T18:26:48.672444+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Coding\n3. Finance\n4. Law\n5. Sports\n\n**Example Question:** What does the pancreas produce that raises blood sugar levels?\n- Paraphrase 1: What hormone secreted by the pancreas is responsible for increasing blood glucose levels?\n- Paraphrase 2: Name the pancreatic hormone that counteracts insulin by preventing blood sugar from dropping too low?\n- Paraphrase 3: What is the name of the chemical messenger produced in the pancreas that signals the liver to release stored glucose into the blood?\n\n**Models:** Claude Opus 4.8, GPT 5.4\n\n**Consistency Metric:**\nsearch for the word \"glucagon\" in any of the responses. if the response has glucagon, it counts as a success. Otherwise, it's a failure."
+  },
+  {
+    "name": "Tanush Appapogu ",
+    "timestamp": "2026-07-11T18:26:52.725157+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nPhysics: Linear kinematics & projectile motion.\n\nWeb Dev: 3D CSS transforms & scroll animations.\n\nMedical: Dosage safety & healthcare protocols.\n\nNonprofits: Global structural logistics.\n\nEconomics: Oligopoly & monopoly market structures.\n\n**Example Question:** What formula finds final velocity given initial velocity, uniform acceleration, and displacement?\n- Paraphrase 1: How do you calculate terminal speed if you have starting speed, constant acceleration, and distance?\n- Paraphrase 2: What linear kinematic equation links displacement, steady acceleration, and initial velocity to ending velocity?\n- Paraphrase 3: If an object accelerates steadily over a set distance, what formula gives its final speed from its initial state?\n\n**Models:** Gemini 1.5 Flash  Claude 3.5 Sonnet  GPT-4o-mini\n\n**Consistency Metric:**\nExact match after stripping punctuation, converting to lowercase, and isolating the core formula or number."
   }
 ]
