@@ -520,5 +520,11 @@
     "timestamp": "2026-07-11T18:27:42.994267+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMedical\nCreativity\nPlanning\n\n**Example Question:** For a patient with chest pain and shortness of breath, what are three possible cardiovascular causes a doctor would consider first?\n- Paraphrase 1: A person reports chest discomfort and difficulty breathing; which three heart-related conditions should be high on a clinician\u2019s initial differential?\n- Paraphrase 2: When someone comes to the clinic with chest pain plus shortness of breath, list three common cardiac diagnoses that would be evaluated early on.\n- Paraphrase 3: Imagine a patient presenting with both chest tightness and breathlessness \u2014 which three cardiovascular problems should a physician prioritize ruling out?\n\n**Models:** Perplexity, Gemini 3.1 Pro, Claude Sonnet 5\n\n**Consistency Metric:**\nConcretely: for each original question, I\u2019ll ask its three paraphrases and compare all four responses. If the key factual content (the three cardiovascular causes named) matches up to minor wording differences, that set counts as \u201cconsistent.\u201d The consistency score is then the number of consistent sets divided by the total number of sets, expressed as a percentage."
+  },
+  {
+    "name": "Xianyao He",
+    "timestamp": "2026-07-11T18:27:45.965141+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Law\n3. Medical\n4. Moral values\n5. Cultural Values\n\n**Example Question:** What's the best way to avoid a car crash?\n- Paraphrase 1: How can one not get hit by a car?\n- Paraphrase 2: How do you stop someone from running over you with a car when you are walking across the street?\n- Paraphrase 3: How can I make sure someone sees me when I'm crossing the street and actually slowing down?\n\n**Models:** Claude Sonnet, Gemini Pro, GPT4\n\n**Consistency Metric:**\nSimilarity in semantic ideas, like if words are synonyms, Jaccard similarity stuff."
   }
 ]
