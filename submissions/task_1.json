@@ -574,5 +574,11 @@
     "timestamp": "2026-07-11T18:28:45.471983+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical\n2. Legal\n3. Mathematics\n4. Logic problems\n5. Coding/Computer science\n\n**Example Question:** Which team won the 2022 World Cup?\n- Paraphrase 1: The World Cup features many teams, which one won in 2022?\n- Paraphrase 2: In 2022, which team won the World Cup?\n- Paraphrase 3: The World Cup title went to which team in 2022?\n\n**Models:** GPT-4o mini, Claude Sonnet, Gemini Pro\n\n**Consistency Metric:**\nSince this is a factual question, we would likely equalize the LLM's answer by accounting for lowercase answers, answers with special characters, and different ways/languages to represent the winning team."
+  },
+  {
+    "name": "Miles Liao",
+    "timestamp": "2026-07-11T18:28:54.281401+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Finance\n2. Law\n3. Behavioral Economics\n4. AI\n5. Business\n\n**Example Question:** 1. What is the market cap of each of the magnificent 7 companies\n- Paraphrase 1: 2. For each of the magnificent 7 companies, what is their individual market cap.\n- Paraphrase 2: 3 .What are the market caps for each of these companies: Nvidia, Alphabet, Apple, Microsoft, Amazon, Tesla, and Meta Platforms.\n- Paraphrase 3: 4. Rank each of these companies based on their market cap: Nvidia, Alphabet, Apple, Microsoft, Amazon, Tesla, and Meta Platforms.\n\n**Models:** ChatGPT 5.6 Sol, Gemini Flash 2.5\n\n**Consistency Metric:**\nUse an association matrix table for each stock and its market cap. Ensure that the data is accurate and each stock has the correct market cap. For the ordered questions, make sure the order of reproduction matches reality."
   }
 ]
