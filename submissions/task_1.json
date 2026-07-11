@@ -514,5 +514,11 @@
     "timestamp": "2026-07-11T18:27:38.178206+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1 Math\n2 Logic\n3 Medicine\n4 Coding\n5 Physics\n\n**Example Question:** A ball is thrown upward at 10 meters per second in a gravity of 10 meters per second squared. How long does it stay in the air?\n- Paraphrase 1: A ball is thrown upward at 10 meters per second in a gravity of 10 meters per second squared. How long until it hits the ground?\n- Paraphrase 2: Ball starts at y=0 and starts with an upward velo of 10m/s. If acceleration is 10m/s^2 down, how long until it reaches y=0 again?\n- Paraphrase 3: Object has upward velo 10m/s and downward acceleration 10m/s^2. How long until it reaches starting position\n\n**Models:** GPT 4 o mini, DeepseekV4, Claude sonnet\n\n**Consistency Metric:**\nFor factual questions an exact match after normalizing"
+  },
+  {
+    "name": "Om Anand Khaunte",
+    "timestamp": "2026-07-11T18:27:42.994267+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMedical\nCreativity\nPlanning\n\n**Example Question:** For a patient with chest pain and shortness of breath, what are three possible cardiovascular causes a doctor would consider first?\n- Paraphrase 1: A person reports chest discomfort and difficulty breathing; which three heart-related conditions should be high on a clinician\u2019s initial differential?\n- Paraphrase 2: When someone comes to the clinic with chest pain plus shortness of breath, list three common cardiac diagnoses that would be evaluated early on.\n- Paraphrase 3: Imagine a patient presenting with both chest tightness and breathlessness \u2014 which three cardiovascular problems should a physician prioritize ruling out?\n\n**Models:** Perplexity, Gemini 3.1 Pro, Claude Sonnet 5\n\n**Consistency Metric:**\nConcretely: for each original question, I\u2019ll ask its three paraphrases and compare all four responses. If the key factual content (the three cardiovascular causes named) matches up to minor wording differences, that set counts as \u201cconsistent.\u201d The consistency score is then the number of consistent sets divided by the total number of sets, expressed as a percentage."
   }
 ]
