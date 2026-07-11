@@ -592,5 +592,11 @@
     "timestamp": "2026-07-11T18:29:05.091078+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Ethics\n3. History\n4. Philosophy\n5. Math\n\n**Example Question:** How were the Americas discovered by the Europeans?\n- Paraphrase 1: What led the Europeans to find the Americas?\n- Paraphrase 2: What caused the finding of the Americas by the Europeans?\n- Paraphrase 3: What factors are responsible for the European finding of the Americas?\n\n**Models:** GPT-5.6 Sol, GPT-5.5, GPT-5.4\n\n**Consistency Metric:**\nI will compare answers using Jaccard similarity of shared causes in addition to total unique causes. It will be consistent if the similarity score is at least .75."
+  },
+  {
+    "name": "Daniel Tabach",
+    "timestamp": "2026-07-11T18:29:09.121668+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Philosophy\n2. Logic and Reasoning\n3. Math\n4. History\n5. Medicine\n\n**Example Question:** When did WW2 begin?\n- Paraphrase 1: At what point in history did World War Two break out\n- Paraphrase 2: What was the starting date of World War 2\n- Paraphrase 3: In what year did the Second World War commence?\n\n**Models:** Claude, GPT.\n\n**Consistency Metric:**\nWW2 could be argued it started in 1932 - when Japan invaded China/Korea, or 1939 when Germany Invaded Poland. It allows the LLM to be a bit more open-ended to see on what date it lands on."
   }
 ]
