@@ -250,5 +250,11 @@
     "timestamp": "2026-07-11T18:57:04.977544+00:00",
     "task": 2,
     "text": "**Model(s):** gpt-2 xl\n\n**Zero-shot:** $125\n**Few-shot:** $150\n**Chain-of-Thought:** $30\n**CoT + Self-Consistency:** 30, 30, 30\n\n**Best strategy:** Few-shot\n\n**Surprises:** CoT was extremely wrong every time"
+  },
+  {
+    "name": "Ethan Liu",
+    "timestamp": "2026-07-11T18:59:12.137138+00:00",
+    "task": 2,
+    "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** All runs agreed on $160\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
