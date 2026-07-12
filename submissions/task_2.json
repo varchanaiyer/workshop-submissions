@@ -292,5 +292,11 @@
     "timestamp": "2026-07-11T23:09:27.040616+00:00",
     "task": 2,
     "text": "**Model(s):** Qwen 3.7 max\n\n**Zero-shot:** The original price of the jacket was $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: Calculate the percentage of the original price being paid. A 25% discount means the sale price is 100% - 25% = 75% of the original price. Step 2: Convert the percentage to a decimal (0.75) and divide the sale price by this number to find the original price. Original = $120 / 0.75 = $160.\n**CoT + Self-Consistency:** Run1: $160, Run2: $160, Run3: $160, majority: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** All methods got the correct answer."
+  },
+  {
+    "name": "Grace Zheng",
+    "timestamp": "2026-07-12T04:24:28.101200+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** A 25% discount means the sale price is 75% of the original price.  Let the original price be x.  0.75x=120  Solve for x:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b   Check: 25% of $160 = $40 $160 \u2212 $40 = $120 \u2714\ufe0f\n**Few-shot:** A: The sale price is 75% of the original. Original = $120 \u00f7 0.75 = $160.\n**Chain-of-Thought:** Let's think step by step:  A 25% discount means the customer pays 75% of the original price. Let the original price be x.  Set up the equation:  0.75x=120  Solve for x:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b\n**CoT + Self-Consistency:** Run 1: $160; Run 2: $160; Run 3: $160\n\n**Best strategy:** Chain-of-Thought"
   }
 ]
