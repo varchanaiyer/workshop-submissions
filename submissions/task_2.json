@@ -304,5 +304,11 @@
     "timestamp": "2026-07-12T13:48:35.583310+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Fable\n\n**Zero-shot:** The original price was $160. Since the jacket sold for $120 after a 25% discount, the sale price represents 75% of the original: $120 \u00f7 0.75 = $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Let the original price be P. A 25% discount means you pay 75% of the original, so 0.75 \u00d7 P = 120. Solving: P = 120 \u00f7 0.75 = $160. Check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713\n**CoT + Self-Consistency:** Let the original price be P. A 25% discount means you pay 75% of the original, so 0.75 \u00d7 P = 120. Solving: P = 120 \u00f7 0.75 = $160. Check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713     |.    If the sale price is $120 after a 25% discount, then $120 represents 75% of the original price. Original price = 120 \u00f7 0.75 = $160 Check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713.    |      Let the original price be P. A 25% discount means you pay 75% of the original: 0.75 \u00d7 P = 120 P = 120 \u00f7 0.75 = $160 Check: 25% of $160 is $40, and $160 \u2212 $40 = $120. \u2713.     |.     $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** ."
+  },
+  {
+    "name": "Vayk Mathrani",
+    "timestamp": "2026-07-12T20:10:56.828197+00:00",
+    "task": 2,
+    "text": "**Model(s):** GPT-5.5\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original price. Original price = $120 / 0.75 = $160.\n**Chain-of-Thought:** After a 25% discount, the jacket costs 75% of its original price.  Let the original price be x.  0.75x = 120  x = 120 / 0.75 = 160  The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 | Majority: $160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** All four strategies produced the correct answer of $160. Zero-shot was the shortest, while few-shot and chain-of-thought included the calculation. Self-consistency confirmed the same answer across all three runs. Chain-of-thought gave the most complete and easy-to-check response."
   }
 ]
