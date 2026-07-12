@@ -790,5 +790,11 @@
     "timestamp": "2026-07-11T20:26:17.846530+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Sports (facts, awards, history, rules)\n2. Math (varied difficulty, numerical answer)\n3. Language (grammar rules)\n4. Ethics (scenarios)\n5. Subjective recommendation\n\n**Example Question:** What's the best programming language for a beginner to learn first?\n- Paraphrase 1: If someone's never coded before, which language should they start with?\n- Paraphrase 2: For a total novice, what's the best first language to learn programming?\n- Paraphrase 3: My cousin wants to get into coding, what language do you recommend she begin with?\n\n**Models:** Claude Haiku 4.5, Gemini 3.5 Flash, ChatGPT-5.5\n\n**Consistency Metric:**\nExact match after normalizing for objective questions, semantic similarity for open-ended"
+  },
+  {
+    "name": "Jonas Huang",
+    "timestamp": "2026-07-12T03:34:31.826149+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Programming\n2. Philosophical\n3. Competition Math\n4. Essay Writing\n5. Ethical\n\n**Example Question:** What is the meaning of life?\n- Paraphrase 1: What is the purpose of human existence?\n- Paraphrase 2: What have we been put on his earth for?\n- Paraphrase 3: What is the significance of human life?\n\n**Models:** Claude Opus 4.8, Gemini 3 Pro, Grok 4\n\n**Consistency Metric:**\nObjective Questions: Normalize answers(Wiping unnecessary components) and compare either exact match or successful finishing of task\nSubjective Questions: Jaccard Index one the word sets - calculated through the intersection divided by the union of those two sets, reject if score <0.7"
   }
 ]
