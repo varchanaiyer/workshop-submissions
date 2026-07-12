@@ -796,5 +796,11 @@
     "timestamp": "2026-07-12T03:34:31.826149+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Programming\n2. Philosophical\n3. Competition Math\n4. Essay Writing\n5. Ethical\n\n**Example Question:** What is the meaning of life?\n- Paraphrase 1: What is the purpose of human existence?\n- Paraphrase 2: What have we been put on his earth for?\n- Paraphrase 3: What is the significance of human life?\n\n**Models:** Claude Opus 4.8, Gemini 3 Pro, Grok 4\n\n**Consistency Metric:**\nObjective Questions: Normalize answers(Wiping unnecessary components) and compare either exact match or successful finishing of task\nSubjective Questions: Jaccard Index one the word sets - calculated through the intersection divided by the union of those two sets, reject if score <0.7"
+  },
+  {
+    "name": "Grace Zheng",
+    "timestamp": "2026-07-12T04:20:57.466404+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematical word problems\nEthical dilemmas\nPhysics \nCounterfactual scenarios\nRule compliance\n\n**Example Question:** A toy store sells balloons for two dollars each. On Sundays, if you buy two balloons, you get a third one for free. If a child wants two balloons on a Sunday, how much money do they need to pay?\n- Paraphrase 1: What is the total cost of three balloons, if each balloon costs two dollars, but the store has a special deal on Sundays where the third balloon comes free with the purchase of two?\n- Paraphrase 2: If a child buys three balloons at a shop where they cost two dollars each, but a promotion makes every third balloon free, how much does the child actually spend?\n- Paraphrase 3: Balloons are typically two dollars each, but the store is running a buy two get one free deal. How much do you have to pay to get three balloons?\n\n**Models:** Gemini 2.5 Flash, Claude 3.5 Sonnet\n\n**Consistency Metric:**\nNormalize output strings, then use an Exact Match threshold. If all four paraphrased questions achieve the same final answer, it scores a 1. Otherwise, it scores a 0. For the CoT, compute a Jaccard Similarity score on the sets of operators and equations generated in the intermediate steps. If the score is greater than 0.85, the model's CoT is consistent."
   }
 ]
