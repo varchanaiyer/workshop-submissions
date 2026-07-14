@@ -322,5 +322,11 @@
     "timestamp": "2026-07-13T17:39:19.958469+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT-4o\n\n**Zero-shot:** A 25% discount means the sale price is 75% of the original price.  Let the original price be x.  0.75x=120  Solve for x:  x= 0.75 120 \t\u200b  =160  Answer:  $160 \t\u200b   Check: 25% of $160 = $40, and $160 \u2212 $40 = $120. \u2705\n**Few-shot:** A 25% discount means the sale price is 75% of the original price.\n**Chain-of-Thought:** I can provide a brief breakdown of the calculation:  A 25% discount means the jacket\u2019s sale price is 75% of the original price.  Original price= 0.75 120 \t\u200b  120\u00f70.75=160  Answer: $160.\n**CoT + Self-Consistency:** Run 1: 160, Run 2: 160, Run 3: 160, Majority: 160\n\n**Best strategy:** CoT + Self-Consistency"
+  },
+  {
+    "name": "Aarav Bansal (Actual)",
+    "timestamp": "2026-07-14T03:02:55.895818+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT (GPT-5.5)\n\n**Zero-shot:** 160\n**Few-shot:** The sale price is 75% of the original. Original = 120 / 0.75 = 160.\n**Chain-of-Thought:** The sale price is 75% of the original price, because a 25% discount means the customer pays 100%\u221225%=75%.  So if the original price is P:  0.75P=120  Divide both sides by 0.75:  P= 120 / 0.75\u200b  =160  Answer:  160\n**CoT + Self-Consistency:** Run 1 : 160 | Run 2 : 160 | Run 3 : 160 -> Majority : 160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Zero-shot solved the problem correctly, but CoT provided a clearer explanation of the calculation. Few short helped the model follow a pattern form the examples. All self consistency runs produced the same answer, which shows that the response is reliable."
   }
 ]
