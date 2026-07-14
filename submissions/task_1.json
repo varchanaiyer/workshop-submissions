@@ -826,5 +826,11 @@
     "timestamp": "2026-07-14T03:00:17.589370+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematics (algebra, probability, calculus)\n2. Computer Science (algorithms, debugging, Python)\n3. History (historical events, dates, cause and effect patterns)\n4. Biology (genetics, human anatomy, ecosystems)\n5. Ethics (AI ethics, moral choices, fariness)\n\n**Example Question:** What is the time complexity of a bianry search of a sorted array?\n- Paraphrase 1: How efficient is binary search when you are searching through a sorted list?\n- Paraphrase 2: If an array is sorted, what runtime does the binary search have?\n- Paraphrase 3: If you use binary search to find an element in a sorted array. What is the time complexity?\n\n**Models:** GPT-5.5, Claude Sonnet 4, Gemini 2.5 Flash\n\n**Consistency Metric:**\nFor factual questions, responses will be consistent if they have the same final answer after converting the text to lowercase, removing punctuation, and ignoring small word differences. For questions which involve explanations, consistency will be measured by checking whether the responses have the same main concepts and conclusion. If the final answer and the main reasoning are the same across all paraphrases, the responses will be said as consistent."
+  },
+  {
+    "name": "Leo Hsu",
+    "timestamp": "2026-07-14T03:52:18.513429+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding, Summarization, Question and Answer, Translation, Math\n\n**Example Question:** What is the name of the dwarf planet in the Kuiper belt that was reclassified in 2006?\n- Paraphrase 1: Name the dwarf planet in the Kuiper belt that was reclassified in 2006.\n- Paraphrase 2: Reclassified in 2006, what is the name of the dwarf planet in the Kuiper belt?\n- Paraphrase 3: Which dwarf planet, reclassified in 2006, is in the Kuiper belt?\n\n**Models:** Claude Sonnet, Qwen 3.7\n\n**Consistency Metric:**\nExact Matching after normalizing"
   }
 ]
