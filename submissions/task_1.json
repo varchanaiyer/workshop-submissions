@@ -844,5 +844,11 @@
     "timestamp": "2026-07-14T23:42:52.311526+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Software Engineering & Data Structures\n2. World History\n3. Environmental Science\n4. Literary Analysis\n5. Moral Philosophy\n\n**Example Question:** How did the invention of the printing press impact literacy rates in 15th-century Europe?\n- Paraphrase 1: What effect did Gutenberg's movable type technology have on the proportion of European citizens who could read during the 1400s\n- Paraphrase 2: In what ways did the widespread availability of printed books change reading ability across European populations following 1450?\n- Paraphrase 3: During the late Middle Ages, to what extent did mass book production increase general reading skills among Europeans\n\n**Models:** GPT-4omini, Claude 3.5, Gemini, Cursor\n\n**Consistency Metric:**\nFor factual questions (History, Coding): key facts match after normalizing text (lowercase, strip punctuation, extract central dates/code outputs). E.g., 15th century matches 1400s.\n\nFor subjective questions (Ethics, Policy):  comparing whether both responses reach the same main argument and key reasoning points. Score > 0.75 = consistent."
+  },
+  {
+    "name": "Jacob Richards",
+    "timestamp": "2026-07-15T02:28:14.976780+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Art history\n2. Epidemiology\n3. Ranking basketball players\n4.  American history\n5. Calculus\n\n**Example Question:** How lethal is the Ebola virus?\n- Paraphrase 1: For a population of 100 people infected with the Ebola virus, how many people will die?\n- Paraphrase 2: What probability does a grownup have for surviving the Ebola virus?\n- Paraphrase 3: What is the lethality rate for the Ebola virus in its natural environment?\n\n**Models:** GPT-4o-mini, Grok4.5, Gemini 3.5 Flash\n\n**Consistency Metric:**\nExact match after normalizing (\"The lethality rate of the Ebola virus is X%.\" matches \"X%.\""
   }
 ]
