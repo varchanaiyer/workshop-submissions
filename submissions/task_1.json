@@ -850,5 +850,11 @@
     "timestamp": "2026-07-15T02:28:14.976780+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Art history\n2. Epidemiology\n3. Ranking basketball players\n4.  American history\n5. Calculus\n\n**Example Question:** How lethal is the Ebola virus?\n- Paraphrase 1: For a population of 100 people infected with the Ebola virus, how many people will die?\n- Paraphrase 2: What probability does a grownup have for surviving the Ebola virus?\n- Paraphrase 3: What is the lethality rate for the Ebola virus in its natural environment?\n\n**Models:** GPT-4o-mini, Grok4.5, Gemini 3.5 Flash\n\n**Consistency Metric:**\nExact match after normalizing (\"The lethality rate of the Ebola virus is X%.\" matches \"X%.\""
+  },
+  {
+    "name": "Bobby Sill",
+    "timestamp": "2026-07-15T23:54:26.089248+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: TruthfulQA\nSource: HuggingFace - https://huggingface.co/datasets/domenicrosati/TruthfulQA\nSplit: 70% training, 15% testing, 15% validation\n10 examples\n\n**Prompting Strategies:**\nZero-shot: {question} (no extra context)\nFew-shot: Here are some examples:\\n{examples}\\n\\nNow solve: {question}\nChain-of-thought: {question}\\n\\nLet's think step by step.\nCoT + Self-consistency: Same as CoT, but run 5 times and take majority vote\n\n**Models:** Claude Sonnet, Llama3, Gemma4\n\n**Answer Extraction & Accuracy:**\nI will use a finetuned LLM-as-Judge to determine the truthfulness of the answer, as the original paper did"
   }
 ]
