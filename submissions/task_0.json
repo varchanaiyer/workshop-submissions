@@ -1126,5 +1126,12 @@
     "task": 0,
     "text": "Installed cursor via macOS",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_2b6c2f1fba0b.png"
+  },
+  {
+    "name": "Bobby Sills",
+    "timestamp": "2026-07-15T02:38:18.659918+00:00",
+    "task": 0,
+    "text": "Claude Code via Nix Packages",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_2971001cef30.png"
   }
 ]
