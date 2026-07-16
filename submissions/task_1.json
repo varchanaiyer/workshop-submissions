@@ -856,5 +856,11 @@
     "timestamp": "2026-07-15T23:54:26.089248+00:00",
     "task": 1,
     "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: TruthfulQA\nSource: HuggingFace - https://huggingface.co/datasets/domenicrosati/TruthfulQA\nSplit: 70% training, 15% testing, 15% validation\n10 examples\n\n**Prompting Strategies:**\nZero-shot: {question} (no extra context)\nFew-shot: Here are some examples:\\n{examples}\\n\\nNow solve: {question}\nChain-of-thought: {question}\\n\\nLet's think step by step.\nCoT + Self-consistency: Same as CoT, but run 5 times and take majority vote\n\n**Models:** Claude Sonnet, Llama3, Gemma4\n\n**Answer Extraction & Accuracy:**\nI will use a finetuned LLM-as-Judge to determine the truthfulness of the answer, as the original paper did"
+  },
+  {
+    "name": "Aashrit Anand",
+    "timestamp": "2026-07-16T10:40:00.601854+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Ethics\n2. Legal\n3. cybersecurity\n4. environment \n5. health\n\n**Example Question:** What is the minimum age a person must be to serve on a court jury in the United Sates?\n- Paraphrase 1: Name the legel age an adult in the United States must be before they are allowed to recieve a jury summons.\n- Paraphrase 2: At what point does a U.S. citizen stop being disqualified from recieving jury service strictly based on their date of birth?\n- Paraphrase 3: A 17 year old high schooler in California gets summoned for jury duty. What specific age requirement prevents them from doing this?\n\n**Models:** Gemini 3.5-flash and Claude Sonnet 5 (medium)\n\n**Consistency Metric:**\nFor factual questions, you can calculate the percentage of paraphrased responses that lead to an exact match. For example, \"the minimum age is 18 years old\" --> 18, and \"An individual must be at least 18\" --> 18. \n\nFor more open-ended legal questions, you cannot use word for word matching. Instead, you can use the Jaccard quotient on the sets of unique words generated in the responses."
   }
 ]
