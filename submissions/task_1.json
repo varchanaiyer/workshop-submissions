@@ -868,5 +868,11 @@
     "timestamp": "2026-07-16T15:45:47.556594+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nSports, Math,  Geography, History, Science\n\n**Example Question:** How many goals has Cristiano Ronaldo Scored?\n- Paraphrase 1: Throughout Cristiano Ronaldos career how many goals has he scored?\n- Paraphrase 2: Across all competitions show many goals have been netted by Cristiano Ronaldo?\n- Paraphrase 3: Cristiano Ronaldo, the world's leading scorer has how many goals?\n\n**Models:** Claude sonnet, Got, 4o mini\n\n**Consistency Metric:**\nExact same number of goals scored."
+  },
+  {
+    "name": "Sanithu Heengama",
+    "timestamp": "2026-07-17T13:05:49.965732+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nDataset: entityQuestions and simpleQA-verified\nsource: loading from hugging face\n1000 questions from each dataset so 2000 questions\nTask type: Factual recall\n\n**Prompting Strategies:**\nreasoning on: \"Reason step-by-step and then provide the factual answer:\" + question from dataset\nreasoning off: \"Provide only the factual answer:\" + question from dataset\n\n**Models:** Qwen/Qwen2.5-0.5B-Instruct, google/gemma-2-2b-it\n\n**Answer Extraction & Accuracy:**\nif dataset answer in response (code to check if the prompt mentions the answer)\ncode to count the average number of tokens used in correct vs wrong answers.\nplot accuracy for reasoning on vs off in models"
   }
 ]
