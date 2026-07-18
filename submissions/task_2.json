@@ -400,5 +400,11 @@
     "timestamp": "2026-07-18T00:06:11.550570+00:00",
     "task": 2,
     "text": "**Model(s):** I used Claude Sonnet and Chatgpt\n\n**Zero-shot:** Original price = $120 \u00f7 0.75 = $160\n**Few-shot:** Original price = $120 \u00f7 0.75 = $160\n**Chain-of-Thought:** Let the original price be (x). (0.75x = 120) (x = 120 \u00f7 0.75) (x = 160) Therefore, the jacket\u2019s original price was $160.\n**CoT + Self-Consistency:** $160, $160, $160 and Majority answer: $160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** The differences between strategies was uthrough the amount of explanations each different method gave."
+  },
+  {
+    "name": "kevin chou",
+    "timestamp": "2026-07-18T06:19:58.399915+00:00",
+    "task": 2,
+    "text": "**Model(s):** claude opus 4.8\n\n**Zero-shot:** $160\n**Few-shot:** $160.\n**Chain-of-Thought:** Step 1 \u2014 Understand what the discount means. A 25% discount means the customer pays the original price minus 25% of it. Step 2 \u2014 Express the sale price as a fraction of the original. 100% \u2212 25% = 75%, so $120 is 75% (or 0.75) of the original price. Step 3 \u2014 Set up the equation. Let x be the original price: 0.75 \u00d7 x = 120 Step 4 \u2014 Solve for x. x = 120 \u00f7 0.75 = 160 Step 5 \u2014 Check. 25% of $160 = $40. And $160 \u2212 $40 = $120. \u2713 The original price was $160.\n**CoT + Self-Consistency:** majority $160\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
