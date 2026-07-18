@@ -904,5 +904,11 @@
     "timestamp": "2026-07-18T14:25:04.853095+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMedical\nScience \nHealth \nEthics \nWellness\n\n**Example Question:** Should AI models be fully integrated  into clinical settings?\n- Paraphrase 1: Under what circumstances, if any, would it be appropriate for AI models to take on a full role in clinical care?\n- Paraphrase 2: Do the benefits AI models bring to clinical settings outweigh the risks of relying on them fully, compared to keeping human oversight central?\n- Paraphrase 3: If AI models were given full integration into clinical settings, what would that mean for patient care \u2014 and is that a tradeoff worth making?\n\n**Models:** Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nJaccard similarity"
+  },
+  {
+    "name": "Jonathan Yong",
+    "timestamp": "2026-07-18T16:17:46.792896+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Coding\n2. Medical\n3. Logical Reasoning\n4. Math\n5. Conversational\n\n**Example Question:** How many sides are the same length in an isosceles triangle?\n- Paraphrase 1: Give the number of sides in an isosceles triangle that are identical length\n- Paraphrase 2: Of the three sides in an isosceles triangle, how many of them have the same length?\n- Paraphrase 3: How many angles in an isosceles triangle are the same ?\n\n**Models:** GPT 5.6, Claude Sonnet, Gemini, Llama, Qwen, Deepseek\n\n**Consistency Metric:**\nNormalize the answer first, then search for a numeric answer. If not present, search for a word that might represent a number."
   }
 ]
