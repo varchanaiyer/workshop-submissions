@@ -418,5 +418,11 @@
     "timestamp": "2026-07-18T15:01:00.352172+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** Run 1: 160 | Run 2: 160| Run 3: 160 | Majority: 160\n\n**Best strategy:** Chain-of-Thought"
+  },
+  {
+    "name": "Jonathan Yong",
+    "timestamp": "2026-07-18T16:23:59.877384+00:00",
+    "task": 2,
+    "text": "**Model(s):** GPT 5.6 Sol\n\n**Zero-shot:** After a 25% discount, the jacket costs 75% of its original price.  0.75x=120 x= 0.75 120 \t\u200b  =160  Original price: $160\n**Few-shot:** A: The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** A 25% discount means the jacket sells for 75% of the original price.  Let the original price be x:  0.75x=120  Divide both sides by 0.75:  x= 0.75 120 \t\u200b  =160  The original price was $160.\n**CoT + Self-Consistency:** A 25% discount means the jacket sells for 75% of its original price.  0.75\u00d7Original price=120 Original price= 0.75 120 \t\u200b  =160  The original price was $160.|A 25% discount means the jacket sells for 75% of its original price.  0.75\u00d7Original price=120 Original price= 0.75 120 \t\u200b  =160  The original price was $160.|A 25% discount means the jacket sells for 75% of its original price.  0.75\u00d7original price=120 original price= 0.75 120 \t\u200b  =160  The original price was $160. -> Majority: $160\n\n**Best strategy:** CoT + Self-Consistency"
   }
 ]
