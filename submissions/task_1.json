@@ -886,5 +886,11 @@
     "timestamp": "2026-07-18T06:10:11.735791+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. math\n2. ethics\n3.science\n4.logic\n5. reasoning\n\n**Example Question:** What running pace is optimal for adult weight loss\n- Paraphrase 1: How fast should adults run to lose the most weight\n- Paraphrase 2: for an adult whats the optimal running pace to lose weight\n- Paraphrase 3: if an adult wants to lose as much weight as they can what running pace should they aim for\n\n**Models:** claude sonnet, gpt 5, gemini flash\n\n**Consistency Metric:**\nfor factual i will compare the answer to the correct answer after normalizing\nfor conceptual i will match words based on similarity and if the overall similarity crosses a threshold it is correct"
+  },
+  {
+    "name": "kevin chou",
+    "timestamp": "2026-07-18T06:10:21.754960+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. math\n2. ethics\n3.science\n4.logic\n5. reasoning\n\n**Example Question:** What running pace is optimal for adult weight loss\n- Paraphrase 1: How fast should adults run to lose the most weight\n- Paraphrase 2: for an adult whats the optimal running pace to lose weight\n- Paraphrase 3: if an adult wants to lose as much weight as they can what running pace should they aim for\n\n**Models:** claude sonnet, gpt 5, gemini flash\n\n**Consistency Metric:**\nfor factual i will compare the answer to the correct answer after normalizing\nfor conceptual i will match words based on similarity and if the overall similarity crosses a threshold it is correct"
   }
 ]
