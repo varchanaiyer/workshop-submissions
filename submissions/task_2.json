@@ -430,5 +430,11 @@
     "timestamp": "2026-07-18T16:32:31.898830+00:00",
     "task": 2,
     "text": "**Model(s):** Deepseek-V4\n\n**Zero-shot:** Let the original price be  x x.  After a 25% discount, the customer pays 75% of the original price:  0.75 x = 120 0.75x=120 Solve for  x x:  x = 120 0.75 = 160 x=  0.75 120 \u200b  =160 So, the original price was $160.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Let's go step by step.  The jacket is sold for $120 after a 25% discount.  A 25% discount means the customer pays 75% of the original price.  Let the original price be  x x.  Then  75 % 75% of  x x equals $120:  0.75 x = 120 0.75x=120 Solve for  x x:  x = 120 0.75 = 160 x=  0.75 120 \u200b  =160 So, the original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 | Majority: $160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** From the beginning the model's outputs were consistent with Chain-of-Thought reasoning. This experiment doesn't really work on frontier models because they were trained to explain their thought process. Few-shot prompting had the only meaningful difference, but it still ended up with the correct answer."
+  },
+  {
+    "name": "Mahmoud Chaer",
+    "timestamp": "2026-07-19T13:32:08.312429+00:00",
+    "task": 2,
+    "text": "**Model(s):** GPT-5.6 Terra\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Step 1: A 25% discount means the sale price is 75% of the original price. Step 2: $120 = 0.75 \u00d7 original price. Step 3: Original price = $120 / 0.75 = $160. The original price was $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 \u2192 Majority: $160\n\n**Best strategy:** Chain-of-Thought\n\n**Surprises:** All strategies got the correct answer. Zero-shot was shortest, few-shot followed the example format, and CoT gave the clearest explanation. The three self-consistency runs all agreed on $160."
   }
 ]
