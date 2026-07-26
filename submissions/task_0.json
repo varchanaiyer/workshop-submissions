@@ -1238,11 +1238,5 @@
     "task": 0,
     "text": "Claude Code, Codex",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_0_d9b3693b7ec9.png"
-  },
-  {
-    "name": "TEST-Claude-Check (ignore)",
-    "timestamp": "2026-07-26T15:05:38.791593+00:00",
-    "task": 0,
-    "text": "Automated end-to-end test submission - safe to delete."
   }
 ]
