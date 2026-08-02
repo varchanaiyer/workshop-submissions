@@ -928,11 +928,5 @@
     "timestamp": "2026-07-24T20:54:52.252916+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMath\nScience\nPhysics\nGeography\n\n**Example Question:** What is the Earth's population?\n- Paraphrase 1: How many people are living on Earth today?\n- Paraphrase 2: What is the total amount of people that are living on Earth?\n- Paraphrase 3: Number of people that are alive today?\n\n**Models:** Claude Sonnet, Claude Opus, GPT-4o mini\n\n**Consistency Metric:**\nFor factual questions,  I can see if they give the same answer."
-  },
-  {
-    "name": "TEST-Claude-Check (ignore)",
-    "timestamp": "2026-08-02T16:04:07.554074+00:00",
-    "task": 1,
-    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Test category A\n2. Test B\n3. Test C\n4. Test D\n5. Test E (automated check, ignore)\n\n**Example Question:** TEST: How tall is the Eiffel Tower?\n- Paraphrase 1: TEST: What is the Eiffel Tower's height in meters?\n- Paraphrase 2: TEST: The Eiffel Tower stands how many meters tall?\n- Paraphrase 3: TEST: If you measured the Eiffel Tower, what height would you get?\n\n**Models:** TEST model list\n\n**Consistency Metric:**\nTEST metric: exact match. Automated check, safe to delete."
   }
 ]
