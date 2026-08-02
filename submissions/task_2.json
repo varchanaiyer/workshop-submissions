@@ -454,5 +454,11 @@
     "timestamp": "2026-07-25T18:29:27.399468+00:00",
     "task": 2,
     "text": "**Model(s):** Claude Sonnet 5\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = $160.\n**Chain-of-Thought:** Let's work through it step by step:  Set up the relationship: A 25% discount means you pay 75% of the original price. Write the equation: 0.75 \u00d7 (original price) = $120 Solve for original price: original price = $120 \u00f7 0.75 = $160  The original price was $160.  Check: 25% of $160 is $40, and $160 \u2212 $40 = $120 \u2713\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160\n\n**Best strategy:** CoT + Self-Consistency\n\n**Surprises:** Not really. This is a relatively simple math problem. Zero shot got it right instantly, Few shot mimicked previous conversation between Q/A format and gave shorter answer than Zero shot and got correct answer, and both CoT and CoT + Consistency produced the correct answer. Perhaps in future prompting the LLM will paraphrase differently in terms of semantic meaning and this will probably be the case on prompts/subjects with less definitive answers that have a more abstract concept."
+  },
+  {
+    "name": "TEST-Claude-Check (ignore)",
+    "timestamp": "2026-08-02T16:04:18.304964+00:00",
+    "task": 2,
+    "text": "**Model(s):** TEST model\n\n**Zero-shot:** TEST $160\n**Few-shot:** TEST $160\n**Chain-of-Thought:** TEST $160 with steps\n**CoT + Self-Consistency:** TEST Run 1: $160 | Run 2: $160 | Run 3: $160 -> Majority: $160\n\n**Best strategy:** Zero-shot"
   }
 ]
