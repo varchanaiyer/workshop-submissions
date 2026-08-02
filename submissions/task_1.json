@@ -928,5 +928,11 @@
     "timestamp": "2026-07-24T20:54:52.252916+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMath\nScience\nPhysics\nGeography\n\n**Example Question:** What is the Earth's population?\n- Paraphrase 1: How many people are living on Earth today?\n- Paraphrase 2: What is the total amount of people that are living on Earth?\n- Paraphrase 3: Number of people that are alive today?\n\n**Models:** Claude Sonnet, Claude Opus, GPT-4o mini\n\n**Consistency Metric:**\nFor factual questions,  I can see if they give the same answer."
+  },
+  {
+    "name": "Naveen Dasari",
+    "timestamp": "2026-08-02T18:08:37.919467+00:00",
+    "task": 1,
+    "text": "**[Ablation Pipeline]**\n\n**Dataset:**\nPythia (tokens: 1M to 8B)\n\n**Prompting Strategies:**\nZero-shot\n\n**Models:** Pythia\n\n**Answer Extraction & Accuracy:**\nSAE stability (\"Activation Freq\", \"Geometric Isolation\", \"Recon Contribution\", \"Mean Activation\")"
   }
 ]
