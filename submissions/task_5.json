@@ -33,5 +33,12 @@
     "task": 5,
     "text": "Abstract. Backpropagation trains nearly all modern neural networks but requires a fully differentiable computation graph and an activation tape whose memory footprint grows with depth. We study a local, three-factor Hebbian update rule that needs neither, and show it is a provably unbiased estimator of the true loss gradient \u2014 so its only failure mode is variance, governed by a measured scaling law, M*\u00b7K \u2273 S: the probe budget times the feedback bandwidth must cover the loss's coupling scope. We test this directly via a Jacobian coupling-density audit: a Mamba-3-style selective state-space block measures as fully entangled (density 0.874, indistinguishable from self-attention), closing that branch, while a blurring-diffusion denoiser built as a per-mode spectral gain bank measures as exactly diagonal (density 0.000), confirming an existing proof empirically. A follow-up probe-budget experiment confirms the law's second lever \u2014 per-channel feedback reaches a fixed alignment target with 5\u00d7 fewer samples than a global scalar \u2014 but even at this optimum the rule costs \u22486.7\u00d7 backpropagation's FLOPs on an ordinary task. We position this program's value accordingly: not as a blanket efficiency win, but where backpropagation is structurally unavailable or FLOPs are not the binding constraint.",
     "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_5_d02aa33f679c.png"
+  },
+  {
+    "name": "Danity Pike",
+    "timestamp": "2026-08-15T18:46:21.293323+00:00",
+    "task": 5,
+    "text": "https://www.overleaf.com/project/6a5ac2da5127b440ff3b38f2",
+    "image": "https://raw.githubusercontent.com/varchanaiyer/workshop-submissions/main/submissions/images/task_5_fdabecb8deda.png"
   }
 ]
