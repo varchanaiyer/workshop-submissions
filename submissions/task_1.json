@@ -1060,5 +1060,11 @@
     "timestamp": "2026-08-16T16:35:48.932324+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nethics\nsafety\nred teaming\nblue teaming\n\n**Example Question:** what is the reason that the blue team ai is not as good as the red team ai at defending?\n- Paraphrase 1: How can we know what is making ai red teaming better?\n- Paraphrase 2: how can we know what is making ai blue teaming weaker?\n- Paraphrase 3: what is the differing factors that make a difference for both sides?\n\n**Models:** nvidia nemotron-3-nano-30b-a3b,openai gpt-4.1-nano,openai gpt-4.1-mini\n\n**Consistency Metric:**\ni would say the p value for statistical consistency and llm as a judge"
+  },
+  {
+    "name": "Keshav Parikh",
+    "timestamp": "2026-08-16T16:36:08.990055+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nDeep Learning & Graph Architectures (protein embeddings, GNN message passing)\n\nLocal LLM Inference & Optimization (Apple Silicon MLX quantization, KV caching)\n\nQuantum Information & Algorithms (state compression, circuit depth)\n\nQuantitative Modeling & Time Series (Transformer attention mechanisms, backtesting)\n\nClassical Kinematics & Physical Simulations (spring-damper damping, impact dynamics)\n\n**Example Question:** In a Graph Neural Network, what primary mechanism prevents over-smoothing when stacking multiple message-passing layers?\n- Paraphrase 1: How do deep Graph Neural Networks avoid representation collapse and feature over-smoothing across deep layers?\n- Paraphrase 2: An ML engineer building a multi-layer GNN notices node embeddings becoming identical. What architectural technique solves this?\n- Paraphrase 3: When scaling graph convolutional depth, what technique best counters the loss of node distinctiveness caused by repeated neighborhood aggregation?\n\n**Models:** Claude 3.5 Sonnet, GPT-4o, Llama 3 70B (via MLX)\n\n**Consistency Metric:**\nFor technical mechanisms, exact keyword matches were used for key architectural components, such as residual connections, initial residual/jumping knowledge, DropEdge, and PairNorm. For explanatory phrasing, a pairwise cosine similarity of at least 0.82 was used across embeddings generated with text-embedding-3-large."
   }
 ]
