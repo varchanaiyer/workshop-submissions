@@ -1072,5 +1072,11 @@
     "timestamp": "2026-08-16T16:36:17.834049+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1.Government\n2.Physics\n3. Computer parts( Building a computer)\n4.Weightlifting\n5. Cooking\n\n**Example Question:** What computer part completes a single task quickly?\n- Paraphrase 1: What is the fastest part of a computer when giving a single task?\n- Paraphrase 2: Suppose you need to complete 1 task as fast as possible, which part of a computer do you use?\n- Paraphrase 3: Out of the main parts of a computer, which has the fastest single task completion?\n\n**Models:** Claude Sonnet 5, GPT, Meta llama\n\n**Consistency Metric:**\nLet Gemini evaluate how accurate the given answer is for each model and for each of the paraphrased questions. Also evaluate how consistent the responses are across the paraphrased questions."
+  },
+  {
+    "name": "Atharva Kanase",
+    "timestamp": "2026-08-16T16:36:30.614074+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medicinal Blood Tissue and Blood Density\n2. World History\n3. K-8 Math\n4.Law\n5.English\n\n**Example Question:** What is the amount of Apples in a basket, if there were originally 5 and 2 were taken away?\n- Paraphrase 1: How many apples are in the basket if there was 5 before and somebody took 2 away?\n- Paraphrase 2: What is 5-2?\n- Paraphrase 3: If somebody took 2 apples away from a basket of 5, how many apples remain.\n\n**Models:** Grok 4.5, GPT 4.o Mini Claude Sonnet\n\n**Consistency Metric:**\nFor each question I will generate eacvh answer and the consistency measurements will be through chain of though prompting making sure it has the correct chain of thought and the correct answer in correct units of 3 apples."
   }
 ]
