@@ -1000,5 +1000,11 @@
     "timestamp": "2026-08-16T16:34:20.987596+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Arithmetic\n2. Geography and world facts\n3. Medical dosage\n4.Ethical dilemmas\n5. Movie recommendations\n\n**Example Question:** How many time zones does Russia span?\n- Paraphrase 1: What is the total number of distinct time zones between Russia's border?\n- Paraphrase 2: If we were to break down Russia geographically, how many separate time regions does the country cover from end to end?\n- Paraphrase 3: If I were to travel from Russia's westernmost point to its easternmost about how many times would I need to change my clock?\n\n**Models:** Claude Opus, GPT-4o, Gemini 1.5\n\n**Consistency Metric:**\nFor each question, I'll collect the model's response to the original and the 3 paraphrases. For the factual questions, I would mark each response as correct or incorrect against a ground truth key, then I would compute the fraction of the 4 that match the ground truth (ex: a consistency score of 4/4 = fully consistent). For subjective questions, since there's no ground truth, I would instead check pairwise agreement by comparing each of the 6 possible response pairs and label them same stance or different stance. Afterwards, I would report the consistency as (agreeing pairs / 6)."
+  },
+  {
+    "name": "Ryan Medlej",
+    "timestamp": "2026-08-16T16:34:30.114204+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Video game questions (fact checks)\n2. Ethic questions\n3. Math questions\n4. Logic questions\n5. Medical questions\n\n**Example Question:** Which studio developed Elden Ring?\n- Paraphrase 1: A review I read credits Bandai Namco with creating Elden Ring. Is that accurate?\n- Paraphrase 2: I just finished Elden Ring and want to play more games by the same team. Who made it?\n- Paraphrase 3: Elden Ring had worldbuilding contributions from George R.R. Martin, but which company actually built the game?\n\n**Models:** Opus 4.8 and Claude sonnet 5\n\n**Consistency Metric:**\nI normalize before comparing: lowercase, strip punctuation and filler, standardize units and number formats. Two answers count as the same if they match after normalization or are semantically equivalent."
   }
 ]
