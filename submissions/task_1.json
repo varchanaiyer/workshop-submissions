@@ -1096,5 +1096,11 @@
     "timestamp": "2026-08-16T16:38:20.420897+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Business (market rates, stocks, prices)\n2. Math (complex word problems, problem-solving/data analysis)\n3. Medical (neuroscience, biology)\n4. Technology (how things work in simple terms)\n5. Psychology (deep ideas, self-reflection)\n\n**Example Question:** What are all the components that make a computer, and how do they work in simple terms?\n- Paraphrase 1: Simply explain: How do parts of a computer allow it to run?\n- Paraphrase 2: Name the parts of a computer and simply tell me what they do.\n- Paraphrase 3: How does a computer work; explain to someone who is inexperienced in field.\n\n**Models:** Claude, ChatGPT\n\n**Consistency Metric:**\nI will track the general points it makes, and see if it makes the same points across each of the questions. Furthermore, I will track which points explain the question/topic in the most depth (accounting for the most information)."
+  },
+  {
+    "name": "Jacob Jiang",
+    "timestamp": "2026-08-16T16:39:59.782866+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Factual Recall\n2. Math\n3. Formal Logic\n4. Scientific Reasoning\n5. Social\n\n**Example Question:** Maria buys 3 notebooks that cost $4 each. She pays with a $20 bill. How much change does she get? (A) $6 (B) $8 (C) $10 (D) $12\n- Paraphrase 1: Maria purchases 3 notebooks priced at $4 each. She hands over a $20 bill. How much change is she given?\n- Paraphrase 2: Maria pays with a $20 bill for 3 notebooks. Each notebook costs $4. How much change does she get?\n- Paraphrase 3: You're the cashier. Maria brings you 3 notebooks at $4 each and gives you $20. How much change do you hand back?\n\n**Models:** Claude Opus, GPT 5.6 Luna,\n\n**Consistency Metric:**\nDid all 4 versions give the same answer?"
   }
 ]
