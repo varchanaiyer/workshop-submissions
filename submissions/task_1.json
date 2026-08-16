@@ -1090,5 +1090,11 @@
     "timestamp": "2026-08-16T16:38:08.928041+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMath\nLogical Reasoning\nFacts\nEthics\n\n**Example Question:** What's the distance from the Earth to the Sun (on average)?\n- Paraphrase 1: In miles, on average, how far away is the Sun from the Earth?\n- Paraphrase 2: What's the average radius of Earth's orbit around the Sun?\n- Paraphrase 3: Earth is how many miles away from the sun?\n\n**Models:** Gemini Flash, GPT-5.6 Luna, Claude Sonnet 5\n\n**Consistency Metric:**\nCheck the number in the answer."
+  },
+  {
+    "name": "Arnav Korgaonkar",
+    "timestamp": "2026-08-16T16:38:20.420897+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Business (market rates, stocks, prices)\n2. Math (complex word problems, problem-solving/data analysis)\n3. Medical (neuroscience, biology)\n4. Technology (how things work in simple terms)\n5. Psychology (deep ideas, self-reflection)\n\n**Example Question:** What are all the components that make a computer, and how do they work in simple terms?\n- Paraphrase 1: Simply explain: How do parts of a computer allow it to run?\n- Paraphrase 2: Name the parts of a computer and simply tell me what they do.\n- Paraphrase 3: How does a computer work; explain to someone who is inexperienced in field.\n\n**Models:** Claude, ChatGPT\n\n**Consistency Metric:**\nI will track the general points it makes, and see if it makes the same points across each of the questions. Furthermore, I will track which points explain the question/topic in the most depth (accounting for the most information)."
   }
 ]
