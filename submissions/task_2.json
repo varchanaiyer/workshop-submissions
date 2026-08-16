@@ -466,5 +466,11 @@
     "timestamp": "2026-08-16T16:35:45.423626+00:00",
     "task": 2,
     "text": "**Model(s):** ChatGPT\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original price. Original price = $120 / 0.75 = $160.\n**Chain-of-Thought:** A 25% discount means the jacket sold for 75% of its original price. So the original price was $120 / 0.75 = $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 -> Majority: $160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** All strategies reached the same answer, $160. Zero-shot was shortest, while few-shot and CoT gave the clearest explanation. Few-shot was the most complete because the examples made the solution pattern explicit."
+  },
+  {
+    "name": "Sawyer Mix",
+    "timestamp": "2026-08-16T17:11:16.553027+00:00",
+    "task": 2,
+    "text": "**Model(s):** GPT-5.6\n\n**Zero-shot:** The $120 price is **75%** of the original price because of the 25% discount.  [ 0.75x = 120 ]  [ x = \\frac{120}{0.75} = 160 ]  **Original price: $160**.\n**Few-shot:** The sale price is 75% of the original. Original = $120 / 0.75 = **$160**.\n**Chain-of-Thought:** 1. A 25% discount means the sale price is 75% of the original price. 2. Let the original price be (x). 3. (0.75x = 120) 4. (x = 120 \\div 0.75 = 160)  **The original price was $160.**\n**CoT + Self-Consistency:** A 25% discount means the sale price is **75% of the original price**.  Let the original price be (x):  [ 0.75x = 120 ]  [ x = \\frac{120}{0.75} = 160 ]  **Answer: $160**.                 A 25% discount means the sale price is **75% of the original price**.  Let the original price be (x).  [ 0.75x = 120 ]  Solve for (x):  [ x = \\frac{120}{0.75} = 160 ]  **Answer: (\\boxed{$160})**  Quick check:  * 25% of $160 = $40 * $160 \u2212 $40 = $120 \u2713        A 25% discount means the sale price is **75% of the original price**.  [ 0.75x = 120 ]  Divide by 0.75:  [ x = \\frac{120}{0.75} = 160 ]  **Answer: $160**                               Majority: $160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** All strategies obtained the right answer, as well as reasoning pretty much the same, so zero-shot would be the best because it has the least amount of input tokens."
   }
 ]
