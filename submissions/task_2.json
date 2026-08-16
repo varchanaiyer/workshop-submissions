@@ -460,5 +460,11 @@
     "timestamp": "2026-08-02T18:10:01.998624+00:00",
     "task": 2,
     "text": "**Model(s):** Claude\n\n**Zero-shot:** $160\n**Few-shot:** $160\n**Chain-of-Thought:** $160\n**CoT + Self-Consistency:** Run 1: $160, Run 2: $160, Run 3: $160 -> Max: $160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** N/A"
+  },
+  {
+    "name": "Richie Singh",
+    "timestamp": "2026-08-16T16:35:45.423626+00:00",
+    "task": 2,
+    "text": "**Model(s):** ChatGPT\n\n**Zero-shot:** $160\n**Few-shot:** The sale price is 75% of the original price. Original price = $120 / 0.75 = $160.\n**Chain-of-Thought:** A 25% discount means the jacket sold for 75% of its original price. So the original price was $120 / 0.75 = $160.\n**CoT + Self-Consistency:** Run 1: $160 | Run 2: $160 | Run 3: $160 -> Majority: $160\n\n**Best strategy:** Zero-shot\n\n**Surprises:** All strategies reached the same answer, $160. Zero-shot was shortest, while few-shot and CoT gave the clearest explanation. Few-shot was the most complete because the examples made the solution pattern explicit."
   }
 ]
