@@ -1030,5 +1030,11 @@
     "timestamp": "2026-08-16T16:34:49.987547+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (EEG BCI application) \n2. Legal (EEG BCI case law) \n3. Coding (EEG BCI algorithm output) \n4. Ethics (EEG BCI bias scenarios) \n5. History (EEG BCI cause-and-effect)\n\n**Example Question:** Can EEG application be developed with BCIs.\n- Paraphrase 1: Develop BCI-based EEG\n- Paraphrase 2: Develop BCI-based EEG applications\n- Paraphrase 3: Determine optimal use-cases for BCI-based EEG.\n\n**Models:** Claude, ChatGPT\n\n**Consistency Metric:**\nexact match after normalizing"
+  },
+  {
+    "name": "Li Zhang",
+    "timestamp": "2026-08-16T16:35:11.459487+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medicine/Biology\n2. Coding\n3. Ethics\n4. History\n5. Math\n\n**Example Question:** How often should a healthy adult visit the doctor?\n- Paraphrase 1: What is the proper amount of times a healthy adult should visit the doctor?\n- Paraphrase 2: For a healthy adult how many doctors appointments should they have\n- Paraphrase 3: Recommend an appropriate number of doctors appointments for a healthy adult\n\n**Models:** GPT-4o, Claude\n\n**Consistency Metric:**\nSimilarity between wordsets and a matching suggested number of appointments"
   }
 ]
