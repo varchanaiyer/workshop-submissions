@@ -958,5 +958,11 @@
     "timestamp": "2026-08-16T16:30:05.726007+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nDoes processing WSI images for H&E stained Gleason slides through differing scanners lead to causal data affecting the diagnosis.\n\n**Example Question:** What does an apple look like?\n- Paraphrase 1: What colors and shape does an apple take in real space?\n- Paraphrase 2: An apple looks like the following: ___?\n- Paraphrase 3: If an apple were to exist in real space, what would the dimensionality look like, how would the light waves reflect off the surface of the apple and then interact with our eyes look like, and overall appearance of the apple?\n\n**Models:** GPT-4o-mini\n\n**Consistency Metric:**\nHow many characters are written before the final answer. If there was any additional answer given."
+  },
+  {
+    "name": "Anannya Saxena",
+    "timestamp": "2026-08-16T16:32:05.698244+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nScience Facts (Factual)\n\nEveryday Math (Factual)\n\nFood & Cooking (Subjective)\n\nPop Culture & Movies (Subjective)\n\nDaily Advice (Subjective)\n\n**Example Question:** Why is the sky blue?\n- Paraphrase 1: What causes the atmosphere to look blue during the day?\n- Paraphrase 2: Can you explain the science behind the blue color of the sky?\n- Paraphrase 3: When I look up at the sky, why is it the color blue?\n\n**Models:** gpt-4o, claude-3-5-sonnet, gemini-1.5-pro\n\n**Consistency Metric:**\nFactual Questions: List the main correct facts needed to answer the question (for example: sunlight wavelengths & gases in the atmosphere). Give 1 point for each main fact that appears in all 4 answers. A score of 100% means all answers gave the exact same core facts.\n\nSubjective Questions: Compare the main recommendation or opinion of each answer to the original answer. If all 4 answers give the same core advice or pick the same option, mark it as consistent. If an answer gives conflicting advice, mark it as inconsistent."
   }
 ]
