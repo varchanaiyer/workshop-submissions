@@ -1084,5 +1084,11 @@
     "timestamp": "2026-08-16T16:37:25.206585+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. PC Building given a budget\n2. Basketball plays ethics\n3. Coding specifications\n4. Nutrition\n5. Relationship advice\n\n**Example Question:** Since the daily sodium limit is 1500mg-2000mg, if an individual is very active on a specific day, can they exceed this amount?\n- Paraphrase 1: Can an Athlete that sweats a lot, consume more than 2000mg of sodium?\n- Paraphrase 2: Is it dangerous for an active individual to go over the daily sodium amount?\n- Paraphrase 3: Is consuming over 2000mg of sodium a sufficient amount of electrolytes for an athlete?\n\n**Models:** GPT 4o mini, Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nHave another LLM test out the output and compare the different model's responses. We can use GPT-4 for grading."
+  },
+  {
+    "name": "Mehul Bhattacharya",
+    "timestamp": "2026-08-16T16:38:08.928041+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nCoding\nMath\nLogical Reasoning\nFacts\nEthics\n\n**Example Question:** What's the distance from the Earth to the Sun (on average)?\n- Paraphrase 1: In miles, on average, how far away is the Sun from the Earth?\n- Paraphrase 2: What's the average radius of Earth's orbit around the Sun?\n- Paraphrase 3: Earth is how many miles away from the sun?\n\n**Models:** Gemini Flash, GPT-5.6 Luna, Claude Sonnet 5\n\n**Consistency Metric:**\nCheck the number in the answer."
   }
 ]
