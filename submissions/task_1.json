@@ -1024,5 +1024,11 @@
     "timestamp": "2026-08-16T16:34:48.132209+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Medical\n3. History\n4. English\n5. Chemistry\n\n**Example Question:** How many hours of sleep should a teenager have each night?\n- Paraphrase 1: How long should a teenager sleep every day?\n- Paraphrase 2: For a teenager, what's the best amount of sleep to get?\n- Paraphrase 3: What is the recommended amount of sleep for teenagers daily?\n\n**Models:** Gemini Flash, Gemini Pro\n\n**Consistency Metric:**\nIt should be 8-10 hours, and provide more points for LLMs that provide reasoning and explanation"
+  },
+  {
+    "name": "Younes Shah",
+    "timestamp": "2026-08-16T16:34:49.987547+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical (EEG BCI application) \n2. Legal (EEG BCI case law) \n3. Coding (EEG BCI algorithm output) \n4. Ethics (EEG BCI bias scenarios) \n5. History (EEG BCI cause-and-effect)\n\n**Example Question:** Can EEG application be developed with BCIs.\n- Paraphrase 1: Develop BCI-based EEG\n- Paraphrase 2: Develop BCI-based EEG applications\n- Paraphrase 3: Determine optimal use-cases for BCI-based EEG.\n\n**Models:** Claude, ChatGPT\n\n**Consistency Metric:**\nexact match after normalizing"
   }
 ]
