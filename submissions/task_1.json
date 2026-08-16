@@ -988,5 +988,11 @@
     "timestamp": "2026-08-16T16:34:13.887384+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical ethics (capacity of patients)\n2. Directions to a location\n3. Lab procedures \n4. Math homework help\n5. Ethics of gene editing\n\n**Example Question:** Give me the directions to x location.\n- Paraphrase 1: What is the fastest way to reach x location?\n- Paraphrase 2: By car, how can I travel to x location?\n- Paraphrase 3: What is the best route to x location?\n\n**Models:** Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nCompare the route to the quickest mapped route."
+  },
+  {
+    "name": "Aranya Mitra",
+    "timestamp": "2026-08-16T16:34:19.503366+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematical and physical understanding -- test on variety of difficulties\n2. Literary knowledge -- subjective questions about famous books\n3. Coding problems/exercises \n4. Current events knowledge and interpretation\n5. Grammar rules\n\n**Example Question:** Why did the United States impose new tariffs on imported goods in 2025?\n- Paraphrase 1: What reasons did the U.S. government give for introducing the 2025 tariffs?\n- Paraphrase 2: How did the 2025 U.S. tariff decision affect the country's trade relationships?\n- Paraphrase 3: What were the main arguments for and against the United States' 2025 tariff policy?\n\n**Models:** GPT 5, Qwen 3, Opus\n\n**Consistency Metric:**\nSince the questions are open-ended, we can calculate the consistency rate (something like number of matching paraphrase answers / total comparisons) * 100"
   }
 ]
