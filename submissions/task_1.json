@@ -1048,5 +1048,11 @@
     "timestamp": "2026-08-16T16:35:17.927716+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nHistory\nWeather\nMath\nEthics\nCoding\n\n**Example Question:** When did Christopher Columbus land in America\n- Paraphrase 1: When did Columbus reach present day America\n- Paraphrase 2: What date did Columbus step onto America\n- Paraphrase 3: What date did Christopher Columbus set foot on America\n\n**Models:** Gemini Flash, GPT 4o-mini\n\n**Consistency Metric:**\nOctober 12, 1492"
+  },
+  {
+    "name": "Ankith Gundimeda",
+    "timestamp": "2026-08-16T16:35:40.131458+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math - arithmetic, algebra, geometry, probability, multi-step proofs\n2. Coding -code generation, debugging, algorithm design, repo-level reasoning\n3. Scientific reasoning ; physics, chemistry, biology, interpreting experiments and evidence\n4. Knowledge & factual reasoning, history, geography, law, economics, current/general knowledge\n5. Social & agentic reasoning, planning, negotiation, ambiguity, following constraints, understanding people/incentives\n\n**Example Question:** How can you debug a syntax error in Python?\n- Paraphrase 1: How can a syntax error be fixed in Python?\n- Paraphrase 2: What are the ways to solve a syntax error in Python?\n- Paraphrase 3: Someone is hitting an error, it seems to be a syntax error, how can one fix it?\n\n**Models:** Llama-3, Gemini Flash\n\n**Consistency Metric:**\nFor factual questions: exact match after normalizing lowercase, punctuation, whitespace, and equivalent phrasing; for open-ended questions: Jaccard similarity on unique content words, with >0.7 = consistent."
   }
 ]
