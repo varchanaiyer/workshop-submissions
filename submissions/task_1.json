@@ -994,5 +994,11 @@
     "timestamp": "2026-08-16T16:34:19.503366+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Mathematical and physical understanding -- test on variety of difficulties\n2. Literary knowledge -- subjective questions about famous books\n3. Coding problems/exercises \n4. Current events knowledge and interpretation\n5. Grammar rules\n\n**Example Question:** Why did the United States impose new tariffs on imported goods in 2025?\n- Paraphrase 1: What reasons did the U.S. government give for introducing the 2025 tariffs?\n- Paraphrase 2: How did the 2025 U.S. tariff decision affect the country's trade relationships?\n- Paraphrase 3: What were the main arguments for and against the United States' 2025 tariff policy?\n\n**Models:** GPT 5, Qwen 3, Opus\n\n**Consistency Metric:**\nSince the questions are open-ended, we can calculate the consistency rate (something like number of matching paraphrase answers / total comparisons) * 100"
+  },
+  {
+    "name": "Kavya Desai",
+    "timestamp": "2026-08-16T16:34:20.987596+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Arithmetic\n2. Geography and world facts\n3. Medical dosage\n4.Ethical dilemmas\n5. Movie recommendations\n\n**Example Question:** How many time zones does Russia span?\n- Paraphrase 1: What is the total number of distinct time zones between Russia's border?\n- Paraphrase 2: If we were to break down Russia geographically, how many separate time regions does the country cover from end to end?\n- Paraphrase 3: If I were to travel from Russia's westernmost point to its easternmost about how many times would I need to change my clock?\n\n**Models:** Claude Opus, GPT-4o, Gemini 1.5\n\n**Consistency Metric:**\nFor each question, I'll collect the model's response to the original and the 3 paraphrases. For the factual questions, I would mark each response as correct or incorrect against a ground truth key, then I would compute the fraction of the 4 that match the ground truth (ex: a consistency score of 4/4 = fully consistent). For subjective questions, since there's no ground truth, I would instead check pairwise agreement by comparing each of the 6 possible response pairs and label them same stance or different stance. Afterwards, I would report the consistency as (agreeing pairs / 6)."
   }
 ]
