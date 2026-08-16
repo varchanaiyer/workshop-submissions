@@ -1006,5 +1006,11 @@
     "timestamp": "2026-08-16T16:34:30.114204+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Video game questions (fact checks)\n2. Ethic questions\n3. Math questions\n4. Logic questions\n5. Medical questions\n\n**Example Question:** Which studio developed Elden Ring?\n- Paraphrase 1: A review I read credits Bandai Namco with creating Elden Ring. Is that accurate?\n- Paraphrase 2: I just finished Elden Ring and want to play more games by the same team. Who made it?\n- Paraphrase 3: Elden Ring had worldbuilding contributions from George R.R. Martin, but which company actually built the game?\n\n**Models:** Opus 4.8 and Claude sonnet 5\n\n**Consistency Metric:**\nI normalize before comparing: lowercase, strip punctuation and filler, standardize units and number formats. Two answers count as the same if they match after normalization or are semantically equivalent."
+  },
+  {
+    "name": "Maxwell Kwan",
+    "timestamp": "2026-08-16T16:34:35.212991+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nHistory, Weather, Ethics, Math, Coding\n\n**Example Question:** When did Christopher Columbus land in America\n- Paraphrase 1: When did Columbus reach present day America\n- Paraphrase 2: What date did Columbus step onto America\n- Paraphrase 3: What date did Christopher Columbus set foot on America\n\n**Models:** Gemini Flash, GPT 4o-mini\n\n**Consistency Metric:**\nOctober 12, 1492"
   }
 ]
