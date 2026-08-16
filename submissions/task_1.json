@@ -1114,5 +1114,11 @@
     "timestamp": "2026-08-16T16:42:04.448102+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Microbiology\n2. Hostage Scenario\n3. Geography\n4. Property Management\n5. Animal Healthcare\n\n**Example Question:** If you move directly west from the coast of Albania, which Italian state are you most likely to first encounter?\n- Paraphrase 1: If you had to move directly east from any Italian state, which would give you the highest chance of crossing into Albania?\n- Paraphrase 2: Flying west from Albania would most likely cause you to first fly over which Italian state?\n- Paraphrase 3: Starting from any position on Albania's coast and moving west, which Italian state would you most likely cross into first?\n\n**Models:** Claude Sonnet, Deepseek, GPT mini\n\n**Consistency Metric:**\nApulia"
+  },
+  {
+    "name": "Syam Paladugu",
+    "timestamp": "2026-08-16T16:45:29.948823+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nFinance( interest and returns )\nMath( basic store calculations)\nScience( Physics formulas and problems)\nArt( Colors)\nGeography capitals\n\n**Example Question:** Out of 4 cities 2 are in california and 2 are in sweden: sacramento , Stockholm , Santa Barbara , Sausalito. This is statement true or false\n- Paraphrase 1: Given 4 cities 2 are in the state California and 2 are in the country Sweden: Santa Barbara , Stockholm, sacramento ,Sausalito. Classify this statement as true or false\n- Paraphrase 2: Here are 4 cities , 2 are in california and 2 in sweden :Sausalito, Santa Barbara , Stockholm,sacramento. This is true or false\n- Paraphrase 3: I have 4 cities I know 2 are in California and 2 are in Sweden: Sausalito, Santa Barbara , Stockholm,sacramento. Is this true?\n\n**Models:** Claude Sonnet , Gemini Flash , GPT 4o-mini\n\n**Consistency Metric:**\nI will ask it to provide one sentence answers and compare it to the known answers"
   }
 ]
