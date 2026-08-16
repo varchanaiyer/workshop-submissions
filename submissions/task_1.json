@@ -982,5 +982,11 @@
     "timestamp": "2026-08-16T16:33:42.932690+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics, calculations and logical reasoning  \nScience, factual explanations and concepts  \nCoding, predicting program output and debugging  \nHistory, dates, events, and cause-and-effect  \nEthics, subjective judgment and moral reasoning\n\n**Example Question:** What does running [1,2,3][::-1] return in Python?\n- Paraphrase 1: If this Python code runs, what output will it produce: [1, 2, 3][::-1]?\n- Paraphrase 2: A Python list contains the numbers 1, 2, and 3. What happens when it is sliced using [::-1]?\n- Paraphrase 3: Determine the resulting list after reversing [1, 2, 3] with Python slice notation.\n\n**Models:** GPT-4o-mini, Claude 3.5 Sonnet, Gemini 1.5 Flash\n\n**Consistency Metric:**\nI would compare each models output on 4 main metrics, normalized answer agreement, semantic similarity, keword jaccard similarity, contradiction rate, and response-length drift. For Normalized Answer Agreement, on factual and coding questions, answers receive 1 point if their key answer matches after standardizing capitalization, punctuation, spacing, and number formats; otherwise, they receive 0. For semantic similarity,I will calculate the cosine similarity between response embeddings. Higher scores indicate that the responses have similar meanings. For keyword jaccard simiarlity, I will compare the unique content words in each response using intersection divided by union."
+  },
+  {
+    "name": "Claire Stinnett",
+    "timestamp": "2026-08-16T16:34:13.887384+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Medical ethics (capacity of patients)\n2. Directions to a location\n3. Lab procedures \n4. Math homework help\n5. Ethics of gene editing\n\n**Example Question:** Give me the directions to x location.\n- Paraphrase 1: What is the fastest way to reach x location?\n- Paraphrase 2: By car, how can I travel to x location?\n- Paraphrase 3: What is the best route to x location?\n\n**Models:** Gemini Flash, Claude Sonnet\n\n**Consistency Metric:**\nCompare the route to the quickest mapped route."
   }
 ]
