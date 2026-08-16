@@ -1102,5 +1102,11 @@
     "timestamp": "2026-08-16T16:39:59.782866+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Factual Recall\n2. Math\n3. Formal Logic\n4. Scientific Reasoning\n5. Social\n\n**Example Question:** Maria buys 3 notebooks that cost $4 each. She pays with a $20 bill. How much change does she get? (A) $6 (B) $8 (C) $10 (D) $12\n- Paraphrase 1: Maria purchases 3 notebooks priced at $4 each. She hands over a $20 bill. How much change is she given?\n- Paraphrase 2: Maria pays with a $20 bill for 3 notebooks. Each notebook costs $4. How much change does she get?\n- Paraphrase 3: You're the cashier. Maria brings you 3 notebooks at $4 each and gives you $20. How much change do you hand back?\n\n**Models:** Claude Opus, GPT 5.6 Luna,\n\n**Consistency Metric:**\nDid all 4 versions give the same answer?"
+  },
+  {
+    "name": "Bishal Baral",
+    "timestamp": "2026-08-16T16:40:58.838045+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMath, General Knowledge(facts),  Coding(accuracy, efficiency), Ethics, Opinions(consistency)\n\n**Example Question:** You are a convenience store owner. Would you deceive your customers by still selling expired milk so that you can make enough money to pay rent?\n- Paraphrase 1: Imagine you own a small convenience store and are struggling to pay your rent. You have expired milk that you could sell to customers. Would it be morally acceptable to sell it without telling them it is expired?\n- Paraphrase 2: Your store is facing financial difficulties, and selling the remaining expired milk could help you afford this month's rent. Should you sell the milk even though your customers don't know it has expired?\n- Paraphrase 3: If selling expired milk were the only way to keep your store open and pay your rent, would you choose to sell it to unsuspecting customers?\n\n**Models:** GPT 5.6 Sol, Claude Opus 5, Gemini 3.6 Flash\n\n**Consistency Metric:**\n-  measure consistency by comparing the model's answers to the original question and its three paraphrases\n- use some kind of scoring mechanism to measure consistency and use the mean"
   }
 ]
