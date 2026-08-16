@@ -1018,5 +1018,11 @@
     "timestamp": "2026-08-16T16:34:41.094445+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Creative Writing\n2. Finance\n3. Military\n4. Cybersecurity\n5. Game Theory\n\n**Example Question:** If a person has a stock worth $5,000, then the value decreased by 50%, then increased by 50%, how much would their stock be worth?\n- Paraphrase 1: What is (5000 * 0.5) * 1.5?\n- Paraphrase 2: Evaluate a 50% decrease, then a 50% increase from 5000.\n- Paraphrase 3: The value of a stock is reduced by 50%, and then later increased by 50%. What's the final value of a stock, given its initial value is $5000?\n\n**Models:** Claude Opus 5.x, Kimi K3, GLM 5.3\n\n**Consistency Metric:**\nI would use a system prompt to wrap the exact answer around XML: `<answer>XXXX</answer>`, then extract it via regex."
+  },
+  {
+    "name": "Jacob Liu",
+    "timestamp": "2026-08-16T16:34:48.132209+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\n1. Math\n2. Medical\n3. History\n4. English\n5. Chemistry\n\n**Example Question:** How many hours of sleep should a teenager have each night?\n- Paraphrase 1: How long should a teenager sleep every day?\n- Paraphrase 2: For a teenager, what's the best amount of sleep to get?\n- Paraphrase 3: What is the recommended amount of sleep for teenagers daily?\n\n**Models:** Gemini Flash, Gemini Pro\n\n**Consistency Metric:**\nIt should be 8-10 hours, and provide more points for LLMs that provide reasoning and explanation"
   }
 ]
