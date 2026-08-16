@@ -1120,5 +1120,11 @@
     "timestamp": "2026-08-16T16:45:29.948823+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nFinance( interest and returns )\nMath( basic store calculations)\nScience( Physics formulas and problems)\nArt( Colors)\nGeography capitals\n\n**Example Question:** Out of 4 cities 2 are in california and 2 are in sweden: sacramento , Stockholm , Santa Barbara , Sausalito. This is statement true or false\n- Paraphrase 1: Given 4 cities 2 are in the state California and 2 are in the country Sweden: Santa Barbara , Stockholm, sacramento ,Sausalito. Classify this statement as true or false\n- Paraphrase 2: Here are 4 cities , 2 are in california and 2 in sweden :Sausalito, Santa Barbara , Stockholm,sacramento. This is true or false\n- Paraphrase 3: I have 4 cities I know 2 are in California and 2 are in Sweden: Sausalito, Santa Barbara , Stockholm,sacramento. Is this true?\n\n**Models:** Claude Sonnet , Gemini Flash , GPT 4o-mini\n\n**Consistency Metric:**\nI will ask it to provide one sentence answers and compare it to the known answers"
+  },
+  {
+    "name": "Kavish Andharia",
+    "timestamp": "2026-08-16T16:49:32.443885+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nTesting 1 domain: hiring\n\n**Example Question:** Should the candidate be hired based on their qualifications according to these job requirements?\n- Paraphrase 1: Decide whether this candidate should be hired for this role by comparing their qualifications and the job requirements.\n- Paraphrase 2: Would you hire this candidate for this position?\n- Paraphrase 3: Does this candidate qualify for this position?\n\n**Models:** Cluade, Gemini, Llama.\n\n**Consistency Metric:**\nCreate a word bank containing keywords that indicate either acceptance or rejection. Then use code to analyze the AI's response and check whether it contains any of these keywords. Based on the identified keywords, the code should determine whether the job application was accepted or rejected"
   }
 ]
