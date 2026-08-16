@@ -976,5 +976,11 @@
     "timestamp": "2026-08-16T16:33:24.676821+00:00",
     "task": 1,
     "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nbiology\nmath\nlegal\ninvestment\nmoral\n\n**Example Question:** What should a person do in order to seek legal advice?\n- Paraphrase 1: For a person, what should they do in order to seek legal advice?\n- Paraphrase 2: What can an individual utilize in order to seek legal advice?\n- Paraphrase 3: A person has legal issues, what is the best advice to give in order for them to get their problem fixed\n\n**Models:** Chat GPT 5.4, Claude(free), grok(free)\n\n**Consistency Metric:**\nJaccard similarity"
+  },
+  {
+    "name": "Rishav Ghosal",
+    "timestamp": "2026-08-16T16:33:42.932690+00:00",
+    "task": 1,
+    "text": "**[Benchmark Pipeline]**\n\n**Categories:**\nMathematics, calculations and logical reasoning  \nScience, factual explanations and concepts  \nCoding, predicting program output and debugging  \nHistory, dates, events, and cause-and-effect  \nEthics, subjective judgment and moral reasoning\n\n**Example Question:** What does running [1,2,3][::-1] return in Python?\n- Paraphrase 1: If this Python code runs, what output will it produce: [1, 2, 3][::-1]?\n- Paraphrase 2: A Python list contains the numbers 1, 2, and 3. What happens when it is sliced using [::-1]?\n- Paraphrase 3: Determine the resulting list after reversing [1, 2, 3] with Python slice notation.\n\n**Models:** GPT-4o-mini, Claude 3.5 Sonnet, Gemini 1.5 Flash\n\n**Consistency Metric:**\nI would compare each models output on 4 main metrics, normalized answer agreement, semantic similarity, keword jaccard similarity, contradiction rate, and response-length drift. For Normalized Answer Agreement, on factual and coding questions, answers receive 1 point if their key answer matches after standardizing capitalization, punctuation, spacing, and number formats; otherwise, they receive 0. For semantic similarity,I will calculate the cosine similarity between response embeddings. Higher scores indicate that the responses have similar meanings. For keyword jaccard simiarlity, I will compare the unique content words in each response using intersection divided by union."
   }
 ]
